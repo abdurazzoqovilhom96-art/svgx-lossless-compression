@@ -1,0 +1,48 @@
+{
+ "original_report": {
+  "confirmation_missing_measurements": 2152,
+  "pilot_missing_measurements": 496
+ },
+ "corrected": {
+  "pilot": {
+   "files": 248,
+   "cells_by_status": {
+    "measured": 1736,
+    "not_scheduled_by_design": 496
+   },
+   "cells_by_method_status": {
+    "brotli11|measured": 248,
+    "gzip1|not_scheduled_by_design": 248,
+    "gzip9|measured": 248,
+    "ppmd7z|measured": 248,
+    "svgx|measured": 248,
+    "xwrt_l6|measured": 248,
+    "xz9e|measured": 248,
+    "zstd1|not_scheduled_by_design": 248,
+    "zstd19|measured": 248
+   },
+   "files_with_complete_paired_size_set": 248,
+   "missing_measurements_corrected": 0
+  },
+  "confirmation": {
+   "files": 1076,
+   "cells_by_status": {
+    "measured": 7532,
+    "not_scheduled_by_design": 2152
+   },
+   "cells_by_method_status": {
+    "brotli11|measured": 1076,
+    "gzip1|not_scheduled_by_design": 1076,
+    "gzip9|measured": 1076,
+    "ppmd7z|measured": 1076,
+    "svgx|measured": 1076,
+    "xwrt_l6|measured": 1076,
+    "xz9e|measured": 1076,
+    "zstd1|not_scheduled_by_design": 1076,
+    "zstd19|measured": 1076
+   },
+   "files_with_complete_paired_size_set": 1076,
+   "missing_measurements_corrected": 0
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "build_id": "build-fb5b391323df",
+  "cstar": {
+    "rule": "smaller pilot aggregate of D/P; ties -> P",
+    "selected": "P",
+    "totals": {
+      "D": 21558138,
+      "P": 21554212
+    }
+  },
+  "design_id": "SVGX-2026-11-A",
+  "pilot_summary": {
+    "n": 248,
+    "sum_B": 21759491,
+    "sum_C_D": 21558138,
+    "sum_C_G": 21525110,
+    "sum_C_I": 21561829,
+    "sum_C_P": 21554212,
+    "sum_C_U": 21527314
+  },
+  "pilot_summary_sha256": "18a02719c77c53ade0efcf24d0664e5be6f5a2f1898454fee056e3ba13619cdd",
+  "pilot_targets": {
+    "breadth_target_met": false,
+    "family_wins": 13,
+    "gain_vs_brotli_percent": 1.077143762232306,
+    "m": 34,
+    "size_target_met": true
+  },
+  "recorded_utc": "2026-11-14T05:30:54Z",
+  "rule_source": "frozen selection rule in config/study.toml [design] cstar_candidates / cstar_tie_break"
+}

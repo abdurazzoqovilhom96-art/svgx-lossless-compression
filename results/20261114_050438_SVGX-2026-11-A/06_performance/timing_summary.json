@@ -1,0 +1,197 @@
+{
+  "brotli11": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 30.292387211662806,
+    "encode_MiB_per_s": 0.8343057355832268,
+    "encode_throughput_p10_p50_p90": [
+      0.0680843360692677,
+      0.7116963780765605,
+      1.0060719600315595
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 73973760,
+    "sum_med_c": 37.95089359999999,
+    "sum_med_d": 1.0452345
+  },
+  "gzip1": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 8.133636806408576,
+    "encode_MiB_per_s": 7.680235379038189,
+    "encode_throughput_p10_p50_p90": [
+      0.006713699613557646,
+      0.646260452853503,
+      23.691546405792707
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 7131136,
+    "sum_med_c": 4.122614300000001,
+    "sum_med_d": 3.8928033
+  },
+  "gzip9": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 8.128933355430263,
+    "encode_MiB_per_s": 6.064923618999414,
+    "encode_throughput_p10_p50_p90": [
+      0.006482420905852145,
+      0.6683815695634665,
+      18.82705802848156
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 7184384,
+    "sum_med_c": 5.220617800000002,
+    "sum_med_d": 3.8950557
+  },
+  "ppmd7z": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 6.9529014365233826,
+    "encode_MiB_per_s": 7.289107499032944,
+    "encode_throughput_p10_p50_p90": [
+      0.044031409019893705,
+      2.3217035607939294,
+      11.652520031285874
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 137879552,
+    "sum_med_c": 4.3438305999999995,
+    "sum_med_d": 4.553875599999999
+  },
+  "svgx_D": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 47.164151035087244,
+    "encode_MiB_per_s": 0.4068095774580371,
+    "encode_throughput_p10_p50_p90": [
+      0.07598546699871417,
+      0.41364801542554747,
+      0.9189798379892314
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 133976064,
+    "sum_med_c": 77.83161940000002,
+    "sum_med_d": 0.6713286999999999
+  },
+  "svgx_G": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 37.630494696206426,
+    "encode_MiB_per_s": 0.42412684707735315,
+    "encode_throughput_p10_p50_p90": [
+      0.0708257728110521,
+      0.42513457904542307,
+      0.9012646704857314
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 133955584,
+    "sum_med_c": 74.65372310000001,
+    "sum_med_d": 0.8414093000000002
+  },
+  "svgx_I": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 36.227269691168075,
+    "encode_MiB_per_s": 0.42093768114886077,
+    "encode_throughput_p10_p50_p90": [
+      0.07923515423780741,
+      0.4125921432209985,
+      0.911070455147627
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 133992448,
+    "sum_med_c": 75.21932490000002,
+    "sum_med_d": 0.8740003999999998
+  },
+  "svgx_P": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 41.72649450456735,
+    "encode_MiB_per_s": 0.41752027147841775,
+    "encode_throughput_p10_p50_p90": [
+      0.0826031758867283,
+      0.42019963512875524,
+      0.9180711305305032
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 133967872,
+    "sum_med_c": 75.83499619999998,
+    "sum_med_d": 0.7588140000000001
+  },
+  "svgx_U": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 37.95058135402578,
+    "encode_MiB_per_s": 0.4222503942971898,
+    "encode_throughput_p10_p50_p90": [
+      0.07416189913616443,
+      0.43033867893082317,
+      0.8846831793845071
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 133963776,
+    "sum_med_c": 74.98547930000001,
+    "sum_med_d": 0.8343126
+  },
+  "xwrt_l6": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 5.412569770281405,
+    "encode_MiB_per_s": 2.560115553674763,
+    "encode_throughput_p10_p50_p90": [
+      0.004889490370368234,
+      0.4328565994873731,
+      4.356199411642339
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 130629632,
+    "sum_med_c": 12.3676637,
+    "sum_med_d": 5.8498364999999986
+  },
+  "xz9e": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 23.912472416097177,
+    "encode_MiB_per_s": 3.993154721360927,
+    "encode_throughput_p10_p50_p90": [
+      0.07925599007593495,
+      2.8797193821365,
+      4.490054960727761
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 707878912,
+    "sum_med_c": 7.929231499999996,
+    "sum_med_d": 1.324106
+  },
+  "zstd1": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 30.261512917544817,
+    "encode_MiB_per_s": 54.20129904647033,
+    "encode_throughput_p10_p50_p90": [
+      0.06784586431707576,
+      4.697759858777251,
+      115.85441363239688
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 6139904,
+    "sum_med_c": 0.5841677000000001,
+    "sum_med_d": 1.0463009
+  },
+  "zstd19": {
+    "bytes": 33200693,
+    "decode_MiB_per_s": 30.75001840475408,
+    "encode_MiB_per_s": 4.4716232787174945,
+    "encode_throughput_p10_p50_p90": [
+      0.06940536169449439,
+      2.031680332642137,
+      4.963844072778556
+    ],
+    "files": 69,
+    "min_repeats": 7,
+    "peak_memory_max_bytes": 97087488,
+    "sum_med_c": 7.0807951,
+    "sum_med_d": 1.0296789999999998
+  }
+}

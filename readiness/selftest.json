@@ -1,0 +1,30 @@
+{
+  "binary_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+  "cargo_test_returncode": 0,
+  "cargo_tests_passed": 20,
+  "fixtures": "muvaffaqiyatli",
+  "generated_utc": "2026-11-13T17:36:35Z",
+  "launchers": "PowerShell orqali tekshirildi (tests/test_launchers.py)",
+  "ok": true,
+  "pytest_returncode": 0,
+  "pytest_summary": "106 passed in 57.13s",
+  "pytest_tail": "",
+  "svgx_help": true,
+  "synthetic": true,
+  "throughput_MiB_s": {
+    "brotli11": 0.7344300167334976,
+    "gzip1": 12.171743997357684,
+    "gzip9": 4.35098101307176,
+    "ppmd7z": 3.466154233742425,
+    "svgx_D": 0.3017534111136353,
+    "svgx_G": 0.34833226552618635,
+    "svgx_I": 0.3446971314581223,
+    "svgx_P": 0.3155073135455817,
+    "svgx_U": 0.3519206652463473,
+    "svgx_ref_decode": 0.7880213134373865,
+    "xwrt_l6": 1.2015370227707267,
+    "xz9e": 3.178635510031475,
+    "zstd1": 15.001491082844016,
+    "zstd19": 3.204434497454655
+  }
+}

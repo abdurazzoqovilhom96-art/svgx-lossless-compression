@@ -1,0 +1,27 @@
+{
+ "split": "fixtures",
+ "files": 30,
+ "mismatches": [],
+ "passed": true,
+ "versions": {
+  "rev1": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)",
+  "frozen": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+ },
+ "frozen_inputs": {
+  "reference/decode.py": {
+   "expected": "554defc78ab5cb481ae5beece2a2ad5babd366408cceb95c7e08bd2bf6bc1ceb",
+   "actual": "554defc78ab5cb481ae5beece2a2ad5babd366408cceb95c7e08bd2bf6bc1ceb",
+   "ok": true
+  },
+  "frozen_svgx.exe": {
+   "expected": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+   "actual": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+   "ok": true
+  },
+  "ledger.sqlite": {
+   "expected": "514a47d86b7f7a59fb9d731244e9fcff1cd9b65f69eaf835f29a66a61b10a99a",
+   "actual": "514a47d86b7f7a59fb9d731244e9fcff1cd9b65f69eaf835f29a66a61b10a99a",
+   "ok": true
+  }
+ }
+}

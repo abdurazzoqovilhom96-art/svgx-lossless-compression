@@ -1,0 +1,81 @@
+{
+  "candidates": 5699,
+  "components": 89,
+  "cross_split_family_overlap": 0,
+  "design_id": "SVGX-2026-11-A",
+  "design_label": "reduced (quotas infeasible; actual counts frozen)",
+  "family_caps": {
+    "confirmation": 100,
+    "pilot": 25
+  },
+  "quotas": {
+    "confirmation": 400,
+    "pilot": 100
+  },
+  "seed": "SVGX-2026-11-A/selection/v1",
+  "shortfall": {
+    "confirmation/diagrams": {
+      "available": 208,
+      "quota": 400
+    },
+    "confirmation/illustrations": {
+      "available": 328,
+      "quota": 400
+    },
+    "confirmation/maps": {
+      "available": 140,
+      "quota": 400
+    },
+    "pilot/diagrams": {
+      "available": 52,
+      "quota": 100
+    },
+    "pilot/illustrations": {
+      "available": 83,
+      "quota": 100
+    },
+    "pilot/maps": {
+      "available": 13,
+      "quota": 100
+    }
+  },
+  "splits": {
+    "confirmation": {
+      "bytes": 121565115,
+      "creator_families": 60,
+      "families": 55,
+      "families_per_category": {
+        "diagrams": 9,
+        "icons": 11,
+        "illustrations": 23,
+        "maps": 18
+      },
+      "files": 1076,
+      "per_category": {
+        "diagrams": 208,
+        "icons": 400,
+        "illustrations": 328,
+        "maps": 140
+      }
+    },
+    "pilot": {
+      "bytes": 44667895,
+      "creator_families": 35,
+      "families": 34,
+      "families_per_category": {
+        "diagrams": 4,
+        "icons": 11,
+        "illustrations": 10,
+        "maps": 10
+      },
+      "files": 248,
+      "per_category": {
+        "diagrams": 52,
+        "icons": 100,
+        "illustrations": 83,
+        "maps": 13
+      }
+    }
+  },
+  "unique": 5676
+}

@@ -1,0 +1,24 @@
+[package]
+name = "svgx"
+version = "1.0.0"
+edition = "2021"
+description = "Byte-exact SVG codec: value-conditioned, output-grouped spelling model (SVGX v1)"
+license = "MIT"
+build = "build.rs"
+publish = false
+
+[[bin]]
+name = "svgx"
+path = "src/main.rs"
+
+# No third-party crates: Brotli is Google's pinned C source compiled by build.rs.
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+debug = false
+
+[profile.test]
+opt-level = 2

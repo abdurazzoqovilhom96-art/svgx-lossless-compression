@@ -1,0 +1,188 @@
+
+=== R0 start 2026-11-16T07:44:07.373007+00:00 ===
+[R0] confirmation: files 1076, mismatches 0, PASSED
+=== R0 exit 0 at 2026-11-16T07:45:22.089510+00:00 (75 s) ===
+
+=== B1 start 2026-11-16T07:45:22.090278+00:00 ===
+[B1] confirmation: 1076 files, 0 already done, 1076 to run
+   50/1076
+   100/1076
+   150/1076
+   200/1076
+   250/1076
+   300/1076
+   350/1076
+   400/1076
+   450/1076
+   500/1076
+   550/1076
+   600/1076
+   650/1076
+   700/1076
+   750/1076
+   800/1076
+   850/1076
+   900/1076
+   950/1076
+   1000/1076
+   1050/1076
+[B1] confirmation: {'split': 'confirmation', 'files': 1076, 'eligible': 362, 'defect_files': 0, 'complete': True}
+=== B1 exit 0 at 2026-11-16T07:50:54.114561+00:00 (332 s) ===
+
+=== B3 start 2026-11-16T07:50:54.115710+00:00 ===
+   1 C-dia-5d1ce7717adf R enc 1486.3 ms dec 2.3 ms raw-dec 2.3 ms 
+   2 C-map-28a25b99d30b S enc 696.7 ms dec 17.4 ms raw-dec 1.1 ms 
+   3 C-ill-2dae362f65dd S enc 1592.5 ms dec 12.6 ms raw-dec 1.8 ms 
+   4 C-ill-ce7f28280596 S enc 959.7 ms dec 13.9 ms raw-dec 1.4 ms 
+   5 C-dia-46b80bccc489 R enc 231.7 ms dec 0.4 ms raw-dec 0.4 ms 
+   6 C-dia-0ccdce3f885f R enc 160.3 ms dec 0.2 ms raw-dec 0.2 ms 
+   7 C-dia-4ce686b4edee R enc 237.6 ms dec 0.8 ms raw-dec 0.8 ms 
+   8 C-dia-6d685ca215ad R enc 10.5 ms dec 0.1 ms raw-dec 0.1 ms 
+   9 C-map-45dc4e0ab145 S enc 27.3 ms dec 0.3 ms raw-dec 0.1 ms 
+   10 C-map-34f7574b6463 S enc 417.9 ms dec 3.8 ms raw-dec 0.7 ms 
+   11 C-map-f50f92ce8de5 S enc 723.5 ms dec 18.5 ms raw-dec 1.2 ms 
+   12 C-dia-2f5ddc848a1f S enc 287.0 ms dec 2.9 ms raw-dec 0.5 ms 
+   13 C-map-d719a3909d7f S enc 4861.3 ms dec 30.4 ms raw-dec 12.3 ms 
+   14 C-dia-f9ae5d0bad56 R enc 114.3 ms dec 0.2 ms raw-dec 0.2 ms 
+   15 C-ill-0e02c5a5b742 S enc 325.7 ms dec 6.4 ms raw-dec 0.5 ms 
+   16 C-map-88e4912e70f4 S enc 6824.4 ms dec 78.3 ms raw-dec 9.8 ms 
+   17 C-map-def312cc56ef S enc 1514.6 ms dec 11.6 ms raw-dec 4.6 ms 
+   18 C-map-10f126cccb63 S enc 549.0 ms dec 4.4 ms raw-dec 0.8 ms 
+   19 C-map-6a80fd5f0ebc R enc 7098.0 ms dec 23.3 ms raw-dec 23.0 ms 
+   20 C-map-a4ed541311a7 S enc 21.8 ms dec 0.5 ms raw-dec 0.1 ms 
+   21 C-map-58a7875b9e1d S enc 11.5 ms dec 0.5 ms raw-dec 0.1 ms 
+   22 C-ill-0aa7fd893545 S enc 1067.0 ms dec 12.7 ms raw-dec 1.3 ms 
+   23 C-map-da71cff44da3 R enc 1314.1 ms dec 1.4 ms raw-dec 1.3 ms 
+   24 C-dia-29c45cef2dca R enc 14.2 ms dec 0.1 ms raw-dec 0.1 ms 
+   25 C-dia-cc1c7c4d8c37 R enc 438.3 ms dec 0.5 ms raw-dec 0.5 ms 
+   26 C-map-59bd2930f409 R enc 176.1 ms dec 0.5 ms raw-dec 0.5 ms 
+   27 C-map-ea4c753be1ca R enc 664.3 ms dec 0.5 ms raw-dec 0.6 ms 
+   28 C-map-6e99fcb1eefa S enc 9806.7 ms dec 85.2 ms raw-dec 12.5 ms 
+   29 C-ill-15ee194cc3a7 S enc 450.0 ms dec 11.1 ms raw-dec 0.7 ms 
+   30 C-ill-9fb9954ed4be S enc 1156.0 ms dec 7.2 ms raw-dec 1.8 ms 
+   31 C-ill-f5430804fd10 R enc 652.4 ms dec 0.8 ms raw-dec 0.8 ms 
+   32 C-map-4fc8bef03fe3 R enc 539.2 ms dec 0.9 ms raw-dec 0.9 ms 
+   33 C-ill-17e94eb386a1 S enc 148.5 ms dec 0.6 ms raw-dec 0.2 ms 
+   34 C-ill-2544b2013ada S enc 710.2 ms dec 24.9 ms raw-dec 1.5 ms 
+   35 C-map-eaadfe87b2fc S enc 5608.1 ms dec 56.1 ms raw-dec 14.3 ms 
+   36 C-ill-eea627191df3 S enc 1009.2 ms dec 5.6 ms raw-dec 1.0 ms 
+   37 C-ill-442bf3d12463 S enc 4106.9 ms dec 16.0 ms raw-dec 10.6 ms 
+   38 C-dia-5534ecf8d2a3 R enc 1304.4 ms dec 1.6 ms raw-dec 1.5 ms 
+   39 C-dia-46632b05af8c R enc 245.6 ms dec 0.3 ms raw-dec 0.3 ms 
+   40 C-dia-039ac86a4501 S enc 819.6 ms dec 2.4 ms raw-dec 1.3 ms 
+   41 C-dia-68a4a92289d8 S enc 563.9 ms dec 13.8 ms raw-dec 0.8 ms 
+   42 C-map-99666b0dea38 R enc 1872.6 ms dec 3.6 ms raw-dec 3.5 ms 
+   43 C-dia-ca2116237ff2 R enc 446.2 ms dec 0.6 ms raw-dec 0.6 ms 
+   44 C-ill-a8296b76a431 S enc 231.8 ms dec 6.1 ms raw-dec 0.4 ms 
+   45 C-dia-85380164c4b1 S enc 614.9 ms dec 9.1 ms raw-dec 1.1 ms 
+   46 C-map-edb74efa7f68 R enc 24.9 ms dec 0.1 ms raw-dec 0.1 ms 
+   47 C-dia-8a3ef4826d88 R enc 190.4 ms dec 0.6 ms raw-dec 0.6 ms 
+   48 C-ill-a8d722849589 S enc 1727.1 ms dec 52.5 ms raw-dec 2.4 ms 
+   49 C-dia-1e9082197ee5 R enc 41.8 ms dec 0.1 ms raw-dec 0.1 ms 
+   50 C-ill-6589d6bcc652 S enc 5991.1 ms dec 89.6 ms raw-dec 5.7 ms 
+   51 C-ill-4c7ab0b2a192 R enc 1027.4 ms dec 1.4 ms raw-dec 1.4 ms 
+   52 C-map-a475e2fec90e R enc 75.8 ms dec 0.2 ms raw-dec 0.2 ms 
+   53 C-map-30dc1516a8be S enc 86.2 ms dec 1.4 ms raw-dec 0.3 ms 
+   54 C-ill-660ac937f10f R enc 638.2 ms dec 0.8 ms raw-dec 0.7 ms 
+   55 C-map-cce5949d2b7d R enc 3454.3 ms dec 5.6 ms raw-dec 5.8 ms 
+   56 C-ill-16078a87ebed R enc 14.2 ms dec 0.1 ms raw-dec 0.1 ms 
+   57 C-map-743e92013c04 S enc 19.4 ms dec 0.4 ms raw-dec 0.1 ms 
+   58 C-map-305286e6d8ea S enc 13.8 ms dec 0.5 ms raw-dec 0.1 ms 
+   59 C-ill-501752c94533 S enc 2224.8 ms dec 46.7 ms raw-dec 3.4 ms 
+   60 C-map-1be74394b227 S enc 4999.5 ms dec 64.8 ms raw-dec 12.8 ms 
+   61 C-map-f39b9e89a9e7 R enc 2492.7 ms dec 7.6 ms raw-dec 7.5 ms 
+   62 C-ill-04f272195224 R enc 13.6 ms dec 0.1 ms raw-dec 0.1 ms 
+   63 C-map-284f90bffa71 R enc 7149.1 ms dec 23.2 ms raw-dec 23.3 ms 
+   64 C-map-23e25d232f10 R enc 184.1 ms dec 0.6 ms raw-dec 0.6 ms 
+   65 C-ill-96dccc5f15c9 S enc 1904.0 ms dec 69.6 ms raw-dec 2.2 ms 
+   66 C-map-54739c33b49e R enc 5846.0 ms dec 11.9 ms raw-dec 11.8 ms 
+   67 C-map-1a5e5867b50e R enc 576.1 ms dec 0.8 ms raw-dec 0.9 ms 
+   68 C-map-f786421563ad S enc 75.0 ms dec 1.2 ms raw-dec 0.2 ms 
+   69 C-dia-6110b8f98af2 R enc 21.2 ms dec 0.1 ms raw-dec 0.1 ms 
+   70 C-dia-9abebd99b583 R enc 8.9 ms dec 0.1 ms raw-dec 0.1 ms 
+   71 C-ill-45b8a6287fa7 R enc 718.9 ms dec 0.7 ms raw-dec 0.8 ms 
+   72 C-dia-587be127e35d R enc 2676.4 ms dec 2.6 ms raw-dec 2.5 ms 
+   73 C-map-d651c4d526e8 S enc 59.6 ms dec 3.2 ms raw-dec 0.2 ms 
+   74 C-ill-1ae9b1e9860e S enc 735.7 ms dec 5.0 ms raw-dec 0.9 ms 
+   75 C-dia-5c8b88ac8243 S enc 20.9 ms dec 0.2 ms raw-dec 0.1 ms 
+   76 C-map-a291d438e34e R enc 86.3 ms dec 0.3 ms raw-dec 0.3 ms 
+   77 C-dia-679b7fcba040 R enc 463.3 ms dec 0.4 ms raw-dec 0.4 ms 
+   78 C-map-4344848ab968 R enc 9119.1 ms dec 8.2 ms raw-dec 8.1 ms 
+[B3] confirmation: files 78, defects 0, complete True
+=== B3 exit 0 at 2026-11-16T09:42:00.404873+00:00 (6666 s) ===
+
+=== B2 start 2026-11-16T09:42:00.419221+00:00 ===
+[B2] confirmation: level 10, workers 3, 1076 files, 1076 to run
+   25/1076
+   50/1076
+   75/1076
+   100/1076
+   125/1076
+   150/1076
+   175/1076
+   200/1076
+   225/1076
+   250/1076
+   275/1076
+   300/1076
+   325/1076
+   350/1076
+   375/1076
+   400/1076
+   425/1076
+   450/1076
+   475/1076
+   500/1076
+   525/1076
+   550/1076
+   575/1076
+   600/1076
+   625/1076
+   650/1076
+   675/1076
+   700/1076
+   725/1076
+   750/1076
+   775/1076
+   800/1076
+   825/1076
+   850/1076
+   875/1076
+   900/1076
+   925/1076
+   950/1076
+   975/1076
+   1000/1076
+   1025/1076
+   1050/1076
+   1075/1076
+[B2] {'split': 'confirmation', 'files': 1076, 'defect_files': 0, 'complete': True, 'paq_level': 10, 'workers': 3, 'max_paq_peak_bytes': 8570433536}
+=== B2 exit 0 at 2026-11-16T13:10:00.247094+00:00 (12480 s) ===
+
+=== analysis start 2026-11-16T13:10:00.258535+00:00 ===
+[B1] files 1076, families 55
+   R1 (confirmatory): 0.77215  Bonf [0.44581, 0.98080]  BCa [0.45375, 0.98443]  -> prediction contributes a substantial share
+   R11: 0.51722  Bonf [0.19453, 0.80634]  BCa [0.19959, 0.82416]
+   pi_B_D0: 0.00311  Bonf [0.00008, 0.01686]  BCa [0.00009, 0.01691]
+   pi_D0_M01: 0.00253  Bonf [0.00026, 0.01197]  BCa [0.00021, 0.01123]
+   pi_M01_M010: 0.00095  Bonf [0.00014, 0.00512]  BCa [0.00009, 0.00446]
+   pi_M010_F: 0.00706  Bonf [0.00074, 0.04262]  BCa [0.00051, 0.03443]
+   gain_F_vs_B: 0.01366  Bonf [0.00228, 0.07141]  BCa [0.00143, 0.05829]
+   gain_F_vs_T: 0.00859  Bonf [-0.02814, 0.06877]  BCa [-0.03468, 0.05889]
+   gain_F_vs_Z: 0.01366  Bonf [0.00228, 0.07141]  BCa [0.00143, 0.05829]
+   gain_T_vs_B: 0.00511  Bonf [0.00000, 0.03926]  BCa [0.00000, 0.04894]
+   gain_Z_vs_B: 0.00000  Bonf [0.00000, 0.00000]  BCa [0.00000, 0.00000]
+[B2] files 1076, families 55
+   Gain_H (confirmatory): 0.00184  Bonf [0.00000, 0.01646]  BCa [0.00000, 0.01287]  -> no material gain over a strong back end
+   gain_G_vs_P: -0.21062  Bonf [-0.66631, -0.09218]  BCa [-0.56712, -0.08331]
+   gain_G_vs_ZD: 0.06254  Bonf [0.01911, 0.17237]  BCa [0.01539, 0.15003]
+   gain_G_vs_ZD_amortised: 0.06506  Bonf [0.02074, 0.17587]  BCa [0.01615, 0.15363]
+   gain_G_vs_BA: 0.00515  Bonf [-0.05536, 0.06789]  BCa [-0.07706, 0.04604]
+   gain_G_vs_BL: 0.00521  Bonf [-0.05534, 0.06793]  BCa [-0.07699, 0.04605]
+   gain_P_vs_B: 0.18526  Bonf [0.09143, 0.41504]  BCa [0.08113, 0.37933]
+[B3] files 78, families 31
+   tau_dec (confirmatory): 7.07781  Bonf [4.06268, 14.42536]  BCa [3.39001, 12.31587]  -> slower by 7.08x
+   tau_enc: 1.92276  Bonf [1.85946, 1.99849]  BCa [1.86563, 2.00706]
+   tau_dec_rawgroup: 1.00504  Bonf [0.99046, 1.02751]  BCa [0.98148, 1.01958]
+   tau_enc_rawgroup: 1.61603  Bonf [1.08459, 2.27451]  BCa [1.07146, 2.25632]
+=== analysis exit 0 at 2026-11-16T13:10:01.999821+00:00 (2 s) ===

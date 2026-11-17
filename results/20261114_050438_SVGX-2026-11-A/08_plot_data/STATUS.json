@@ -1,0 +1,13 @@
+{
+  "coverage": {
+    "confirmation": 1076,
+    "files": 8,
+    "pilot": 248
+  },
+  "purpose": "Source CSVs for every plot.",
+  "reason": "plot CSVs",
+  "scope": "full",
+  "status": "complete",
+  "synthetic": false,
+  "updated_utc": "2026-11-14T06:25:14Z"
+}

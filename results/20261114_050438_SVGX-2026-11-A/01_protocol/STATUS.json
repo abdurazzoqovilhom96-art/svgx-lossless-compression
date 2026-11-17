@@ -1,0 +1,9 @@
+{
+  "coverage": null,
+  "purpose": "Frozen settings, method/build IDs, versions, machine inventory, scope and approval record.",
+  "reason": "frozen settings, approval and environment copied",
+  "scope": "full",
+  "status": "complete",
+  "synthetic": false,
+  "updated_utc": "2026-11-14T05:04:38Z"
+}

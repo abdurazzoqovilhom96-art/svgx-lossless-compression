@@ -1,0 +1,11 @@
+{
+  "confirmation_files_verified": "1076/1076",
+  "confirmation_missing_measurements": 2152,
+  "events": 1,
+  "failed_attempts": 0,
+  "job_status_counts": {
+    "done": 16444
+  },
+  "pilot_files_verified": "248/248",
+  "pilot_missing_measurements": 496
+}

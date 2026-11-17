@@ -1,0 +1,13 @@
+{
+  "coverage": {
+    "confirmation": 1076,
+    "files": 2,
+    "pilot": 248
+  },
+  "purpose": "Per-repeat times, peak memory, workload, concurrency and timed-sample denominators.",
+  "reason": "timing tables",
+  "scope": "full",
+  "status": "complete",
+  "synthetic": false,
+  "updated_utc": "2026-11-14T06:25:14Z"
+}

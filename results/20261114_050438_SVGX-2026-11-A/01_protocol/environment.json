@@ -1,0 +1,36 @@
+{
+  "cpu": {
+    "logical": 16,
+    "model": "13th Gen Intel(R) Core(TM) i5-13400F",
+    "physical": 10
+  },
+  "disk": {
+    "project_drive_free_bytes": 740262887424,
+    "project_drive_total_bytes": 751618224128
+  },
+  "generated_utc": "2026-11-13T17:36:32Z",
+  "gpu": [
+    "NVIDIA GeForce RTX 5070"
+  ],
+  "gpu_used": false,
+  "os": {
+    "machine": "AMD64",
+    "release": "11",
+    "system": "Windows",
+    "version": "10.0.26200"
+  },
+  "privacy": "no hostname, user name, serial numbers or machine IDs are recorded",
+  "python": "3.13.15",
+  "python_implementation": "CPython",
+  "ram": {
+    "available_bytes": 24222990336,
+    "total_bytes": 34190413824
+  },
+  "ram_limit": "none detected (no job/container memory limit)",
+  "toolchain": {
+    "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+    "gcc": "gcc.exe (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r3) 16.2.0",
+    "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+    "svgx": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+  }
+}

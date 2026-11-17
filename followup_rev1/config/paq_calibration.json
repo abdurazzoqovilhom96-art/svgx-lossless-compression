@@ -1,0 +1,719 @@
+{
+ "rule": "highest level with peak committed memory <= 2^33 bytes on every calibration file",
+ "cap_bytes": 8589934592,
+ "paq8px_sha256": "4e530a62a69f7f5928f494d85492898ad21b43e3a2e9c2953a3307d5c5bb5ed4",
+ "calibration_files": [
+  "P-ico-9f25e71f59ea",
+  "P-dia-1b0971793ee3",
+  "P-ill-666d492ee7e1",
+  "P-dia-1fd0f9cc4895",
+  "P-ill-0d2a431f3949",
+  "P-dia-2b3117fef389",
+  "P-dia-e50cdf25c29e",
+  "P-dia-5f90b61479af",
+  "P-dia-89e39bc9ef79"
+ ],
+ "levels": {
+  "8": {
+   "fits": true,
+   "max_peak_bytes": 2683961344,
+   "runs": [
+    {
+     "level": 8,
+     "input_len": 1248,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 0.3887974,
+      "peak_memory_bytes": 2295287808,
+      "user_s": 0.234375,
+      "timed_out": false
+     },
+     "len": 517,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 0.4076468,
+      "peak_memory_bytes": 2295148544,
+      "user_s": 0.1875,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ico-9f25e71f59ea",
+     "base64": false
+    },
+    {
+     "level": 8,
+     "input_len": 6375,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 0.8859628,
+      "peak_memory_bytes": 2295336960,
+      "user_s": 0.6875,
+      "timed_out": false
+     },
+     "len": 764,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 0.9038469,
+      "peak_memory_bytes": 2295205888,
+      "user_s": 0.59375,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-1b0971793ee3",
+     "base64": false
+    },
+    {
+     "level": 8,
+     "input_len": 40084,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 3.6511715,
+      "peak_memory_bytes": 2295336960,
+      "user_s": 3.09375,
+      "timed_out": false
+     },
+     "len": 2972,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 3.6460983,
+      "peak_memory_bytes": 2295160832,
+      "user_s": 3.0625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ill-666d492ee7e1",
+     "base64": false
+    },
+    {
+     "level": 8,
+     "input_len": 195315,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 16.2944599,
+      "peak_memory_bytes": 2295304192,
+      "user_s": 14.59375,
+      "timed_out": false
+     },
+     "len": 37473,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 16.2776437,
+      "peak_memory_bytes": 2295197696,
+      "user_s": 14.390625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-1fd0f9cc4895",
+     "base64": false
+    },
+    {
+     "level": 8,
+     "input_len": 537390,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 48.6609718,
+      "peak_memory_bytes": 2295275520,
+      "user_s": 44.828125,
+      "timed_out": false
+     },
+     "len": 302538,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 47.5693884,
+      "peak_memory_bytes": 2295181312,
+      "user_s": 43.96875,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ill-0d2a431f3949",
+     "base64": false
+    },
+    {
+     "level": 8,
+     "input_len": 6471,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.2982356,
+      "peak_memory_bytes": 2683957248,
+      "user_s": 0.859375,
+      "timed_out": false
+     },
+     "len": 3517,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.316716,
+      "peak_memory_bytes": 2682261504,
+      "user_s": 0.90625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-2b3117fef389",
+     "base64": true
+    },
+    {
+     "level": 8,
+     "input_len": 6499,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.3607865,
+      "peak_memory_bytes": 2683949056,
+      "user_s": 1.078125,
+      "timed_out": false
+     },
+     "len": 3530,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.3724438,
+      "peak_memory_bytes": 2682269696,
+      "user_s": 0.921875,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-e50cdf25c29e",
+     "base64": true
+    },
+    {
+     "level": 8,
+     "input_len": 7856,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.3482892,
+      "peak_memory_bytes": 2683912192,
+      "user_s": 0.90625,
+      "timed_out": false
+     },
+     "len": 3348,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.3500205,
+      "peak_memory_bytes": 2681769984,
+      "user_s": 1.09375,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-5f90b61479af",
+     "base64": true
+    },
+    {
+     "level": 8,
+     "input_len": 102513,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 8.9532252,
+      "peak_memory_bytes": 2683961344,
+      "user_s": 7.890625,
+      "timed_out": false
+     },
+     "len": 16837,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 8.9434381,
+      "peak_memory_bytes": 2681741312,
+      "user_s": 8.03125,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-89e39bc9ef79",
+     "base64": true
+    }
+   ]
+  },
+  "9": {
+   "fits": true,
+   "max_peak_bytes": 4643315712,
+   "runs": [
+    {
+     "level": 9,
+     "input_len": 1248,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 0.4294179,
+      "peak_memory_bytes": 4186894336,
+      "user_s": 0.265625,
+      "timed_out": false
+     },
+     "len": 517,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 0.447008,
+      "peak_memory_bytes": 4186750976,
+      "user_s": 0.296875,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ico-9f25e71f59ea",
+     "base64": false
+    },
+    {
+     "level": 9,
+     "input_len": 6375,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.0082555,
+      "peak_memory_bytes": 4186894336,
+      "user_s": 0.765625,
+      "timed_out": false
+     },
+     "len": 764,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.0116279,
+      "peak_memory_bytes": 4186763264,
+      "user_s": 0.65625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-1b0971793ee3",
+     "base64": false
+    },
+    {
+     "level": 9,
+     "input_len": 40084,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 3.9101319,
+      "peak_memory_bytes": 4186894336,
+      "user_s": 3.296875,
+      "timed_out": false
+     },
+     "len": 2972,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 3.9834194,
+      "peak_memory_bytes": 4186775552,
+      "user_s": 3.359375,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ill-666d492ee7e1",
+     "base64": false
+    },
+    {
+     "level": 9,
+     "input_len": 195315,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 16.7918626,
+      "peak_memory_bytes": 4186886144,
+      "user_s": 14.703125,
+      "timed_out": false
+     },
+     "len": 37473,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 16.8115013,
+      "peak_memory_bytes": 4186738688,
+      "user_s": 15.203125,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-1fd0f9cc4895",
+     "base64": false
+    },
+    {
+     "level": 9,
+     "input_len": 537390,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 47.508172,
+      "peak_memory_bytes": 4186877952,
+      "user_s": 44.359375,
+      "timed_out": false
+     },
+     "len": 302538,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 48.0445891,
+      "peak_memory_bytes": 4186787840,
+      "user_s": 44.890625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ill-0d2a431f3949",
+     "base64": false
+    },
+    {
+     "level": 9,
+     "input_len": 6471,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.5024433,
+      "peak_memory_bytes": 4643315712,
+      "user_s": 1.109375,
+      "timed_out": false
+     },
+     "len": 3516,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.4827025,
+      "peak_memory_bytes": 4641607680,
+      "user_s": 0.984375,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-2b3117fef389",
+     "base64": true
+    },
+    {
+     "level": 9,
+     "input_len": 6499,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.4960183,
+      "peak_memory_bytes": 4643315712,
+      "user_s": 0.9375,
+      "timed_out": false
+     },
+     "len": 3531,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.4997704,
+      "peak_memory_bytes": 4641624064,
+      "user_s": 1.0,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-e50cdf25c29e",
+     "base64": true
+    },
+    {
+     "level": 9,
+     "input_len": 7856,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.5888403,
+      "peak_memory_bytes": 4643291136,
+      "user_s": 0.90625,
+      "timed_out": false
+     },
+     "len": 3348,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.5919578,
+      "peak_memory_bytes": 4641148928,
+      "user_s": 0.953125,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-5f90b61479af",
+     "base64": true
+    },
+    {
+     "level": 9,
+     "input_len": 102513,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 9.7435971,
+      "peak_memory_bytes": 4643315712,
+      "user_s": 8.484375,
+      "timed_out": false
+     },
+     "len": 16837,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 9.6615577,
+      "peak_memory_bytes": 4641099776,
+      "user_s": 8.3125,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-89e39bc9ef79",
+     "base64": true
+    }
+   ]
+  },
+  "10": {
+   "fits": true,
+   "max_peak_bytes": 8293036032,
+   "runs": [
+    {
+     "level": 10,
+     "input_len": 1248,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 0.458801,
+      "peak_memory_bytes": 7701118976,
+      "user_s": 0.265625,
+      "timed_out": false
+     },
+     "len": 517,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 0.4684558,
+      "peak_memory_bytes": 7700975616,
+      "user_s": 0.25,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ico-9f25e71f59ea",
+     "base64": false
+    },
+    {
+     "level": 10,
+     "input_len": 6375,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.1224408,
+      "peak_memory_bytes": 7701143552,
+      "user_s": 0.734375,
+      "timed_out": false
+     },
+     "len": 764,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.0866083,
+      "peak_memory_bytes": 7700967424,
+      "user_s": 0.6875,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-1b0971793ee3",
+     "base64": false
+    },
+    {
+     "level": 10,
+     "input_len": 40084,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 4.1457693,
+      "peak_memory_bytes": 7701155840,
+      "user_s": 3.359375,
+      "timed_out": false
+     },
+     "len": 2972,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 4.1301469,
+      "peak_memory_bytes": 7701000192,
+      "user_s": 3.453125,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ill-666d492ee7e1",
+     "base64": false
+    },
+    {
+     "level": 10,
+     "input_len": 195315,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 17.9583258,
+      "peak_memory_bytes": 7701094400,
+      "user_s": 15.609375,
+      "timed_out": false
+     },
+     "len": 37475,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 18.4840703,
+      "peak_memory_bytes": 7700979712,
+      "user_s": 16.0,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-1fd0f9cc4895",
+     "base64": false
+    },
+    {
+     "level": 10,
+     "input_len": 537390,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 52.6234999,
+      "peak_memory_bytes": 7701098496,
+      "user_s": 48.390625,
+      "timed_out": false
+     },
+     "len": 302538,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 54.1888972,
+      "peak_memory_bytes": 7700975616,
+      "user_s": 50.140625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ill-0d2a431f3949",
+     "base64": false
+    },
+    {
+     "level": 10,
+     "input_len": 6471,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.7229213,
+      "peak_memory_bytes": 8293023744,
+      "user_s": 1.203125,
+      "timed_out": false
+     },
+     "len": 3516,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.7550732,
+      "peak_memory_bytes": 8291344384,
+      "user_s": 1.125,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-2b3117fef389",
+     "base64": true
+    },
+    {
+     "level": 10,
+     "input_len": 6499,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.7373143,
+      "peak_memory_bytes": 8293036032,
+      "user_s": 1.125,
+      "timed_out": false
+     },
+     "len": 3531,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.7677951,
+      "peak_memory_bytes": 8291360768,
+      "user_s": 0.96875,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-e50cdf25c29e",
+     "base64": true
+    },
+    {
+     "level": 10,
+     "input_len": 7856,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 1.8333725,
+      "peak_memory_bytes": 8293019648,
+      "user_s": 1.109375,
+      "timed_out": false
+     },
+     "len": 3348,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 1.8481765,
+      "peak_memory_bytes": 8290865152,
+      "user_s": 1.09375,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-5f90b61479af",
+     "base64": true
+    },
+    {
+     "level": 10,
+     "input_len": 102513,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 10.2457538,
+      "peak_memory_bytes": 8293019648,
+      "user_s": 8.703125,
+      "timed_out": false
+     },
+     "len": 16837,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 10.1032092,
+      "peak_memory_bytes": 8290811904,
+      "user_s": 8.265625,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-dia-89e39bc9ef79",
+     "base64": true
+    }
+   ]
+  },
+  "11": {
+   "fits": false,
+   "max_peak_bytes": 14729543680,
+   "runs": [
+    {
+     "level": 11,
+     "input_len": 1248,
+     "compress": {
+      "returncode": 0,
+      "elapsed_s": 0.4831836,
+      "peak_memory_bytes": 14729543680,
+      "user_s": 0.265625,
+      "timed_out": false
+     },
+     "len": 517,
+     "magic_ok": true,
+     "decompress": {
+      "returncode": 0,
+      "elapsed_s": 0.4862032,
+      "peak_memory_bytes": 14729412608,
+      "user_s": 0.25,
+      "timed_out": false
+     },
+     "roundtrip_ok": true,
+     "ok": true,
+     "file_id": "P-ico-9f25e71f59ea",
+     "base64": false
+    }
+   ]
+  }
+ },
+ "chosen_level": 10,
+ "throughput_bytes_per_s": {
+  "compress": 9839.615940121861,
+  "decompress": 9631.541844553589
+ }
+}

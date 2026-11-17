@@ -1,0 +1,407 @@
+{
+ "created_utc": "2026-11-15T13:07:31Z",
+ "purpose": "A04/A14: stored structured G streams of the confirmation split decode byte-exactly today with the frozen independent decoder (ledger claims vs stored artifacts)",
+ "selection_rule": "census of all confirmation files whose final G stream is structured (branch_G == structured); raw-branch G streams are byte-identical to the independent brotli.exe stream (checked by hash, no job)",
+ "limits": {
+  "new_codec_jobs_max": 128,
+  "distinct_new_test_inputs_max": 48,
+  "additional_codec_wall_time_minutes_max": 30,
+  "per_job_timeout_s": 120
+ },
+ "planned_codec_jobs": 39,
+ "distinct_inputs": 39,
+ "expected_wall_time_minutes": 2,
+ "outputs": "temporary directory, deleted after hashing",
+ "jobs": [
+  {
+   "job": 1,
+   "file_id": "C-dia-039ac86a4501",
+   "input_sha256": "039ac86a45019845b9bd72df421a01f17d2467847dcaa543040f2263c2ec02e8",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\039ac86a45019845\\svgx\\G.svgx",
+   "expected_stream_sha256": "24c18d1dbeebb9cee9f6acdbcc62e32ce67c4e234fdd7147d310c994ae6d4d43",
+   "expected_stream_len": 80894,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 2,
+   "file_id": "C-dia-2f5ddc848a1f",
+   "input_sha256": "2f5ddc848a1f6cef70ca4924dd101e16319fe439d79cddeb583020dfd3f1b2ea",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\2f5ddc848a1f6cef\\svgx\\G.svgx",
+   "expected_stream_sha256": "6ba1b3fe6da20a25dffc78ee12fdb48a54e91b083a7cd485e15d0522e427cd67",
+   "expected_stream_len": 27584,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 3,
+   "file_id": "C-dia-5c8b88ac8243",
+   "input_sha256": "5c8b88ac8243a1e09893f4ea02d833405ab45de45af18f0fb3f2dbc2ed279f73",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\5c8b88ac8243a1e0\\svgx\\G.svgx",
+   "expected_stream_sha256": "cfaf297f44f9f5815bf5ec7fb627edfcf704a8ffd3015243d688bab33a1e899b",
+   "expected_stream_len": 1296,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 4,
+   "file_id": "C-dia-68a4a92289d8",
+   "input_sha256": "68a4a92289d81f0e7e9361abbba2da9a8c8b4e440e3ad9de5c420646eb133eaa",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\68a4a92289d81f0e\\svgx\\G.svgx",
+   "expected_stream_sha256": "229263cf871305ee132de0ec3ee93a9c49f26af6626bc0ab007708509578c855",
+   "expected_stream_len": 44883,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 5,
+   "file_id": "C-dia-85380164c4b1",
+   "input_sha256": "85380164c4b1c2d7fed96fed746c812246802455c10c343ea3348f7b8d1e5412",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\85380164c4b1c2d7\\svgx\\G.svgx",
+   "expected_stream_sha256": "5b975a3850b85e903d3f66decb9c5fe6f1a2c9e399cab2fd57d19b36062fe93e",
+   "expected_stream_len": 62372,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 6,
+   "file_id": "C-ill-0aa7fd893545",
+   "input_sha256": "0aa7fd8935458afc065d350d145556b8e85efd4d36cc9e87bb2e589ae86bdde5",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\0aa7fd8935458afc\\svgx\\G.svgx",
+   "expected_stream_sha256": "85e0c59fa688c9c811f1fe797a42a7c0c2450e0ccbec758ffc5b91054e5938da",
+   "expected_stream_len": 90556,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 7,
+   "file_id": "C-ill-0e02c5a5b742",
+   "input_sha256": "0e02c5a5b7421794fccedbe6a1ee337efed7038a0ec91de9ba1de2826897a4bd",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\0e02c5a5b7421794\\svgx\\G.svgx",
+   "expected_stream_sha256": "474a08105a6659a055765e365556ca96041d6e149932fce664fe8130a7fadc08",
+   "expected_stream_len": 32606,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 8,
+   "file_id": "C-ill-15ee194cc3a7",
+   "input_sha256": "15ee194cc3a766e688ed0badc8c75a9127b78b9110a4f41d512b94348581072e",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\15ee194cc3a766e6\\svgx\\G.svgx",
+   "expected_stream_sha256": "f50796351cc656627f5b226accd226d3f487e4657c01468484c250a5f831d683",
+   "expected_stream_len": 45563,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 9,
+   "file_id": "C-ill-17e94eb386a1",
+   "input_sha256": "17e94eb386a1a61022b59e2b47797c6b1f2d6bfdfc2f8b8faac3ba4b8032b50c",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\17e94eb386a1a610\\svgx\\G.svgx",
+   "expected_stream_sha256": "e85ce23ce5a29e8ccb29eb0641b1f8fd1030625acae783a3c8a84b054a441428",
+   "expected_stream_len": 9884,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 10,
+   "file_id": "C-ill-1ae9b1e9860e",
+   "input_sha256": "1ae9b1e9860e7fde9c52399dbbfbb04bd6aea980eb2616741615774a2ae4aeb9",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\1ae9b1e9860e7fde\\svgx\\G.svgx",
+   "expected_stream_sha256": "21370e5a8d1f3e8d80dc2b5ddd98b0c46642a521b029a1d5b6ad063ec47ca016",
+   "expected_stream_len": 56128,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 11,
+   "file_id": "C-ill-2544b2013ada",
+   "input_sha256": "2544b2013ada84edff87c9d16475da335a1a4161440e5bfb48925b3394f20909",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\2544b2013ada84ed\\svgx\\G.svgx",
+   "expected_stream_sha256": "f2d5bda6a03f8209227d6042221661331a5a0ebd82b1d07850ecb795cbff8b4c",
+   "expected_stream_len": 93896,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 12,
+   "file_id": "C-ill-2dae362f65dd",
+   "input_sha256": "2dae362f65dd29d5efac283d3709e1e5d98985f183b4e126e69fd11744330faa",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\2dae362f65dd29d5\\svgx\\G.svgx",
+   "expected_stream_sha256": "0428b2ad9e6fd26fffb9b3dc308afc1b0691a850601580a7cc15116127d05ec7",
+   "expected_stream_len": 111439,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 13,
+   "file_id": "C-ill-442bf3d12463",
+   "input_sha256": "442bf3d12463037214b06695040afae57922477fefdbcb181d91e3e110c7b58c",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\442bf3d124630372\\svgx\\G.svgx",
+   "expected_stream_sha256": "aaf4ed885c999887e9b5c5f56ad1adea6d2a58fbe2322e045e155949cafb796f",
+   "expected_stream_len": 1276218,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 14,
+   "file_id": "C-ill-501752c94533",
+   "input_sha256": "501752c94533439a31521a929a10ad1dd1b781f588d44fc87144c426a38b8773",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\501752c94533439a\\svgx\\G.svgx",
+   "expected_stream_sha256": "bd383685d7234d39b105240566954f814e9295e9bacbaa0afc644172dff5657d",
+   "expected_stream_len": 181207,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 15,
+   "file_id": "C-ill-6589d6bcc652",
+   "input_sha256": "6589d6bcc652197b0b2fa15b0eb0f5ef72ceb877fef10891636971ae2bc34de0",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\6589d6bcc652197b\\svgx\\G.svgx",
+   "expected_stream_sha256": "f0629e566725b3fe6e2bf324cc60a563c4159038eabe477e54d5ba3a8f2d0854",
+   "expected_stream_len": 352142,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 16,
+   "file_id": "C-ill-96dccc5f15c9",
+   "input_sha256": "96dccc5f15c95813bffc2badf282501f402a9c39d5273a5924af0302cb25bedb",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\96dccc5f15c95813\\svgx\\G.svgx",
+   "expected_stream_sha256": "ea7ac5aed6cf42bf751242f058847f742d7b4784894b136287d54f1a4496b1e6",
+   "expected_stream_len": 92397,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 17,
+   "file_id": "C-ill-9fb9954ed4be",
+   "input_sha256": "9fb9954ed4befedb693f0c445719277cad52040af2ee182aaf3da3a772ff837a",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\9fb9954ed4befedb\\svgx\\G.svgx",
+   "expected_stream_sha256": "a980a5ae482deb758c1905ede4ae84945704d04139a70c6a154d27e9ea42fc42",
+   "expected_stream_len": 103616,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 18,
+   "file_id": "C-ill-a8296b76a431",
+   "input_sha256": "a8296b76a4313621536ef774a3cb217f9c18a278ffe57587c0004383322aeb87",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\a8296b76a4313621\\svgx\\G.svgx",
+   "expected_stream_sha256": "54a3845dead90f29f217135c595a814cd5817cab6f9308ffcec882de9b3f1e92",
+   "expected_stream_len": 26170,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 19,
+   "file_id": "C-ill-a8d722849589",
+   "input_sha256": "a8d722849589fdcde4e1810ec0adff598e5cfc5fd4c7c439170b4a1a2a216163",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\a8d722849589fdcd\\svgx\\G.svgx",
+   "expected_stream_sha256": "4b6c94e0a5b69de01a9d9e5024b2b86b22adbd0ed61fab9dae9d098e164032a7",
+   "expected_stream_len": 168510,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 20,
+   "file_id": "C-ill-ce7f28280596",
+   "input_sha256": "ce7f28280596bad1a132c6eb7bc3bee27b16253649cf77312e3f291df8d7955c",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\ce7f28280596bad1\\svgx\\G.svgx",
+   "expected_stream_sha256": "5ceaeb955bf45343ea5a3b0bdc481ab59e94e85b5ee569b448816ab09cace655",
+   "expected_stream_len": 76018,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 21,
+   "file_id": "C-ill-eea627191df3",
+   "input_sha256": "eea627191df30f6c9d912db7661b91d6dae207787a26aefabb30d6c091344860",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\eea627191df30f6c\\svgx\\G.svgx",
+   "expected_stream_sha256": "65b790f6074c17924b4052de02710ded345d3bce23dde268a78e24813597bdfa",
+   "expected_stream_len": 60125,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 22,
+   "file_id": "C-map-10f126cccb63",
+   "input_sha256": "10f126cccb63955f05acf054fe01d5142a5e7682299599a0ee1537ad9b6eca75",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\10f126cccb63955f\\svgx\\G.svgx",
+   "expected_stream_sha256": "62642117c2eb701a93a13a9c82091e89e12f61e36491d41a7661b5cb04b1f3b4",
+   "expected_stream_len": 49927,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 23,
+   "file_id": "C-map-1be74394b227",
+   "input_sha256": "1be74394b227c600df4d0e0201b852dda3ba3736000ce75bd9f6e4f9dc9c7f6c",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\1be74394b227c600\\svgx\\G.svgx",
+   "expected_stream_sha256": "5ecb04f8183509a9a3b59e44f9bf8b83d5c83b757bf7704001ca4e834edb2870",
+   "expected_stream_len": 1294440,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 24,
+   "file_id": "C-map-28a25b99d30b",
+   "input_sha256": "28a25b99d30be8a135369410a280411371ae8bf1f4f810445b37ed8ae61db563",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\28a25b99d30be8a1\\svgx\\G.svgx",
+   "expected_stream_sha256": "8fdb3952052349db0a859c781209d3a3454f5ddd8116d791617254e14264a731",
+   "expected_stream_len": 83192,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 25,
+   "file_id": "C-map-305286e6d8ea",
+   "input_sha256": "305286e6d8ea74e35898f3fa016efaafd4b1e41add17c7cf77bfda5f9d7d87bd",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\305286e6d8ea74e3\\svgx\\G.svgx",
+   "expected_stream_sha256": "7525539f354ed137889e5c2456831af94c0df105b383ffa809bab566095fd40e",
+   "expected_stream_len": 2350,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 26,
+   "file_id": "C-map-30dc1516a8be",
+   "input_sha256": "30dc1516a8bedc3c435ead264016a378941f9c71516c25cea6f0fa1845d4b5cd",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\30dc1516a8bedc3c\\svgx\\G.svgx",
+   "expected_stream_sha256": "7804b894546478ff79781355cf3e0a3490c0390d2207cdea9eb0c2ff26113e90",
+   "expected_stream_len": 15411,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 27,
+   "file_id": "C-map-34f7574b6463",
+   "input_sha256": "34f7574b64634ccd569e48c9ef36d3b27ea5c833bf43a8107f1167c2878f6b35",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\34f7574b64634ccd\\svgx\\G.svgx",
+   "expected_stream_sha256": "4b02ba4d4e3622ae6cab882a3f68e89472ecc19a71d596690269377c6d7528ab",
+   "expected_stream_len": 40050,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 28,
+   "file_id": "C-map-45dc4e0ab145",
+   "input_sha256": "45dc4e0ab145724abb72f508a5ac66a07e35b1b1a412c765129942c642800f2e",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\45dc4e0ab145724a\\svgx\\G.svgx",
+   "expected_stream_sha256": "a8d464636fc69904d9d0a6647cc0a22ec5c9590e9689d7c4fb2de918eb9cba39",
+   "expected_stream_len": 3500,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 29,
+   "file_id": "C-map-58a7875b9e1d",
+   "input_sha256": "58a7875b9e1d6cd29d04ea37980c598726ef29dab82830c71b03c01931f73648",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\58a7875b9e1d6cd2\\svgx\\G.svgx",
+   "expected_stream_sha256": "51f1d57b5b54cc1b57576f96b676dbc4b6a127770f596c8724a8e254a1da7e05",
+   "expected_stream_len": 2776,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 30,
+   "file_id": "C-map-6e99fcb1eefa",
+   "input_sha256": "6e99fcb1eefa7f8bd1f21940a2164871dfd113579da454956020bdc184592477",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\6e99fcb1eefa7f8b\\svgx\\G.svgx",
+   "expected_stream_sha256": "ff97f1a5b4ccb97bc06e448d6df9b30837b8e5087bf8f5cb29920ddd6efd626c",
+   "expected_stream_len": 683976,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 31,
+   "file_id": "C-map-743e92013c04",
+   "input_sha256": "743e92013c04b61bb8117e2fe9a9f0a75563c71ae7cf829bd898b5cebccc7069",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\743e92013c04b61b\\svgx\\G.svgx",
+   "expected_stream_sha256": "a52e59eb03bb0c6341f1f87279592e29098031f9921b85529820c61b75ad859e",
+   "expected_stream_len": 3611,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 32,
+   "file_id": "C-map-88e4912e70f4",
+   "input_sha256": "88e4912e70f4a34f9e3ca129b8cd68a9d5e56c38fc95f9ecd135c8987b27efc3",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\88e4912e70f4a34f\\svgx\\G.svgx",
+   "expected_stream_sha256": "bf4892d1f46d945d12f1783760fb2e79e35d697bc64a24ea741e069ef764a253",
+   "expected_stream_len": 485286,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 33,
+   "file_id": "C-map-a4ed541311a7",
+   "input_sha256": "a4ed541311a7746a2e1efc8a6d47c1906cf5d5e63f0d238c589c885149899491",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\a4ed541311a7746a\\svgx\\G.svgx",
+   "expected_stream_sha256": "fac2ba57b5190ce81fe82866389ce3f58242df03043ee07d953312561ba4745f",
+   "expected_stream_len": 4566,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 34,
+   "file_id": "C-map-d651c4d526e8",
+   "input_sha256": "d651c4d526e8b3737398d862c30f0a742ced13a22f39bfc29f04bc0d7783d861",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\d651c4d526e8b373\\svgx\\G.svgx",
+   "expected_stream_sha256": "27b979c82e1a5f1f3648a9ffc924041d936a3f3e545fcb872793935c0cc4386f",
+   "expected_stream_len": 11523,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 35,
+   "file_id": "C-map-d719a3909d7f",
+   "input_sha256": "d719a3909d7fc94fb972dccd78ef72efa8e6bef2b377d55e13ca3b0f968833e8",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\d719a3909d7fc94f\\svgx\\G.svgx",
+   "expected_stream_sha256": "789ccc5b2a9b3700f7bb5afff2b31c7fd66ca177e631f860649d6a75624856a0",
+   "expected_stream_len": 1265085,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 36,
+   "file_id": "C-map-def312cc56ef",
+   "input_sha256": "def312cc56efe9cb2b11b97df606da0a93140ed1dc6e0fbbb3c3bef01a1740a8",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\def312cc56efe9cb\\svgx\\G.svgx",
+   "expected_stream_sha256": "8e910c5b6d8bc1a4d06ac758fea874a1dddb2fad2a6f8ae46559b434dd6b1d93",
+   "expected_stream_len": 511974,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 37,
+   "file_id": "C-map-eaadfe87b2fc",
+   "input_sha256": "eaadfe87b2fcb860bf890fadb2fbf9e5bc84e0cf07d1d896cca4df98b3a07414",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\eaadfe87b2fcb860\\svgx\\G.svgx",
+   "expected_stream_sha256": "62d5f1b0add937b81c736cc5531a17af6a1a64734ffe859680fdda1595c5b336",
+   "expected_stream_len": 1317996,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 38,
+   "file_id": "C-map-f50f92ce8de5",
+   "input_sha256": "f50f92ce8de5446d851bcb4c02ea25454a9b01d3e9f5f22767c175e90e4ffd09",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\f50f92ce8de5446d\\svgx\\G.svgx",
+   "expected_stream_sha256": "880621f7d49b4d8b043f2b5472d2d2494845d25a575e13fe164ae32c77fb00b0",
+   "expected_stream_len": 70005,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  },
+  {
+   "job": 39,
+   "file_id": "C-map-f786421563ad",
+   "input_sha256": "f786421563ad6ed4d4d84b417df93d202a7398bd50f83a5769a086cd700a70d3",
+   "stream": "results\\20261114_050438_SVGX-2026-11-A\\03_raw\\streams\\confirmation\\f786421563ad6ed4\\svgx\\G.svgx",
+   "expected_stream_sha256": "eced4d7d95441d722ba634506ef7c0223ad5294dc6758be514009dd938fb9e7e",
+   "expected_stream_len": 9455,
+   "decoder": "reference/decode.py (frozen sha256 554defc7...)",
+   "kind": "python_reference_decode"
+  }
+ ]
+}

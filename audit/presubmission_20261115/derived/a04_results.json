@@ -1,0 +1,308 @@
+{
+ "A14_bound_files": {
+  "count": 53,
+  "changed_since_freeze": [],
+  "missing": [],
+  "frozen_utc": "2026-11-13T17:38:03Z",
+  "build_id": "build-fb5b391323df"
+ },
+ "A14_freeze_copy_equal_state": true,
+ "A14_run_manifests_equal_frozen": {
+  "pilot": true,
+  "confirmation": true
+ },
+ "A14_package": {
+  "sha256": "d4340f430ebbdca06cb00a6693634da3e773adb28022f1ddde8292c7f8690754",
+  "verify_json": {
+   "checked": 185,
+   "created_utc": "2026-11-14T06:25:18Z",
+   "members": 185,
+   "mismatches": [],
+   "ok": true,
+   "zip": "D:\\13.11.2026\\SVG_EXPERIMENT\\results\\20261114_050438_SVGX-2026-11-A__package.zip",
+   "zip_sha256": "d4340f430ebbdca06cb00a6693634da3e773adb28022f1ddde8292c7f8690754"
+  }
+ },
+ "A14_originals_sha_mismatch": [],
+ "A14_originals_present": "1324/1324",
+ "A12_timeline": {
+  "frozen_utc": "2026-11-13T17:38:03Z",
+  "approval": {
+   "decision": "approve",
+   "scope": "full",
+   "recorded_utc": "2026-11-14T05:03:01Z",
+   "freeze_sha256": "d9401f49cd6a80dc903c7fbd506fc9cf9550bde18966a1b76b6c8e5feb3d0c0b"
+  },
+  "pilot_decision_utc": "2026-11-14T05:30:54Z",
+  "jobs": {
+   "confirmation/size": [
+    "2026-11-14T05:30:54Z",
+    "2026-11-14T05:38:41Z"
+   ],
+   "confirmation/timing": [
+    "2026-11-14T05:38:41Z",
+    "2026-11-14T06:25:10Z"
+   ],
+   "pilot/size": [
+    "2026-11-14T05:04:39Z",
+    "2026-11-14T05:06:59Z"
+   ],
+   "pilot/timing": [
+    "2026-11-14T05:06:59Z",
+    "2026-11-14T05:30:53Z"
+   ]
+  },
+  "single_build_id": [
+   "build-fb5b391323df"
+  ]
+ },
+ "A12_order": {
+  "last_pilot_attempt_id": 4856,
+  "first_confirmation_attempt_id": 4857,
+  "pilot_decision_utc": "2026-11-14T05:30:54Z",
+  "first_confirmation_start_utc": "2026-11-14T05:30:54Z",
+  "confirmation_after_all_pilot_jobs": true,
+  "confirmation_not_before_decision_second": true,
+  "note": "runner/controller.py writes the decision between the pilot and confirmation loops (sequential)"
+ },
+ "A13_timing_summary_recomputed": {
+  "brotli11": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 0.8343057355832266,
+   "pooled_dec_MiB_s": 30.292387211662806,
+   "median_per_file_enc_s": 0.0426807,
+   "median_per_file_dec_s": 0.0123807,
+   "median_repeat_cv_enc": 0.05140424402883232,
+   "peak_bytes_median": 5287936,
+   "peak_bytes_max": 73973760
+  },
+  "gzip1": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 7.680235379038191,
+   "pooled_dec_MiB_s": 8.133636806408576,
+   "median_per_file_enc_s": 0.0572735,
+   "median_per_file_dec_s": 0.0562696,
+   "median_repeat_cv_enc": 0.10455338793092565,
+   "peak_bytes_median": 7122944,
+   "peak_bytes_max": 7131136
+  },
+  "gzip9": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 6.064923618999416,
+   "pooled_dec_MiB_s": 8.128933355430263,
+   "median_per_file_enc_s": 0.0567715,
+   "median_per_file_dec_s": 0.0558059,
+   "median_repeat_cv_enc": 0.10809973954159906,
+   "peak_bytes_median": 7122944,
+   "peak_bytes_max": 7184384
+  },
+  "ppmd7z": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 7.289107499032944,
+   "pooled_dec_MiB_s": 6.952901436523381,
+   "median_per_file_enc_s": 0.0164793,
+   "median_per_file_dec_s": 0.0127092,
+   "median_repeat_cv_enc": 0.0825607743626403,
+   "peak_bytes_median": 4448256,
+   "peak_bytes_max": 137879552
+  },
+  "svgx_D": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 0.40680957745803714,
+   "pooled_dec_MiB_s": 47.16415103508724,
+   "median_per_file_enc_s": 0.0551623,
+   "median_per_file_dec_s": 0.0060208,
+   "median_repeat_cv_enc": 0.0449648561475974,
+   "peak_bytes_median": 4464640,
+   "peak_bytes_max": 133976064
+  },
+  "svgx_G": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 0.42412684707735315,
+   "pooled_dec_MiB_s": 37.63049469620643,
+   "median_per_file_enc_s": 0.0515023,
+   "median_per_file_dec_s": 0.0059337,
+   "median_repeat_cv_enc": 0.04607552335771314,
+   "peak_bytes_median": 4460544,
+   "peak_bytes_max": 133955584
+  },
+  "svgx_I": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 0.4209376811488608,
+   "pooled_dec_MiB_s": 36.22726969116807,
+   "median_per_file_enc_s": 0.050773,
+   "median_per_file_dec_s": 0.0061655,
+   "median_repeat_cv_enc": 0.04314270542345958,
+   "peak_bytes_median": 4472832,
+   "peak_bytes_max": 133992448
+  },
+  "svgx_P": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 0.4175202714784176,
+   "pooled_dec_MiB_s": 41.72649450456735,
+   "median_per_file_enc_s": 0.0538311,
+   "median_per_file_dec_s": 0.0059622,
+   "median_repeat_cv_enc": 0.050963986842314436,
+   "peak_bytes_median": 4468736,
+   "peak_bytes_max": 133967872
+  },
+  "svgx_U": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 0.4222503942971899,
+   "pooled_dec_MiB_s": 37.95058135402578,
+   "median_per_file_enc_s": 0.0520867,
+   "median_per_file_dec_s": 0.0056564,
+   "median_repeat_cv_enc": 0.052329779442628524,
+   "peak_bytes_median": 4472832,
+   "peak_bytes_max": 133963776
+  },
+  "xwrt_l6": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 2.560115553674763,
+   "pooled_dec_MiB_s": 5.4125697702814035,
+   "median_per_file_enc_s": 0.0883135,
+   "median_per_file_dec_s": 0.0761131,
+   "median_repeat_cv_enc": 0.032658379362030414,
+   "peak_bytes_median": 118190080,
+   "peak_bytes_max": 130629632
+  },
+  "xz9e": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 3.993154721360925,
+   "pooled_dec_MiB_s": 23.912472416097177,
+   "median_per_file_enc_s": 0.0128485,
+   "median_per_file_dec_s": 0.0053499,
+   "median_repeat_cv_enc": 0.0745580692385175,
+   "peak_bytes_median": 707866624,
+   "peak_bytes_max": 707878912
+  },
+  "zstd1": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 54.20129904647034,
+   "pooled_dec_MiB_s": 30.261512917544817,
+   "median_per_file_enc_s": 0.008715,
+   "median_per_file_dec_s": 0.0138465,
+   "median_repeat_cv_enc": 0.19269411383080595,
+   "peak_bytes_median": 5042176,
+   "peak_bytes_max": 6139904
+  },
+  "zstd19": {
+   "files": 69,
+   "min_repeats": 7,
+   "pooled_enc_MiB_s": 4.4716232787174945,
+   "pooled_dec_MiB_s": 30.750018404754073,
+   "median_per_file_enc_s": 0.0188155,
+   "median_per_file_dec_s": 0.0126751,
+   "median_repeat_cv_enc": 0.09395580678821273,
+   "peak_bytes_median": 6549504,
+   "peak_bytes_max": 97087488
+  }
+ },
+ "A13_paired_time_comparisons": {
+  "all": {
+   "files": 69,
+   "bytes": 33200693,
+   "G_vs_brotli11": {
+    "median_enc_time_ratio": 1.2652349853760165,
+    "median_dec_time_ratio": 0.7692896614258097,
+    "pooled_enc_time_ratio": 1.9671137098073497,
+    "pooled_dec_time_ratio": 0.804995721055897,
+    "files_G_decodes_faster": 54,
+    "pooled_K_break_even_decodes": 180.07012626505457,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   },
+   "G_vs_svgx_P": {
+    "median_enc_time_ratio": 0.9900175396808211,
+    "median_dec_time_ratio": 0.9995530052599847,
+    "pooled_enc_time_ratio": 0.9844231138762819,
+    "pooled_dec_time_ratio": 1.1088478863067894,
+    "files_G_decodes_faster": 35,
+    "pooled_K_break_even_decodes": null,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   }
+  },
+  "G_structured": {
+   "files": 13,
+   "bytes": 11538974,
+   "G_vs_brotli11": {
+    "median_enc_time_ratio": 1.9975293175351114,
+    "median_dec_time_ratio": 0.8492464215681631,
+    "pooled_enc_time_ratio": 2.3328818209433915,
+    "pooled_dec_time_ratio": 1.3632603134460552,
+    "files_G_decodes_faster": 7,
+    "pooled_K_break_even_decodes": null,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   },
+   "G_vs_svgx_P": {
+    "median_enc_time_ratio": 0.9857119970298948,
+    "median_dec_time_ratio": 1.1035500539621286,
+    "pooled_enc_time_ratio": 0.9909019344241256,
+    "pooled_dec_time_ratio": 1.247416894012375,
+    "files_G_decodes_faster": 4,
+    "pooled_K_break_even_decodes": null,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   }
+  },
+  "G_raw": {
+   "files": 56,
+   "bytes": 21661719,
+   "G_vs_brotli11": {
+    "median_enc_time_ratio": 1.0056477081557698,
+    "median_dec_time_ratio": 0.7557584333736491,
+    "pooled_enc_time_ratio": 1.7676014078522475,
+    "pooled_dec_time_ratio": 0.5747795292443999,
+    "files_G_decodes_faster": 47,
+    "pooled_K_break_even_decodes": 59.89944535116956,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   },
+   "G_vs_svgx_P": {
+    "median_enc_time_ratio": 0.9935711607850135,
+    "median_dec_time_ratio": 0.9932353840275595,
+    "pooled_enc_time_ratio": 0.9798112134704319,
+    "pooled_dec_time_ratio": 1.0001789362627151,
+    "files_G_decodes_faster": 31,
+    "pooled_K_break_even_decodes": null,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   }
+  },
+  "over_64KiB": {
+   "files": 33,
+   "bytes": 32944222,
+   "G_vs_brotli11": {
+    "median_enc_time_ratio": 1.8764868353326014,
+    "median_dec_time_ratio": 0.5405998188146666,
+    "pooled_enc_time_ratio": 1.9760038443570322,
+    "pooled_dec_time_ratio": 0.811972389195073,
+    "files_G_decodes_faster": 28,
+    "pooled_K_break_even_decodes": 235.68591024185855,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   },
+   "G_vs_svgx_P": {
+    "median_enc_time_ratio": 0.9954021380155892,
+    "median_dec_time_ratio": 0.9894412670479542,
+    "pooled_enc_time_ratio": 0.9844536107507801,
+    "pooled_dec_time_ratio": 1.1296130569451162,
+    "files_G_decodes_faster": 19,
+    "pooled_K_break_even_decodes": null,
+    "note": "K* = (enc_G - enc_other)/(dec_other - dec_G) on the same files (sums of per-file medians); None if G does not decode faster in total"
+   }
+  }
+ },
+ "A13_reference_decoder_elapsed_s_G_final": {
+  "files": 1324,
+  "median": 0.06994470000063302,
+  "max": 2.836439499995322
+ }
+}

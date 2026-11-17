@@ -1,0 +1,58 @@
+# SVGX-REV1 design parameters (frozen by rev1/freeze.py; see docs/PROTOCOL_REV1.md).
+# Nothing here may change after the freeze record is written.
+
+[design]
+id = "SVGX-REV1"
+base_design = "SVGX-2026-11-A"
+base_run = "20261114_050438_SVGX-2026-11-A"
+data = "variant A: the frozen confirmation split (1076 files, 55 families) re-analysed; previously analysed data"
+order = ["R0", "B1", "B3", "B2", "analysis"]   # B3 runs on an otherwise idle machine, before the long B2 run
+
+[statistics]
+bootstrap_resamples = 50000
+bootstrap_seed = 20261116
+bootstrap_generator = "numpy.random.PCG64"
+quantile_method = "linear"
+cluster = "family"
+family_coverage = 0.995          # confirmatory family {R1, Gain_H, tau_dec}
+bonferroni_k = 3                 # tails 0.005/6 each
+primary_interval = "percentile"
+sensitivity_interval = "BCa (leave-one-family-out jackknife acceleration)"
+
+[b1]
+arms = ["B", "T", "Z", "D0", "M01", "M010", "F"]
+modes = { D0 = "00", M01 = "00,01", M010 = "00,01,10", F = "00,01,10,11" }
+final_rule = "C = min(B, S); ties -> raw (identical to the codec)"
+primary = "R1 = (sum C_D0 - sum C_F) / (sum B - sum C_F)"
+secondary = ["R11", "gain_F_vs_T", "gain_F_vs_Z", "pi steps", "geometry bits per hole"]
+
+[b2]
+paq8px_version = "v217"
+paq8px_binary = "official Windows x64 release archive paq8px_v217_windows_x64.7z (SHA-256 checked)"
+paq8px_level_rule = "highest level with peak committed memory <= 2^33 bytes (8 GiB) on every pilot calibration file"
+paq8px_memory_cap_bytes = 8589934592
+paq8px_flags = "none (no LSTM flag L); single thread"
+zstd = "zstd 1.5.7 -19 --single-thread -D config/zstd_pilot.dict (dictionary trained on the pilot split only)"
+brotli_auto = "brotli 1.2.1 -q 11 (CLI default window, auto-sized to the file, <= 24)"
+brotli_large_window = "brotli 1.2.1 -q 11 --large_window=30"
+hybrid = "S_P = |S_G| - |Br(U)| + |P(U)|;  H = min(P(x), S_P) on files with a forced G stream, H = P(x) otherwise"
+primary = "Gain_H = (sum P - sum H) / sum P"
+cmix = "excluded before measurement: its documentation recommends at least 32 GB RAM (host: 31.8 GB total; protocol cap 24 GB) and no binary release exists"
+memory_parallelism = "workers = floor(24 GiB / calibrated peak); on overrun only the parallelism is reduced, never the level"
+
+[b3]
+sample = "config/b3_sample.csv (39 structured + 39 size-matched raw confirmation files)"
+order_seed = "SVGX-REV1/timing/v1"
+warmup = 5
+repeats = 31
+profile = "G"
+cpu = "config/cpu_topology.json chosen P-core, HIGH priority class"
+power_scheme = "High performance (powercfg SCHEME_MIN) during the run, restored afterwards"
+primary = "tau_dec = sum_S median G decode / sum_S median raw Brotli decode"
+startup_overhead = "every method on a 1-byte input, 31 runs (XWRT crashes on zero-length input)"
+
+[wording]
+R1 = [[0.5, "prediction is the main source of the saving"], [0.25, "prediction contributes a substantial share"]]
+R1_minor_estimate = 0.10
+Gain_H_lower = 0.005
+tau_dec = "upper < 1: faster; lower > 1: slower by X; otherwise comparable"

@@ -1,0 +1,303 @@
+{
+ "split": "pilot",
+ "resamples": 5000,
+ "seed": 20261116,
+ "coverage": 0.995,
+ "bonferroni_k": 3,
+ "experiments": {
+  "B1": {
+   "available": true,
+   "files": 248,
+   "families": 34,
+   "estimands": {
+    "R1": {
+     "estimate": 0.7213468668535419,
+     "undefined_draws": 0,
+     "marginal": [
+      0.2768999261620358,
+      1.0
+     ],
+     "bonferroni": [
+      0.2647147013504454,
+      1.0
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      0.2541312181503221,
+      0.9997585160351679
+     ],
+     "bca_z0": -0.1029533442550038,
+     "bca_acceleration": -0.05947399683835327,
+     "licence_sensitivity_estimate": null,
+     "confirmatory": true,
+     "wording": "prediction contributes a substantial share"
+    },
+    "R11": {
+     "estimate": 0.4788144090177958,
+     "undefined_draws": 0,
+     "marginal": [
+      0.024321318661485285,
+      0.7727983716934774
+     ],
+     "bonferroni": [
+      0.012335953571962448,
+      0.9622527604714314
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      0.006940782135081208,
+      0.7471665887391441
+     ],
+     "bca_z0": -0.09741101200999708,
+     "bca_acceleration": -0.05996402828804021,
+     "licence_sensitivity_estimate": null
+    },
+    "pi_B_D0": {
+     "estimate": 0.0030014948419519556,
+     "undefined_draws": 0,
+     "marginal": [
+      0.0,
+      0.05864264660136398
+     ],
+     "bonferroni": [
+      0.0,
+      0.06582824115279141
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      0.0,
+      0.05876674638838957
+     ],
+     "bca_z0": 0.06722824465557509,
+     "bca_acceleration": -0.05296939831044805,
+     "licence_sensitivity_estimate": null
+    },
+    "pi_D0_M01": {
+     "estimate": 0.0018063841658796155,
+     "undefined_draws": 0,
+     "marginal": [
+      5.450474656858806e-05,
+      0.022734631687935904
+     ],
+     "bonferroni": [
+      2.304634724175947e-07,
+      0.024242761671563196
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      0.0,
+      0.017924367589995428
+     ],
+     "bca_z0": -0.047142066964871575,
+     "bca_acceleration": -0.12089268538827475,
+     "licence_sensitivity_estimate": null
+    },
+    "pi_M01_M010": {
+     "estimate": 0.0008060390750868207,
+     "undefined_draws": 0,
+     "marginal": [
+      3.026145422411804e-05,
+      0.006541466547071263
+     ],
+     "bonferroni": [
+      1.0476859578580968e-05,
+      0.00748496351922755
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      2.4728810110234667e-11,
+      0.004384625372552201
+     ],
+     "bca_z0": -0.09690731452396964,
+     "bca_acceleration": -0.1248328701330411,
+     "licence_sensitivity_estimate": null
+    },
+    "pi_M010_F": {
+     "estimate": 0.005157519539404667,
+     "undefined_draws": 0,
+     "marginal": [
+      0.00013399088420896517,
+      0.058190572221241965
+     ],
+     "bonferroni": [
+      5.785676455025933e-05,
+      0.06610525215729414
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      6.042663177726098e-06,
+      0.03921036826806726
+     ],
+     "bca_z0": -0.07225371305299151,
+     "bca_acceleration": -0.12296177199686802,
+     "licence_sensitivity_estimate": null
+    },
+    "gain_F_vs_B": {
+     "estimate": 0.01077143762232306,
+     "undefined_draws": 0,
+     "marginal": [
+      0.0005305641973968732,
+      0.11805908512835078
+     ],
+     "bonferroni": [
+      0.0003065026866760194,
+      0.12493925725924239
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      2.5518086955966664e-05,
+      0.09378927774886801
+     ],
+     "bca_z0": -0.05567589840481433,
+     "bca_acceleration": -0.13122588663821536,
+     "licence_sensitivity_estimate": null
+    },
+    "gain_F_vs_T": {
+     "estimate": 0.010766664096128448,
+     "undefined_draws": 0,
+     "marginal": [
+      0.0005304114217921992,
+      0.11800340835670976
+     ],
+     "bonferroni": [
+      0.00030645279936300165,
+      0.12486407246514579
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      2.4687836788890166e-05,
+      0.09372352330899422
+     ],
+     "bca_z0": -0.05567589840481433,
+     "bca_acceleration": -0.13124293882289936,
+     "licence_sensitivity_estimate": null
+    },
+    "gain_F_vs_Z": {
+     "estimate": 0.010770028300334659,
+     "undefined_draws": 0,
+     "marginal": [
+      0.0005301336477274018,
+      0.11805908512835078
+     ],
+     "bonferroni": [
+      0.00030636209508058573,
+      0.12493925725924239
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      2.3178277298075087e-05,
+      0.09376444313947076
+     ],
+     "bca_z0": -0.05617800870763592,
+     "bca_acceleration": -0.13121767431178652,
+     "licence_sensitivity_estimate": null
+    },
+    "gain_T_vs_B": {
+     "estimate": 4.825480522499355e-06,
+     "undefined_draws": 0,
+     "marginal": [
+      0.0,
+      0.00011450585170400528
+     ],
+     "bonferroni": [
+      0.0,
+      0.0001302367801091553
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      0.0,
+      0.00012198132595057307
+     ],
+     "bca_z0": 0.07778384164691525,
+     "bca_acceleration": -0.03274627352051782,
+     "licence_sensitivity_estimate": null
+    },
+    "gain_Z_vs_B": {
+     "estimate": 1.424665678071238e-06,
+     "undefined_draws": 0,
+     "marginal": [
+      0.0,
+      2.3828991044144847e-05
+     ],
+     "bonferroni": [
+      0.0,
+      2.524928342482073e-05
+     ],
+     "probs_bonferroni": [
+      0.000833333333333334,
+      0.9991666666666666
+     ],
+     "bca_bonferroni": [
+      0.0,
+      2.5704688566612297e-05
+     ],
+     "bca_z0": 0.13324452361112396,
+     "bca_acceleration": -0.01673029315555153,
+     "licence_sensitivity_estimate": null
+    }
+   },
+   "diagnostics": {
+    "eligible_files": 102,
+    "holes": 316352,
+    "geometry_bits_per_hole_D0": 18.34008952053409,
+    "geometry_bits_per_hole_M01": 16.87898290511835,
+    "geometry_bits_per_hole_M010": 16.089014768359295,
+    "geometry_bits_per_hole_F": 12.634483107424641,
+    "Z_bits_per_hole": 29.73174185717176,
+    "sum_S": {
+     "D0": 9681089,
+     "M01": 9623310,
+     "M010": 9592072,
+     "F": 9455468,
+     "T": 9721618,
+     "Z": 10131562
+    }
+   },
+   "sums": {
+    "B": 21759491,
+    "C_D0": 21694180,
+    "C_M01": 21654874,
+    "C_M010": 21637335,
+    "C_F": 21525110,
+    "C_T": 21759386,
+    "C_Z": 21759460
+   }
+  },
+  "B2": {
+   "available": false
+  },
+  "B3": {
+   "available": false
+  }
+ }
+}

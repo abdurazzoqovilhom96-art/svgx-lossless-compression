@@ -1,0 +1,452 @@
+{
+  "generated_utc": "2026-11-13T17:36:33Z",
+  "methods": {
+    "brotli11": {
+      "available": true,
+      "compress_template": [
+        "-q",
+        "11",
+        "-w",
+        "22",
+        "-f",
+        "-o",
+        "{out}",
+        "{in}"
+      ],
+      "decompress_template": [
+        "-d",
+        "-f",
+        "-o",
+        "{out}",
+        "{in}"
+      ],
+      "exe": ".tools\\bin\\brotli.exe",
+      "exe_sha256": "c34ccd068d4904ec040c15e02d1dcadd3e2cd3a8e5ca1e591530bf9bff26d8b1",
+      "fixture_roundtrip": {
+        "method": "brotli11",
+        "roundtrip_ok": true,
+        "stream_len": 23082,
+        "stream_sha256": "85df7dce61a424e44f7127d9745a22fa37ae54e4a431f3b6101c228a94c1bc41"
+      },
+      "label": "Brotli 1.2.1 q11 lgwin22 (brotli.exe, primary)",
+      "limitations": "",
+      "method": "brotli11",
+      "primary": true,
+      "project": false,
+      "reason": "",
+      "settings": "quality 11, lgwin 22, generic mode, size hint = input length (CLI)",
+      "speed_only": false,
+      "tool": "brotli",
+      "version": "brotli 1.2.1"
+    },
+    "gzip1": {
+      "available": true,
+      "compress_template": [
+        "-1",
+        "-n",
+        "-c",
+        "{in}"
+      ],
+      "decompress_template": [
+        "-d",
+        "-c",
+        "{in}"
+      ],
+      "exe": ".tools\\msys\\usr\\bin\\gzip.exe",
+      "exe_sha256": "b7fbddf74e7666aed1f7bbd17592e55732f88eb75464d5b12facaaf45866d17d",
+      "fixture_roundtrip": {
+        "method": "gzip1",
+        "roundtrip_ok": true,
+        "stream_len": 29411,
+        "stream_sha256": "128b19dbf3ad49785583751b38235ec611d7b326e8dab82569d13f31d69bf163"
+      },
+      "label": "GNU gzip 1.15 -1 -n (speed reference)",
+      "limitations": "",
+      "method": "gzip1",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "level 1, no name/timestamp",
+      "speed_only": true,
+      "tool": "gzip",
+      "version": "gzip 1.15"
+    },
+    "gzip9": {
+      "available": true,
+      "compress_template": [
+        "-9",
+        "-n",
+        "-c",
+        "{in}"
+      ],
+      "decompress_template": [
+        "-d",
+        "-c",
+        "{in}"
+      ],
+      "exe": ".tools\\msys\\usr\\bin\\gzip.exe",
+      "exe_sha256": "b7fbddf74e7666aed1f7bbd17592e55732f88eb75464d5b12facaaf45866d17d",
+      "fixture_roundtrip": {
+        "method": "gzip9",
+        "roundtrip_ok": true,
+        "stream_len": 25254,
+        "stream_sha256": "54e3324b4592dcf24a5ced5372e2967c3e736800fe58ae2f22f03e022f3af80f"
+      },
+      "label": "GNU gzip 1.15 -9 -n (MSYS2 build)",
+      "limitations": "",
+      "method": "gzip9",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "level 9, no name/timestamp",
+      "speed_only": false,
+      "tool": "gzip",
+      "version": "gzip 1.15"
+    },
+    "ppmd7z": {
+      "available": true,
+      "compress_template": [
+        "a",
+        "-t7z",
+        "-m0=PPMd",
+        "-mx=9",
+        "-mmt=1",
+        "-mtm=off",
+        "-mtc=off",
+        "-mta=off",
+        "-mtr=off",
+        "-bso0",
+        "-bsp0",
+        "{out}",
+        "{name}"
+      ],
+      "decompress_template": [
+        "e",
+        "-so",
+        "{in}"
+      ],
+      "exe": ".tools\\7zip\\x64\\7za.exe",
+      "exe_sha256": "7ddf0a3bc451e166679296be630d6f0573eb386159c04184761c43020c484291",
+      "fixture_roundtrip": {
+        "method": "ppmd7z",
+        "roundtrip_ok": true,
+        "stream_len": 19168,
+        "stream_sha256": "d0039a8d6a3faf8db650b2d5a813da9432fdab6a33142bbc3dbb3947cb9db769"
+      },
+      "label": "7-Zip 26.05 PPMd (-mx=9, 7z container)",
+      "limitations": "",
+      "method": "ppmd7z",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "PPMd order/memory from -mx=9, header compression default, no timestamps, fixed member name input.svg",
+      "speed_only": false,
+      "tool": "7za",
+      "version": "7-Zip (a) 26.05 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21"
+    },
+    "svgx_D": {
+      "available": true,
+      "compress_template": [
+        "encode",
+        "--profile",
+        "D",
+        "{in}",
+        "{out}"
+      ],
+      "decompress_template": [
+        "decode",
+        "{in}",
+        "{out}"
+      ],
+      "exe": "codec\\target\\release\\svgx.exe",
+      "exe_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "fixture_roundtrip": {
+        "method": "svgx_D",
+        "roundtrip_ok": true,
+        "stream_len": 21537,
+        "stream_sha256": "98016984b28197d3d11982586d7e121c705fea211e56f7abe865bb8b936f197f"
+      },
+      "label": "SVGX D (explicit descriptors)",
+      "limitations": "",
+      "method": "svgx_D",
+      "primary": false,
+      "project": true,
+      "reason": "",
+      "settings": "",
+      "speed_only": false,
+      "tool": "svgx",
+      "version": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+    },
+    "svgx_G": {
+      "available": true,
+      "compress_template": [
+        "encode",
+        "--profile",
+        "G",
+        "{in}",
+        "{out}"
+      ],
+      "decompress_template": [
+        "decode",
+        "{in}",
+        "{out}"
+      ],
+      "exe": "codec\\target\\release\\svgx.exe",
+      "exe_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "fixture_roundtrip": {
+        "method": "svgx_G",
+        "roundtrip_ok": true,
+        "stream_len": 19916,
+        "stream_sha256": "59648398a6ee9b8d9fe47de04470dad54f9732b0c7cd36ee9b165af382abe958"
+      },
+      "label": "SVGX G (grouped, summed weight; candidate)",
+      "limitations": "",
+      "method": "svgx_G",
+      "primary": false,
+      "project": true,
+      "reason": "",
+      "settings": "",
+      "speed_only": false,
+      "tool": "svgx",
+      "version": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+    },
+    "svgx_I": {
+      "available": true,
+      "compress_template": [
+        "encode",
+        "--profile",
+        "I",
+        "{in}",
+        "{out}"
+      ],
+      "decompress_template": [
+        "decode",
+        "{in}",
+        "{out}"
+      ],
+      "exe": "codec\\target\\release\\svgx.exe",
+      "exe_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "fixture_roundtrip": {
+        "method": "svgx_I",
+        "roundtrip_ok": true,
+        "stream_len": 21493,
+        "stream_sha256": "a7c0745c65ece3419d7cbd370772b3124bf32b8e307c66bb6d971b8189ff9c79"
+      },
+      "label": "SVGX I (rule identifiers)",
+      "limitations": "",
+      "method": "svgx_I",
+      "primary": false,
+      "project": true,
+      "reason": "",
+      "settings": "",
+      "speed_only": false,
+      "tool": "svgx",
+      "version": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+    },
+    "svgx_P": {
+      "available": true,
+      "compress_template": [
+        "encode",
+        "--profile",
+        "P",
+        "{in}",
+        "{out}"
+      ],
+      "decompress_template": [
+        "decode",
+        "{in}",
+        "{out}"
+      ],
+      "exe": "codec\\target\\release\\svgx.exe",
+      "exe_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "fixture_roundtrip": {
+        "method": "svgx_P",
+        "roundtrip_ok": true,
+        "stream_len": 21251,
+        "stream_sha256": "8640084c4b6b6ef2fda94d12c306247b503e714dd0abbcfdc2d2e10f65ccd64e"
+      },
+      "label": "SVGX P (previous descriptor)",
+      "limitations": "",
+      "method": "svgx_P",
+      "primary": false,
+      "project": true,
+      "reason": "",
+      "settings": "",
+      "speed_only": false,
+      "tool": "svgx",
+      "version": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+    },
+    "svgx_U": {
+      "available": true,
+      "compress_template": [
+        "encode",
+        "--profile",
+        "U",
+        "{in}",
+        "{out}"
+      ],
+      "decompress_template": [
+        "decode",
+        "{in}",
+        "{out}"
+      ],
+      "exe": "codec\\target\\release\\svgx.exe",
+      "exe_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "fixture_roundtrip": {
+        "method": "svgx_U",
+        "roundtrip_ok": true,
+        "stream_len": 19926,
+        "stream_sha256": "ec6e804cd1653f54f9a649af8aaf02c79a14e03eaada07d1d4a4e112fa970148"
+      },
+      "label": "SVGX U (grouped, max weight)",
+      "limitations": "",
+      "method": "svgx_U",
+      "primary": false,
+      "project": true,
+      "reason": "",
+      "settings": "",
+      "speed_only": false,
+      "tool": "svgx",
+      "version": "svgx 1.0.0 (format svgx-1, brotli 1.2.1, cflags -O2 -fno-fast-math -ffp-contract=off -fno-strict-aliasing)"
+    },
+    "xwrt_l6": {
+      "available": true,
+      "compress_template": [
+        "-l6",
+        "-o",
+        "{name}"
+      ],
+      "decompress_template": [
+        "-o",
+        "{name}"
+      ],
+      "exe": ".tools\\bin\\xwrt.exe",
+      "exe_sha256": "01e92e356342f46cc722acbbce73454bc9ce34b68abc7311de43c120007db96b",
+      "fixture_roundtrip": {
+        "method": "xwrt_l6",
+        "roundtrip_ok": true,
+        "stream_len": 18071,
+        "stream_sha256": "6622a0d1f62fd518a898f8e70241436c00a0b43d0bb4da63e67b47274c8738cb"
+      },
+      "label": "XWRT 3.4 -l6 (LZMA 8 MB)",
+      "limitations": "crashes on a zero-length input (access violation 0xC0000005, verified 2026-11-13); such files record the comparator as failed/missing for that file",
+      "method": "xwrt_l6",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "level 6 = LZMA with 8 MB dictionary; default containers and dynamic dictionary",
+      "speed_only": false,
+      "tool": "xwrt",
+      "version": "XWRT 3.4 (5.11.2007) - XML compressor by P.Skibinski, <email>"
+    },
+    "xz9e": {
+      "available": true,
+      "compress_template": [
+        "-9e",
+        "-T1",
+        "-k",
+        "-c",
+        "{in}"
+      ],
+      "decompress_template": [
+        "-d",
+        "-c",
+        "{in}"
+      ],
+      "exe": ".tools\\xz\\bin_x86-64\\xz.exe",
+      "exe_sha256": "855aadc2fe3ebc1ecb3b1e38e99dc517dbd12af948ce515cb3749f1b4d5604cf",
+      "fixture_roundtrip": {
+        "method": "xz9e",
+        "roundtrip_ok": true,
+        "stream_len": 23404,
+        "stream_sha256": "c6136d2acd8d19ca655794f0b94856cb44596fce3cf56f79a0d2d4ada0538ea4"
+      },
+      "label": "xz 5.8.4 -9e (single thread)",
+      "limitations": "",
+      "method": "xz9e",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "preset 9 extreme, LZMA2, CRC64 check, 1 thread",
+      "speed_only": false,
+      "tool": "xz",
+      "version": "xz (XZ Utils) 5.8.4"
+    },
+    "zstd1": {
+      "available": true,
+      "compress_template": [
+        "-1",
+        "--single-thread",
+        "-q",
+        "-f",
+        "-o",
+        "{out}",
+        "{in}"
+      ],
+      "decompress_template": [
+        "-d",
+        "-q",
+        "-f",
+        "-o",
+        "{out}",
+        "{in}"
+      ],
+      "exe": ".tools\\zstd\\zstd-v1.5.7-win64\\zstd.exe",
+      "exe_sha256": "8076aae03feac7c66b319579e82172eed168deed2a3f25e5e2d3c60f55e84111",
+      "fixture_roundtrip": {
+        "method": "zstd1",
+        "roundtrip_ok": true,
+        "stream_len": 26684,
+        "stream_sha256": "54aff3de46477b37ffeb533d5672c4b1dac7a4c922aacccb0479e00537ab1032"
+      },
+      "label": "zstd 1.5.7 -1 (speed reference)",
+      "limitations": "",
+      "method": "zstd1",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "level 1, single thread",
+      "speed_only": true,
+      "tool": "zstd",
+      "version": "*** Zstandard CLI (64-bit) v1.5.7, by Yann Collet ***"
+    },
+    "zstd19": {
+      "available": true,
+      "compress_template": [
+        "-19",
+        "--single-thread",
+        "-q",
+        "-f",
+        "-o",
+        "{out}",
+        "{in}"
+      ],
+      "decompress_template": [
+        "-d",
+        "-q",
+        "-f",
+        "-o",
+        "{out}",
+        "{in}"
+      ],
+      "exe": ".tools\\zstd\\zstd-v1.5.7-win64\\zstd.exe",
+      "exe_sha256": "8076aae03feac7c66b319579e82172eed168deed2a3f25e5e2d3c60f55e84111",
+      "fixture_roundtrip": {
+        "method": "zstd19",
+        "roundtrip_ok": true,
+        "stream_len": 24048,
+        "stream_sha256": "354d3ef6989b030433e6d950e389a42cb86ebfb22f0d576948b4276ee81f6601"
+      },
+      "label": "zstd 1.5.7 -19 (single thread)",
+      "limitations": "",
+      "method": "zstd19",
+      "primary": false,
+      "project": false,
+      "reason": "",
+      "settings": "level 19, content checksum (CLI default), single thread",
+      "speed_only": false,
+      "tool": "zstd",
+      "version": "*** Zstandard CLI (64-bit) v1.5.7, by Yann Collet ***"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "decision": "approve",
+ "scope": [
+  "R0",
+  "B1",
+  "B3",
+  "B2",
+  "analysis"
+ ],
+ "note": "AskUserQuestion 2026-11-16: To'liq doira (Tavsiya) - R0, B1, B3, B2 va tahlil",
+ "freeze_sha256": "4a3000512297188ea3694fea956a788d3df77794fa8df78475dcc9c15ff83d0c",
+ "recorded_utc": "2026-11-16T07:43:42+00:00"
+}

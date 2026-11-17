@@ -1,0 +1,13 @@
+{
+  "coverage": {
+    "confirmation": 1076,
+    "files": 20,
+    "pilot": 248
+  },
+  "purpose": "Publication-ready SVG/PDF figures.",
+  "reason": "figures",
+  "scope": "full",
+  "status": "complete",
+  "synthetic": false,
+  "updated_utc": "2026-11-14T06:25:14Z"
+}

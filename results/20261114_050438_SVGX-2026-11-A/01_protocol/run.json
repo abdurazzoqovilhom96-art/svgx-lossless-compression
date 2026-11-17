@@ -1,0 +1,189 @@
+{
+  "approval": {
+    "bound_files": {
+      "baselines/adapters.py": "73d4af1aabcbcb5b2f13abdfe97076fbba3555cef9289a8940c6250a639553a0",
+      "codec/Cargo.lock": "a7461b66c7cbf7f0488dedf38e2d2966f19b204f9d6a47df1d4f962775507222",
+      "codec/Cargo.toml": "0bb576b6991f42adb6b075822a696802c7f7d0d88b1cdc1b51fc54b33fc591a4",
+      "codec/build.rs": "487ea79ca009efe763669a0210df8ee2dcd2547e52d43d59d8f4fc9f58265c3a",
+      "codec/src/arith.rs": "b64e1ed49bf801dfad37b9ec7621a8b0792478b21d96485515a6013ea3a9582a",
+      "codec/src/bits.rs": "58fa1f284e7103d7806f95e131425e8893668e875d7e87a1539d26f92be3f31a",
+      "codec/src/brotli.rs": "1880d26223bba7e9f7ae47f76bbf25d3fac113015964d0d52c68fa3ee32090fa",
+      "codec/src/container.rs": "cf2e3437c0eded1c3389058857be95b80e3030bd5e00b01517e6a5642144a61e",
+      "codec/src/crc32.rs": "0b0e4ce41fa620745a402a7ee43c2c5930f60d1ddd5a2ad94fd10a01807f4d56",
+      "codec/src/decode.rs": "c3d5625f4c2262bb26256a5b9e7a064422dd4d449813ab9a7d18f13cf056d458",
+      "codec/src/encode.rs": "0aaaf172e95f5375d7fe8d987f7451a9e3e3a737c0f931086c97f4c60f3281a5",
+      "codec/src/error.rs": "7f6d0b6ae7c47c3cbee434175a9e8b54db3d884f252018c788e75a788909631d",
+      "codec/src/geometry.rs": "24cf4cab68a7b9091dba39729639cd70b20ff2db42a4e130e14b8bafb5985a57",
+      "codec/src/main.rs": "6132fe83f6e6f8fdd3fcea2c7ee640b39b06632cf4f6a347b7a02d04e700d6c4",
+      "codec/src/numeric.rs": "82383021e36f8b0fed2017b0141fe676fa2fe8fc613d23c3f6d5813c9a15d18c",
+      "codec/src/path.rs": "39c7deb88d64168facdde11d0af3458337ab116fb89086cd33e2df97122a6b36",
+      "codec/src/rules.rs": "36de216dc09a7ddb9c15aeee78ac2acc00f925188e1f1671941947d61eeb1e14",
+      "codec/src/spelling.rs": "1bab1f04e954b3a14cbf428c3c4252d763e2f97a307945b485d4289aeebb323e",
+      "codec/src/stats.rs": "506dc97ef826d43efd3a589ff18407a1aed7eaeefe7e4e7cda88660c15fdb277",
+      "codec/src/xml.rs": "6ede3ec445beb7e9cd194d8c929638ccd81ebb1f2b5bbc480d93ce91ef727cbc",
+      "codec/target/release/svgx.exe": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "config/baselines.toml": "2e04b096a10a1af47cca9961757369323ded96ff437f86e384e166827ec836ca",
+      "config/study.toml": "265406d3a813aeb67ff6da63e5842d6d78bcf3f413ca320aab9a257c50f131ab",
+      "config/toolchain.toml": "02124d84bbecab7b8a44dfbbe94c0de707506d10b4375ff61a1a0cd3102dd10e",
+      "data/manifests/confirmation.csv": "f3bde00f290246fdf78942d30442bd789d385b24e935d40e7bc7014c7d6fd6d3",
+      "data/manifests/dedup.csv": "f2b079172b8c200f2612b836a9bff20236dd25ed04a5e1fbcd99e0bed5acbaa6",
+      "data/manifests/design.json": "d11c91bc81ec2831b0f164e3ff9e27ae40567b3f8aa5cbf350e8adafb122373e",
+      "data/manifests/pilot.csv": "5abbf154061394d8b4c10b8f1d2fc0a4aacbcf485eced7c2373650b47fbcc6e5",
+      "data/manifests/timing_confirmation.csv": "5dd6cf884b26aa1d0a6a8c4e191d1cb5d93ca0afe69bdbdaa10e79050bfef856",
+      "data/manifests/timing_pilot.csv": "ef14a1124e14eb99c8f18e9d7de80965b1a152baa84ef752edd257d4980d04e0",
+      "data/sources.csv": "1ac6aca838682f6c0a0fa8c36220c94952ab249bd938bea5dad9b7e8f57073bf",
+      "docs/FORMAT.md": "8052ec24ad3b89e1f727bd5da92342d9c3a394fab95679a1794710f8f0688c45",
+      "docs/PROOF.md": "bb055395b62b5a686445c72326e8f6e7fb17e26c28dec9d0066ffc5847603639",
+      "docs/PROTOCOL.md": "1bfe19568623dd59549acd73484714e8df4ae0966a167ba2a2663b6a66a447e1",
+      "readiness/baselines.json": "c516558952c457b11993c6819f8796a5edc90a330fbc1ec4ec590b7940ad4819",
+      "reference/decode.py": "554defc78ab5cb481ae5beece2a2ad5babd366408cceb95c7e08bd2bf6bc1ceb",
+      "reporting/__init__.py": "b6d6812efad7fb58b51cb786745e6f16b998c3d73c44ff1b450d73a2f74f82fc",
+      "reporting/build.py": "148f04f4a9820d333e82546a2433c62dce197cf80e07f124c537e4637298b475",
+      "reporting/stats.py": "d484c121253db3896a095dbf56eb379442e891cb0c6d798022779ce20bcd8cab",
+      "requirements.lock": "b30012446adf744e4b88a3ee1deebe1d148df9f4304e3eb2d2306ca8880245a9",
+      "runner/__init__.py": "e2856ea2a9bdd100ffb7713f1bb72a08b40fd07fdd4af86f5357b186d1bf198f",
+      "runner/approval.py": "f929ba50b97161505f96492a644d86375b8ca8f675f6d122888f2f8f4f2d25ef",
+      "runner/common.py": "961f776ebab9c88fbd30c4ffee198829bd1d430cec24382c93224b3d1cac2e69",
+      "runner/controller.py": "408b6e5218112ea38b357ed513eba8670d5e937631ab38342ac6bfc77f62d673",
+      "runner/jobs.py": "fee12c49c1b7b41bf2a1ee5826726b80723c243b9fef197929907739713e6922",
+      "runner/measure.py": "60a6564735814324bd1d29e4ec9858d23ee37966b0487e1a3680da0f25743f2c",
+      "runner/prepare.py": "36cb79c9c5747bab45f9c44d72bdcc1856f6e3bc6a129f8bf74aa59376aca6af",
+      "runner/pyenv.py": "302b7961958a3120900673a59bee72c241a8e3ac4da53a515bf831dafc625bd6",
+      "runner/results.py": "75aa7388ed5e32f56ec5c1405b97b8dbe237b2bb6272d2d94ab1f38753f3c160",
+      "runner/selftest.py": "8b359a51ea812e7497f6d54b3d8be2d906aa4059619b4fba4e50038742e73518",
+      "runner/tasks.py": "1f3e9627e04755d861ed6638f78f593ec5963eca99de5f019de99d7015ce2c72",
+      "runner/toolchain.py": "7d13d5ff6d5e4e5aefb1afbfbba912b68d6a0cac3caf6c00630c4fe2026875bf",
+      "runner/verify.py": "1412ec28551098c62373392238eb4221a17ad06aa5850c7d364338faf01b013e"
+    },
+    "decision": "approve",
+    "design_id": "SVGX-2026-11-A",
+    "freeze_sha256": "d9401f49cd6a80dc903c7fbd506fc9cf9550bde18966a1b76b6c8e5feb3d0c0b",
+    "recorded_utc": "2026-11-14T05:03:01Z",
+    "reply_text": "alohida cmd oynasida eksprementni boshla",
+    "scope": "full",
+    "source": "chat",
+    "test_mode": false
+  },
+  "build_id": "build-fb5b391323df",
+  "design_id": "SVGX-2026-11-A",
+  "freeze_sha256": "d9401f49cd6a80dc903c7fbd506fc9cf9550bde18966a1b76b6c8e5feb3d0c0b",
+  "run_id": "20261114_050438_SVGX-2026-11-A",
+  "scope": "full",
+  "started_utc": "2026-11-14T05:04:38Z",
+  "study_config": {
+    "corpus": {
+      "allowed_licenses": [
+        "CC0",
+        "PD",
+        "CC-BY",
+        "CC-BY-SA",
+        "MIT",
+        "Apache-2.0",
+        "ISC",
+        "OFL-1.1",
+        "BSD-3-Clause",
+        "MPL-2.0",
+        "ODbL-1.0",
+        "Matplotlib (PSF-based)"
+      ],
+      "categories": [
+        "maps",
+        "illustrations",
+        "diagrams",
+        "icons"
+      ],
+      "confirmation_min_date": "2025-07-01",
+      "confirmation_per_category": 400,
+      "family_cap_fraction": 0.25,
+      "max_file_bytes": 25000000,
+      "near_duplicate_jaccard": 0.5,
+      "pilot_per_category": 100,
+      "selection_seed": "SVGX-2026-11-A/selection/v1"
+    },
+    "design": {
+      "confirmatory": [
+        "G_vs_Cstar",
+        "G_vs_U",
+        "G_vs_brotli11"
+      ],
+      "created": "2026-11-13",
+      "cstar_candidates": [
+        "D",
+        "P"
+      ],
+      "cstar_tie_break": "P",
+      "format": "svgx-1",
+      "id": "SVGX-2026-11-A",
+      "primary_profile": "G",
+      "profiles": [
+        "D",
+        "P",
+        "I",
+        "U",
+        "G"
+      ],
+      "secondary": [
+        "G_vs_I",
+        "G_vs_D",
+        "G_vs_P"
+      ],
+      "title": "Value-conditioned, output-grouped spelling for byte-exact SVG"
+    },
+    "model": {
+      "bound_bits": 126,
+      "coord_bits": 96,
+      "max_abs_exponent": 18,
+      "max_exponent_digits": 6,
+      "max_grid_k": 18,
+      "max_input_bytes": 1073741824,
+      "max_mantissa_digits": 38,
+      "max_path_bytes": 16777216,
+      "max_token_bytes": 64,
+      "rescale_at": 16384,
+      "rule_order": [
+        "fixed0_L",
+        "fixed1_L",
+        "fixed2_L",
+        "fixed3_L",
+        "fixed4_L",
+        "shortest_L",
+        "shortest_S",
+        "fixed2_S"
+      ],
+      "top_candidates": 8,
+      "window_blocks": 4096
+    },
+    "run": {
+      "job_timeout_seconds": 1800,
+      "max_workers": 14,
+      "retries": 2
+    },
+    "stats": {
+      "bootstrap_generator": "numpy.random.PCG64",
+      "bootstrap_resamples": 50000,
+      "bootstrap_seed": 20261113,
+      "familywise_level": 0.995,
+      "marginal_level": 0.995,
+      "n_confirmatory": 3,
+      "pilot_breadth_target": "2/3",
+      "pilot_gain_target_percent": 1.0,
+      "quantile_method": "linear"
+    },
+    "timing": {
+      "memory_metric": "Windows job object PeakJobMemoryUsed (peak committed bytes of the process tree)",
+      "mode": "cold-process",
+      "per_cell": 3,
+      "repeats": 7,
+      "seed": "SVGX-2026-11-A/timing/v1",
+      "size_brackets": [
+        0,
+        4096,
+        65536,
+        1048576
+      ],
+      "warmup": 1
+    }
+  },
+  "synthetic": false,
+  "updated_utc": "2026-11-14T05:04:38Z"
+}

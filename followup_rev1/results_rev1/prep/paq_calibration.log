@@ -1,0 +1,30 @@
+﻿[paq-cal] calibration files: [('P-ico-9f25e71f59ea', '1248', False), ('P-dia-1b0971793ee3', '6375', False), ('P-ill-666d492ee7e1', '40084', False), ('P-dia-1fd0f9cc4895', '195315', False), ('P-ill-0d2a431f3949', '537390', False), ('P-dia-2b3117fef389', '6471', True), ('P-dia-e50cdf25c29e', '6499', True), ('P-dia-5f90b61479af', '7856', True), ('P-dia-89e39bc9ef79', '102513', True)]
+   L8 P-ico-9f25e71f59ea size 1248 ok True len 517 peak 2189 MiB  c 0.4s
+   L8 P-dia-1b0971793ee3 size 6375 ok True len 764 peak 2189 MiB  c 0.9s
+   L8 P-ill-666d492ee7e1 size 40084 ok True len 2972 peak 2189 MiB  c 3.7s
+   L8 P-dia-1fd0f9cc4895 size 195315 ok True len 37473 peak 2189 MiB  c 16.3s
+   L8 P-ill-0d2a431f3949 size 537390 ok True len 302538 peak 2189 MiB  c 48.7s
+   L8 P-dia-2b3117fef389 size 6471 ok True len 3517 peak 2560 MiB  c 1.3s
+   L8 P-dia-e50cdf25c29e size 6499 ok True len 3530 peak 2560 MiB  c 1.4s
+   L8 P-dia-5f90b61479af size 7856 ok True len 3348 peak 2560 MiB  c 1.3s
+   L8 P-dia-89e39bc9ef79 size 102513 ok True len 16837 peak 2560 MiB  c 9.0s
+   L9 P-ico-9f25e71f59ea size 1248 ok True len 517 peak 3993 MiB  c 0.4s
+   L9 P-dia-1b0971793ee3 size 6375 ok True len 764 peak 3993 MiB  c 1.0s
+   L9 P-ill-666d492ee7e1 size 40084 ok True len 2972 peak 3993 MiB  c 3.9s
+   L9 P-dia-1fd0f9cc4895 size 195315 ok True len 37473 peak 3993 MiB  c 16.8s
+   L9 P-ill-0d2a431f3949 size 537390 ok True len 302538 peak 3993 MiB  c 47.5s
+   L9 P-dia-2b3117fef389 size 6471 ok True len 3516 peak 4428 MiB  c 1.5s
+   L9 P-dia-e50cdf25c29e size 6499 ok True len 3531 peak 4428 MiB  c 1.5s
+   L9 P-dia-5f90b61479af size 7856 ok True len 3348 peak 4428 MiB  c 1.6s
+   L9 P-dia-89e39bc9ef79 size 102513 ok True len 16837 peak 4428 MiB  c 9.7s
+   L10 P-ico-9f25e71f59ea size 1248 ok True len 517 peak 7344 MiB  c 0.5s
+   L10 P-dia-1b0971793ee3 size 6375 ok True len 764 peak 7344 MiB  c 1.1s
+   L10 P-ill-666d492ee7e1 size 40084 ok True len 2972 peak 7344 MiB  c 4.1s
+   L10 P-dia-1fd0f9cc4895 size 195315 ok True len 37475 peak 7344 MiB  c 18.0s
+   L10 P-ill-0d2a431f3949 size 537390 ok True len 302538 peak 7344 MiB  c 52.6s
+   L10 P-dia-2b3117fef389 size 6471 ok True len 3516 peak 7909 MiB  c 1.7s
+   L10 P-dia-e50cdf25c29e size 6499 ok True len 3531 peak 7909 MiB  c 1.7s
+   L10 P-dia-5f90b61479af size 7856 ok True len 3348 peak 7909 MiB  c 1.8s
+   L10 P-dia-89e39bc9ef79 size 102513 ok True len 16837 peak 7909 MiB  c 10.2s
+   L11 P-ico-9f25e71f59ea size 1248 ok True len 517 peak 14047 MiB  c 0.5s
+[paq-cal] chosen level: 10; throughput {'compress': 9839.615940121861, 'decompress': 9631.541844553589}

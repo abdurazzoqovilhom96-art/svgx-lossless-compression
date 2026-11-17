@@ -1,0 +1,10 @@
+{
+ "tool": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\zstd\\zstd-v1.5.7-win64\\zstd.exe",
+ "tool_sha256": "8076aae03feac7c66b319579e82172eed168deed2a3f25e5e2d3c60f55e84111",
+ "command": "zstd --train -r <248 pilot files> -o zstd_pilot.dict",
+ "training_files": 248,
+ "training_bytes": 44667895,
+ "dict_len": 112640,
+ "dict_sha256": "6dbfebad7294aa1ab74a11298cc2a358047966699693fd9caf8e4bd5405d9d07",
+ "stderr_tail": "561281216cd7f6af5578ce5696.svg...       \r\r                                                                               \rTrying 5 different sets of parameters\r\n\r20%       \r                                                                               \rk=1024\r\nd=8\r\nf=20\r\nsteps=4\r\nsplit=75\r\naccel=1\r\nSave dictionary of size 112640 into file D:\\13.11.2026\\SVG_EXPERIMENT_REV1\\config\\zstd_pilot.dict \r\n"
+}

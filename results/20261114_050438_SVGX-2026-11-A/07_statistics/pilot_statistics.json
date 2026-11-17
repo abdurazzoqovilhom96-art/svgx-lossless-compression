@@ -1,0 +1,2943 @@
+{
+  "ceiling": {
+    "ceiling_vs_brotli_percent": 1.0939226473633965,
+    "sum_B": 21759491,
+    "sum_O": 21521459
+  },
+  "comparisons": {
+    "D_vs_brotli11": {
+      "A": "B",
+      "C": "C_D",
+      "class_totals": {
+        "diagrams": {
+          "A": 967022,
+          "C": 967005,
+          "gain_percent": 0.0017579744824833354,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 702396,
+          "C": 694019,
+          "gain_percent": 1.192632076492463,
+          "n": 83
+        },
+        "maps": {
+          "A": 20054130,
+          "C": 19861171,
+          "gain_percent": 0.9621908305172052,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.529594281410351,
+        "top3_share": 0.9104818674297115
+      },
+      "equal_family_gain_percent": 1.2378989718990936,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 23,
+        "wins": 11
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 236,
+        "wins": 12
+      },
+      "gain_percent": 0.9253571234731548,
+      "leave_one_family_out": {
+        "max": 1.9671468413426654,
+        "min": 0.6530522440396793
+      },
+      "n_files": 248,
+      "sum_A": 21759491,
+      "sum_C": 21558138
+    },
+    "G_vs_Cstar": {
+      "A": "C_P",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 966995,
+          "C": 966892,
+          "gain_percent": 0.010651554558193166,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 693547,
+          "C": 688644,
+          "gain_percent": 0.7069455999377116,
+          "n": 83
+        },
+        "maps": {
+          "A": 19857727,
+          "C": 19833631,
+          "gain_percent": 0.12134319300491944,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5346380558936694,
+        "top3_share": 0.9159272442898864
+      },
+      "equal_family_gain_percent": 0.6495660365627867,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 232,
+        "wins": 16
+      },
+      "gain_percent": 0.13501769398946248,
+      "leave_one_family_out": {
+        "max": 0.2901347987290776,
+        "min": 0.10654915477322192
+      },
+      "n_files": 248,
+      "sum_A": 21554212,
+      "sum_C": 21525110
+    },
+    "G_vs_D": {
+      "A": "C_D",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 967005,
+          "C": 966892,
+          "gain_percent": 0.011685565224585187,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 694019,
+          "C": 688644,
+          "gain_percent": 0.7744744740417769,
+          "n": 83
+        },
+        "maps": {
+          "A": 19861171,
+          "C": 19833631,
+          "gain_percent": 0.1386625189421107,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5345406917795962,
+        "top3_share": 0.915797041469908
+      },
+      "equal_family_gain_percent": 0.7174165384199283,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 232,
+        "wins": 16
+      },
+      "gain_percent": 0.1532043259023576,
+      "leave_one_family_out": {
+        "max": 0.3291465509371927,
+        "min": 0.11642129373892081
+      },
+      "n_files": 248,
+      "sum_A": 21558138,
+      "sum_C": 21525110
+    },
+    "G_vs_I": {
+      "A": "C_I",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 966979,
+          "C": 966892,
+          "gain_percent": 0.008997093008224584,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 691683,
+          "C": 688644,
+          "gain_percent": 0.4393631186540655,
+          "n": 83
+        },
+        "maps": {
+          "A": 19867224,
+          "C": 19833631,
+          "gain_percent": 0.1690875383495953,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5344491879608172,
+        "top3_share": 0.9157340038268553
+      },
+      "equal_family_gain_percent": 0.5684160965429328,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 232,
+        "wins": 16
+      },
+      "gain_percent": 0.17029631391659772,
+      "leave_one_family_out": {
+        "max": 0.36579533213716064,
+        "min": 0.10897266679392735
+      },
+      "n_files": 248,
+      "sum_A": 21561829,
+      "sum_C": 21525110
+    },
+    "G_vs_P": {
+      "A": "C_P",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 966995,
+          "C": 966892,
+          "gain_percent": 0.010651554558193166,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 693547,
+          "C": 688644,
+          "gain_percent": 0.7069455999377116,
+          "n": 83
+        },
+        "maps": {
+          "A": 19857727,
+          "C": 19833631,
+          "gain_percent": 0.12134319300491944,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5346380558936694,
+        "top3_share": 0.9159272442898864
+      },
+      "equal_family_gain_percent": 0.6495660365627867,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 232,
+        "wins": 16
+      },
+      "gain_percent": 0.13501769398946248,
+      "leave_one_family_out": {
+        "max": 0.2901347987290776,
+        "min": 0.10654915477322192
+      },
+      "n_files": 248,
+      "sum_A": 21554212,
+      "sum_C": 21525110
+    },
+    "G_vs_U": {
+      "A": "C_U",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 966897,
+          "C": 966892,
+          "gain_percent": 0.0005171181625343754,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 688729,
+          "C": 688644,
+          "gain_percent": 0.012341574116960371,
+          "n": 83
+        },
+        "maps": {
+          "A": 19835745,
+          "C": 19833631,
+          "gain_percent": 0.010657527609878027,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5353060767358158,
+        "top3_share": 0.9168943231840258
+      },
+      "equal_family_gain_percent": 0.04466888523611415,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 232,
+        "wins": 16
+      },
+      "gain_percent": 0.010238156046778525,
+      "leave_one_family_out": {
+        "max": 0.02203204202642006,
+        "min": 0.005676408600085151
+      },
+      "n_files": 248,
+      "sum_A": 21527314,
+      "sum_C": 21525110
+    },
+    "G_vs_brotli11": {
+      "A": "B",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 967022,
+          "C": 966892,
+          "gain_percent": 0.013443334277813742,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 702396,
+          "C": 688644,
+          "gain_percent": 1.9578699195325713,
+          "n": 83
+        },
+        "maps": {
+          "A": 20054130,
+          "C": 19833631,
+          "gain_percent": 1.0995191514166907,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.529594281410351,
+        "top3_share": 0.9104818674297115
+      },
+      "equal_family_gain_percent": 1.9319348109016032,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 232,
+        "wins": 16
+      },
+      "gain_percent": 1.077143762232306,
+      "leave_one_family_out": {
+        "max": 2.2898185962997086,
+        "min": 0.7879362802536624
+      },
+      "n_files": 248,
+      "sum_A": 21759491,
+      "sum_C": 21525110
+    },
+    "G_vs_gzip9": {
+      "A": "E_gzip9",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1454521,
+          "C": 966892,
+          "gain_percent": 33.52505739002737,
+          "n": 52
+        },
+        "icons": {
+          "A": 40055,
+          "C": 35943,
+          "gain_percent": 10.26588440893771,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 801634,
+          "C": 688644,
+          "gain_percent": 14.094961042071569,
+          "n": 83
+        },
+        "maps": {
+          "A": 21167988,
+          "C": 19833631,
+          "gain_percent": 6.303655311973911,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5082327978991653,
+        "top3_share": 0.8968085761976607
+      },
+      "equal_family_gain_percent": 16.726565732504756,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 0,
+        "wins": 34
+      },
+      "file_median_relative_gain_percent": 12.60309034031662,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 0,
+        "wins": 248
+      },
+      "gain_percent": 8.26402845731186,
+      "leave_one_family_out": {
+        "max": 13.324597104946449,
+        "min": 6.644843346454847
+      },
+      "n_files": 248,
+      "sum_A": 23464198,
+      "sum_C": 21525110
+    },
+    "G_vs_ppmd7z": {
+      "A": "E_ppmd7z",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1072117,
+          "C": 966892,
+          "gain_percent": 9.814693732120654,
+          "n": 52
+        },
+        "icons": {
+          "A": 45920,
+          "C": 35943,
+          "gain_percent": 21.72691637630662,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 746327,
+          "C": 688644,
+          "gain_percent": 7.728917753210054,
+          "n": 83
+        },
+        "maps": {
+          "A": 20403751,
+          "C": 19833631,
+          "gain_percent": 2.794192107127753,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5303645144638421,
+        "top3_share": 0.905256955965963
+      },
+      "equal_family_gain_percent": 13.568111660347164,
+      "families": {
+        "losses": 4,
+        "m": 34,
+        "ties": 0,
+        "wins": 30
+      },
+      "file_median_relative_gain_percent": 20.470987252100983,
+      "file_strict": {
+        "losses": 4,
+        "n": 248,
+        "ties": 0,
+        "wins": 244
+      },
+      "gain_percent": 3.336631771481331,
+      "leave_one_family_out": {
+        "max": 4.703543163245021,
+        "min": 2.759771045493158
+      },
+      "n_files": 248,
+      "sum_A": 22268115,
+      "sum_C": 21525110
+    },
+    "G_vs_xwrt_l6": {
+      "A": "E_xwrt_l6",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1004631,
+          "C": 966892,
+          "gain_percent": 3.756503631681682,
+          "n": 52
+        },
+        "icons": {
+          "A": 52127,
+          "C": 35943,
+          "gain_percent": 31.047249985612062,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 718166,
+          "C": 688644,
+          "gain_percent": 4.110748768390595,
+          "n": 83
+        },
+        "maps": {
+          "A": 20593370,
+          "C": 19833631,
+          "gain_percent": 3.689240760497189,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5287955800294828,
+        "top3_share": 0.9124145095732379
+      },
+      "equal_family_gain_percent": 15.803861587274097,
+      "families": {
+        "losses": 6,
+        "m": 34,
+        "ties": 0,
+        "wins": 28
+      },
+      "file_median_relative_gain_percent": 25.621342777948875,
+      "file_strict": {
+        "losses": 9,
+        "n": 248,
+        "ties": 0,
+        "wins": 239
+      },
+      "gain_percent": 3.769549881631563,
+      "leave_one_family_out": {
+        "max": 5.110332134444664,
+        "min": 3.4375156523235124
+      },
+      "n_files": 248,
+      "sum_A": 22368294,
+      "sum_C": 21525110
+    },
+    "G_vs_xz9e": {
+      "A": "E_xz9e",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 961792,
+          "C": 966892,
+          "gain_percent": -0.5302601809954751,
+          "n": 52
+        },
+        "icons": {
+          "A": 46540,
+          "C": 35943,
+          "gain_percent": 22.769660507090673,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 716192,
+          "C": 688644,
+          "gain_percent": 3.8464545820115275,
+          "n": 83
+        },
+        "maps": {
+          "A": 20207956,
+          "C": 19833631,
+          "gain_percent": 1.852364484562417,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5329423758735902,
+        "top3_share": 0.9110493660543632
+      },
+      "equal_family_gain_percent": 12.098479441074474,
+      "families": {
+        "losses": 1,
+        "m": 34,
+        "ties": 0,
+        "wins": 33
+      },
+      "file_median_relative_gain_percent": 17.121258817889185,
+      "file_strict": {
+        "losses": 7,
+        "n": 248,
+        "ties": 0,
+        "wins": 241
+      },
+      "gain_percent": 1.8573822932928699,
+      "leave_one_family_out": {
+        "max": 2.3655831683218578,
+        "min": 1.617505636264092
+      },
+      "n_files": 248,
+      "sum_A": 21932480,
+      "sum_C": 21525110
+    },
+    "G_vs_zstd19": {
+      "A": "E_zstd19",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1034668,
+          "C": 966892,
+          "gain_percent": 6.550507022542496,
+          "n": 52
+        },
+        "icons": {
+          "A": 39848,
+          "C": 35943,
+          "gain_percent": 9.79973900823128,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 731954,
+          "C": 688644,
+          "gain_percent": 5.917038502419551,
+          "n": 83
+        },
+        "maps": {
+          "A": 20233375,
+          "C": 19833631,
+          "gain_percent": 1.975666442202549,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.5276739015179099,
+        "top3_share": 0.9066306500794357
+      },
+      "equal_family_gain_percent": 9.57218119536681,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 0,
+        "wins": 34
+      },
+      "file_median_relative_gain_percent": 9.13611316523938,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 0,
+        "wins": 248
+      },
+      "gain_percent": 2.3354746823310237,
+      "leave_one_family_out": {
+        "max": 3.9249398222515786,
+        "min": 1.9488078020718136
+      },
+      "n_files": 248,
+      "sum_A": 22039845,
+      "sum_C": 21525110
+    },
+    "I_vs_brotli11": {
+      "A": "B",
+      "C": "C_I",
+      "class_totals": {
+        "diagrams": {
+          "A": 967022,
+          "C": 966979,
+          "gain_percent": 0.004446641338046084,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 702396,
+          "C": 691683,
+          "gain_percent": 1.5252080023234758,
+          "n": 83
+        },
+        "maps": {
+          "A": 20054130,
+          "C": 19867224,
+          "gain_percent": 0.9320075216426741,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.529594281410351,
+        "top3_share": 0.9104818674297115
+      },
+      "equal_family_gain_percent": 1.3944811377751933,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 22,
+        "wins": 12
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 235,
+        "wins": 13
+      },
+      "gain_percent": 0.9083944105126356,
+      "leave_one_family_out": {
+        "max": 1.9310870905994644,
+        "min": 0.6371193653698556
+      },
+      "n_files": 248,
+      "sum_A": 21759491,
+      "sum_C": 21561829
+    },
+    "P_vs_brotli11": {
+      "A": "B",
+      "C": "C_P",
+      "class_totals": {
+        "diagrams": {
+          "A": 967022,
+          "C": 966995,
+          "gain_percent": 0.0027920771192382387,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 702396,
+          "C": 693547,
+          "gain_percent": 1.2598306368487293,
+          "n": 83
+        },
+        "maps": {
+          "A": 20054130,
+          "C": 19857727,
+          "gain_percent": 0.9793643503856811,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.529594281410351,
+        "top3_share": 0.9104818674297115
+      },
+      "equal_family_gain_percent": 1.3054677885597359,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 23,
+        "wins": 11
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 236,
+        "wins": 12
+      },
+      "gain_percent": 0.9433998249315666,
+      "leave_one_family_out": {
+        "max": 2.00550245809092,
+        "min": 0.6693953314055079
+      },
+      "n_files": 248,
+      "sum_A": 21759491,
+      "sum_C": 21554212
+    },
+    "U_vs_brotli11": {
+      "A": "B",
+      "C": "C_U",
+      "class_totals": {
+        "diagrams": {
+          "A": 967022,
+          "C": 966897,
+          "gain_percent": 0.01292628295943629,
+          "n": 52
+        },
+        "icons": {
+          "A": 35943,
+          "C": 35943,
+          "gain_percent": 0.0,
+          "n": 100
+        },
+        "illustrations": {
+          "A": 702396,
+          "C": 688729,
+          "gain_percent": 1.945768483875193,
+          "n": 83
+        },
+        "maps": {
+          "A": 20054130,
+          "C": 19835745,
+          "gain_percent": 1.088977681903927,
+          "n": 13
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-8c4ed50d8f45",
+        "largest_share": 0.529594281410351,
+        "top3_share": 0.9104818674297115
+      },
+      "equal_family_gain_percent": 1.8906562019243793,
+      "families": {
+        "losses": 0,
+        "m": 34,
+        "ties": 21,
+        "wins": 13
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 248,
+        "ties": 233,
+        "wins": 15
+      },
+      "gain_percent": 1.067014848830793,
+      "leave_one_family_out": {
+        "max": 2.26828630406508,
+        "min": 0.7789816522507056
+      },
+      "n_files": 248,
+      "sum_A": 21759491,
+      "sum_C": 21527314
+    }
+  },
+  "fallback": {
+    "D": {
+      "raw_files": 236,
+      "strict_improvements_vs_brotli": 12,
+      "structured_files": 12
+    },
+    "G": {
+      "raw_files": 232,
+      "strict_improvements_vs_brotli": 16,
+      "structured_files": 16
+    },
+    "I": {
+      "raw_files": 235,
+      "strict_improvements_vs_brotli": 13,
+      "structured_files": 13
+    },
+    "P": {
+      "raw_files": 236,
+      "strict_improvements_vs_brotli": 12,
+      "structured_files": 12
+    },
+    "U": {
+      "raw_files": 233,
+      "strict_improvements_vs_brotli": 15,
+      "structured_files": 15
+    }
+  },
+  "forced": {
+    "D": {
+      "eligible_files": 102,
+      "gross_gain_bytes": 201353,
+      "gross_loss_bytes": 52698
+    },
+    "G": {
+      "eligible_files": 102,
+      "gross_gain_bytes": 234381,
+      "gross_loss_bytes": 36587
+    },
+    "I": {
+      "eligible_files": 102,
+      "gross_gain_bytes": 197662,
+      "gross_loss_bytes": 42561
+    },
+    "P": {
+      "eligible_files": 102,
+      "gross_gain_bytes": 205279,
+      "gross_loss_bytes": 51994
+    },
+    "U": {
+      "eligible_files": 102,
+      "gross_gain_bytes": 232177,
+      "gross_loss_bytes": 36909
+    }
+  },
+  "missing": [
+    {
+      "file_id": "P-dia-01c3f26edcc5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-01c3f26edcc5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-0c681752f76d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-0c681752f76d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-1b0971793ee3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-1b0971793ee3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-248d54460b11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-248d54460b11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-2d961caa8d77",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-2d961caa8d77",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-2da1ece8dc2e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-2da1ece8dc2e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-2f46788a2b66",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-2f46788a2b66",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-3140de768e81",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-3140de768e81",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-41b92b22f490",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-41b92b22f490",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-7172871d9e4e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-7172871d9e4e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-883d11a651e2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-883d11a651e2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-899045c73bc2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-899045c73bc2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-8d1fb640f9f5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-8d1fb640f9f5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-92d8c1ccf468",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-92d8c1ccf468",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-961ad9c54f5d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-961ad9c54f5d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-9eb31182cd5a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-9eb31182cd5a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-a9eb192565d0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-a9eb192565d0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-abc4a697a466",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-abc4a697a466",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-c5b0372dd3d2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-c5b0372dd3d2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-c7c6b71268e5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-c7c6b71268e5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-d5cbd9704e37",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-d5cbd9704e37",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-d84f9d95bd63",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-d84f9d95bd63",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-d98a738214d9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-d98a738214d9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-f14f41484082",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-f14f41484082",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-f793031c8c58",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-f793031c8c58",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-1fd0f9cc4895",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-1fd0f9cc4895",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-996126d1414b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-996126d1414b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-1a9564fdf1aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-1a9564fdf1aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-229d4c0c80a7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-229d4c0c80a7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-2b3117fef389",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-2b3117fef389",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-4d92378c0f3d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-4d92378c0f3d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-4d98b5243902",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-4d98b5243902",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-5f90b61479af",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-5f90b61479af",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-5feca648c742",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-5feca648c742",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-609faa2d8099",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-609faa2d8099",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-6c3b8311265e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-6c3b8311265e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-6db04c77d5a6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-6db04c77d5a6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-70cdb8e2180a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-70cdb8e2180a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-87c30ba0ba7d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-87c30ba0ba7d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-89a5ccf80c4d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-89a5ccf80c4d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-89e39bc9ef79",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-89e39bc9ef79",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-93a2cb60ad4b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-93a2cb60ad4b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-970735dbe610",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-970735dbe610",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-9f38a452c18d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-9f38a452c18d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-be6a7a187e07",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-be6a7a187e07",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-dfb47f4def11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-dfb47f4def11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-e0079e9ca5e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-e0079e9ca5e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-e50cdf25c29e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-e50cdf25c29e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-ead15e1581a4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-ead15e1581a4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-ed55518edb6f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-ed55518edb6f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-fc6f31c6e510",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-fc6f31c6e510",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-dia-ff09e2636385",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-dia-ff09e2636385",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-17c95a02887a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-17c95a02887a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-38e0468af811",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-38e0468af811",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-596b047dc159",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-596b047dc159",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-698d3abb35aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-698d3abb35aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9275d9927960",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9275d9927960",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a4a5e46e5be6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a4a5e46e5be6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a880c617bd48",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a880c617bd48",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-cfa08e359ef3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-cfa08e359ef3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-d6c314354e8d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-d6c314354e8d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-253fd31eb6bf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-253fd31eb6bf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-37110496414c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-37110496414c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-3e29bc9b30a1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-3e29bc9b30a1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-4e11b53a7a74",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-4e11b53a7a74",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-6ef9398e8d8c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-6ef9398e8d8c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9f25e71f59ea",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9f25e71f59ea",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-aaac36085501",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-aaac36085501",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-bc4fc93ab8f0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-bc4fc93ab8f0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-d2a493e33115",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-d2a493e33115",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-1571bd563150",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-1571bd563150",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-15de4d2a4a22",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-15de4d2a4a22",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-32ca5547d8aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-32ca5547d8aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-568cff6f762d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-568cff6f762d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-5bc50bbc909f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-5bc50bbc909f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-7b9d4c715260",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-7b9d4c715260",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-956a287e7dd2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-956a287e7dd2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-dce80edfe9b7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-dce80edfe9b7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e7fa0edfee09",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e7fa0edfee09",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-1ccde914b9bb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-1ccde914b9bb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-1f0f59b8d498",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-1f0f59b8d498",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-2949a662500d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-2949a662500d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-470a6b0bd183",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-470a6b0bd183",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-821c5dfcc29f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-821c5dfcc29f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a54b78b6e6ae",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a54b78b6e6ae",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-aa5370da5b70",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-aa5370da5b70",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-b3d290b7d5a6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-b3d290b7d5a6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-ce6de047bd23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-ce6de047bd23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-0a5e35f6dc83",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-0a5e35f6dc83",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-53e7757cb76c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-53e7757cb76c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-62d793b46981",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-62d793b46981",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-635f8554d2f2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-635f8554d2f2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-64019cffa7e4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-64019cffa7e4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-81bd1c97936a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-81bd1c97936a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9b0daeb6f3ad",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9b0daeb6f3ad",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a656abf384b2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a656abf384b2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e687d2726cf3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e687d2726cf3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-028c8fb5afbf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-028c8fb5afbf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-09cfad486f83",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-09cfad486f83",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-30069bbc289f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-30069bbc289f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-37f135628531",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-37f135628531",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-645abb085205",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-645abb085205",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-8e5f16b34f96",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-8e5f16b34f96",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a6e3954c7866",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a6e3954c7866",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a858252bdde6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a858252bdde6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-ed8e4197b6a0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-ed8e4197b6a0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-01392c4da68b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-01392c4da68b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-555069fefe66",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-555069fefe66",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-885e50ee4495",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-885e50ee4495",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-955d440c9255",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-955d440c9255",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-992ca8914547",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-992ca8914547",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-acf5d2fa4b23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-acf5d2fa4b23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-b7c59e387f27",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-b7c59e387f27",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-c3b7fd93ae89",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-c3b7fd93ae89",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e6c5e25809fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e6c5e25809fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-17052db2a7fb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-17052db2a7fb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-18ac3b169cb0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-18ac3b169cb0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-254353002a4e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-254353002a4e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9933064faaf7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9933064faaf7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9dd166bdcf7c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9dd166bdcf7c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9e4a0edc4788",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9e4a0edc4788",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-ac272087e95e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-ac272087e95e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-b04d69823f1c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-b04d69823f1c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e86d589a35fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e86d589a35fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-068bfbb6c3e0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-068bfbb6c3e0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-57fc2da1d63f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-57fc2da1d63f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-611d98d9bc4b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-611d98d9bc4b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-8b4a51e0649e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-8b4a51e0649e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a5e4c3b0866a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a5e4c3b0866a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-c2cc0d2c1fe8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-c2cc0d2c1fe8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e036a735d1a3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e036a735d1a3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e0e06cfa3de0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e0e06cfa3de0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-ffbc3e01ee21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-ffbc3e01ee21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-1ec236e72ee7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-1ec236e72ee7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-8a356ac37e04",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-8a356ac37e04",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a15bfec9b163",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a15bfec9b163",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-b34d15faf05c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-b34d15faf05c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-bfe803a3a41a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-bfe803a3a41a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-c2a15ad4ed00",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-c2a15ad4ed00",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-c316f94635a9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-c316f94635a9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-e5b329cca9d6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-e5b329cca9d6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-ea3bf0e844fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-ea3bf0e844fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-220b9f4a61da",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-220b9f4a61da",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-67c1a002859b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-67c1a002859b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-987d540590a4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-987d540590a4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-98da608a76c8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-98da608a76c8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-9b04aadeafde",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-9b04aadeafde",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a366c2aaf972",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a366c2aaf972",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-a5beccce0556",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-a5beccce0556",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-aca265a9215f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-aca265a9215f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-b6730529926d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-b6730529926d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ico-ff73abe7feae",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ico-ff73abe7feae",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-666d492ee7e1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-666d492ee7e1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-2b073b67128a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-2b073b67128a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-7cb98317959b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-7cb98317959b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-86ae318f4601",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-86ae318f4601",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-10aec653c8c7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-10aec653c8c7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-1d66acf2f358",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-1d66acf2f358",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-27fc9ab2987c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-27fc9ab2987c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-28cd9c94075f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-28cd9c94075f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-2ae39197bda7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-2ae39197bda7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-38240716e72f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-38240716e72f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-38c395f3f0b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-38c395f3f0b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-458cdf25543d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-458cdf25543d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-5acde21ed578",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-5acde21ed578",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-5b4ba5726100",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-5b4ba5726100",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-6b8b60d796d6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-6b8b60d796d6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-6c6b5cb3a05a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-6c6b5cb3a05a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-72de9ee8d35d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-72de9ee8d35d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-7b906326d7fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-7b906326d7fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-84375a69efa6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-84375a69efa6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-8bfa8c4fc7ac",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-8bfa8c4fc7ac",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-8d331df98dc5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-8d331df98dc5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-9cd07cefd9d4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-9cd07cefd9d4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-a0affbd23c48",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-a0affbd23c48",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-a12c399a6478",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-a12c399a6478",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-b95ab66ae41b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-b95ab66ae41b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-c7a5e18a4c85",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-c7a5e18a4c85",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-d0c4cf60ccfd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-d0c4cf60ccfd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-e06eba5f1f00",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-e06eba5f1f00",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-f9672e037e32",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-f9672e037e32",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-0d2a431f3949",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-0d2a431f3949",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-b40bd4e188c0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-b40bd4e188c0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-dea8b480a212",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-dea8b480a212",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-0a5d3ef92a03",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-0a5d3ef92a03",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-10135dfd2a71",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-10135dfd2a71",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-17bc32d7fb01",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-17bc32d7fb01",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-1d5441c02554",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-1d5441c02554",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-1f630e041118",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-1f630e041118",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-1ff4cf5c0bb7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-1ff4cf5c0bb7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-3d3458b4e80e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-3d3458b4e80e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-4b80942e47c4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-4b80942e47c4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-5096c0300307",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-5096c0300307",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-5891adab8167",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-5891adab8167",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-5f408a18ff82",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-5f408a18ff82",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-751b73d12bc2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-751b73d12bc2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-78fd9cc2824e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-78fd9cc2824e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-7f505cda2213",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-7f505cda2213",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-8710d569f676",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-8710d569f676",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-a6e1625d9f55",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-a6e1625d9f55",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-aa1843a1afde",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-aa1843a1afde",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-c1a561e907eb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-c1a561e907eb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-c4c07f47b165",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-c4c07f47b165",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-cd067942a346",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-cd067942a346",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-d7ce0b1384df",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-d7ce0b1384df",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-d83497d20a48",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-d83497d20a48",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-f8762c5eba2e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-f8762c5eba2e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-f961d470ec4c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-f961d470ec4c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-fd1703344dee",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-fd1703344dee",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-02eaa6aee79b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-02eaa6aee79b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-03bd632bd32f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-03bd632bd32f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-04fd5df0b012",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-04fd5df0b012",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-06337646c6ba",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-06337646c6ba",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-0abefb235643",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-0abefb235643",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-1739ffdc283d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-1739ffdc283d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-1d5c6113f826",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-1d5c6113f826",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-2864d785aea0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-2864d785aea0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-32a7d47746b9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-32a7d47746b9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-36ebc9a4a5b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-36ebc9a4a5b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-3f9146fa92f4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-3f9146fa92f4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-5d4d5761ccdf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-5d4d5761ccdf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-663318461c3a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-663318461c3a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-69fb7e94d2ad",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-69fb7e94d2ad",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-6c2a36edc12b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-6c2a36edc12b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-6fa3d290cfc3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-6fa3d290cfc3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-743330ea4c48",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-743330ea4c48",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-80d02d8428e8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-80d02d8428e8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-84546160b9e5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-84546160b9e5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-8720c90b3127",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-8720c90b3127",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-90b2aafd8066",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-90b2aafd8066",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-911a7ff7f5ba",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-911a7ff7f5ba",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-b2d4f74a11f6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-b2d4f74a11f6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-b845ede321c8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-b845ede321c8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-e63550150abd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-e63550150abd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-ill-91fe45a7199c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-ill-91fe45a7199c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-fe4e5fb26fe0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-fe4e5fb26fe0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-743cfb627514",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-743cfb627514",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-cb45201345d0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-cb45201345d0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-87ee7ad219e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-87ee7ad219e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-142f7b5553a4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-142f7b5553a4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-455cd5c95009",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-455cd5c95009",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-58bb236412e0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-58bb236412e0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-6ad6d6d0da30",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-6ad6d6d0da30",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-847487181611",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-847487181611",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-510e8978d280",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-510e8978d280",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-fdcf3f386939",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-fdcf3f386939",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-ca5e765e4f96",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-ca5e765e4f96",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "P-map-ea6b8ae7913d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "P-map-ea6b8ae7913d",
+      "method": "gzip1"
+    }
+  ],
+  "n": 248,
+  "pilot_targets": {
+    "breadth_target_met": false,
+    "family_wins": 13,
+    "gain_vs_brotli_percent": 1.077143762232306,
+    "m": 34,
+    "size_target_met": true
+  },
+  "styles": {
+    "D": {
+      "escapes": 316352
+    },
+    "G": {
+      "escapes": 79
+    },
+    "I": {
+      "escapes": 79
+    },
+    "P": {
+      "escapes": 87629
+    },
+    "U": {
+      "escapes": 79
+    },
+    "mean_distinct_outputs_per_token": 1.7951806848067975,
+    "multi_match_tokens": 309554,
+    "rule_hits": [
+      8075,
+      2047,
+      14444,
+      129029,
+      59825,
+      313365,
+      266520,
+      10602
+    ],
+    "tokens": 316352
+  },
+  "verified_files": 248
+}

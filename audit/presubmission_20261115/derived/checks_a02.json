@@ -1,0 +1,145 @@
+{
+ "run": "D:\\13.11.2026\\SVG_EXPERIMENT\\results\\20261114_050438_SVGX-2026-11-A",
+ "job_counts": {
+  "size|confirmation|brotli11|done": 1076,
+  "size|confirmation|gzip9|done": 1076,
+  "size|confirmation|ppmd7z|done": 1076,
+  "size|confirmation|svgx|done": 1076,
+  "size|confirmation|xwrt_l6|done": 1076,
+  "size|confirmation|xz9e|done": 1076,
+  "size|confirmation|zstd19|done": 1076,
+  "size|pilot|brotli11|done": 248,
+  "size|pilot|gzip9|done": 248,
+  "size|pilot|ppmd7z|done": 248,
+  "size|pilot|svgx|done": 248,
+  "size|pilot|xwrt_l6|done": 248,
+  "size|pilot|xz9e|done": 248,
+  "size|pilot|zstd19|done": 248,
+  "timing|confirmation|brotli11|done": 312,
+  "timing|confirmation|gzip1|done": 312,
+  "timing|confirmation|gzip9|done": 312,
+  "timing|confirmation|ppmd7z|done": 312,
+  "timing|confirmation|svgx_D|done": 312,
+  "timing|confirmation|svgx_G|done": 312,
+  "timing|confirmation|svgx_I|done": 312,
+  "timing|confirmation|svgx_P|done": 312,
+  "timing|confirmation|svgx_U|done": 312,
+  "timing|confirmation|xwrt_l6|done": 312,
+  "timing|confirmation|xz9e|done": 312,
+  "timing|confirmation|zstd1|done": 312,
+  "timing|confirmation|zstd19|done": 312,
+  "timing|pilot|brotli11|done": 240,
+  "timing|pilot|gzip1|done": 240,
+  "timing|pilot|gzip9|done": 240,
+  "timing|pilot|ppmd7z|done": 240,
+  "timing|pilot|svgx_D|done": 240,
+  "timing|pilot|svgx_G|done": 240,
+  "timing|pilot|svgx_I|done": 240,
+  "timing|pilot|svgx_P|done": 240,
+  "timing|pilot|svgx_U|done": 240,
+  "timing|pilot|xwrt_l6|done": 240,
+  "timing|pilot|xz9e|done": 240,
+  "timing|pilot|zstd1|done": 240,
+  "timing|pilot|zstd19|done": 240
+ },
+ "pilot_manifest_files": 248,
+ "pilot_duplicate_sha_in_manifest": 0,
+ "confirmation_manifest_files": 1076,
+ "confirmation_duplicate_sha_in_manifest": 0,
+ "cross_split_overlap_sha256": 0,
+ "cross_split_overlap_family": 0,
+ "pilot_ceiling_percent": 1.0939226473633965,
+ "pilot_forced_D": {
+  "files_with_structured_stream": 102,
+  "gross_gain": 201353,
+  "gross_loss": 52698,
+  "net_B_minus_forced": 148655,
+  "structured_files": 12
+ },
+ "pilot_forced_P": {
+  "files_with_structured_stream": 102,
+  "gross_gain": 205279,
+  "gross_loss": 51994,
+  "net_B_minus_forced": 153285,
+  "structured_files": 12
+ },
+ "pilot_forced_I": {
+  "files_with_structured_stream": 102,
+  "gross_gain": 197662,
+  "gross_loss": 42561,
+  "net_B_minus_forced": 155101,
+  "structured_files": 13
+ },
+ "pilot_forced_U": {
+  "files_with_structured_stream": 102,
+  "gross_gain": 232177,
+  "gross_loss": 36909,
+  "net_B_minus_forced": 195268,
+  "structured_files": 15
+ },
+ "pilot_forced_G": {
+  "files_with_structured_stream": 102,
+  "gross_gain": 234381,
+  "gross_loss": 36587,
+  "net_B_minus_forced": 197794,
+  "structured_files": 16
+ },
+ "pilot_files": 248,
+ "pilot_eligible_files": 102,
+ "pilot_ineligible_reasons": {
+  "no_svg_paths": 27,
+  "no_eligible_blocks": 115,
+  "ambiguous_dtd": 4
+ },
+ "pilot_restored_all_arms_both_decoders": 248,
+ "pilot_B_equals_independent_brotli": 248,
+ "confirmation_ceiling_percent": 1.393740199407034,
+ "confirmation_forced_D": {
+  "files_with_structured_stream": 362,
+  "gross_gain": 439265,
+  "gross_loss": 1697135,
+  "net_B_minus_forced": -1257870,
+  "structured_files": 23
+ },
+ "confirmation_forced_P": {
+  "files_with_structured_stream": 362,
+  "gross_gain": 445449,
+  "gross_loss": 1712002,
+  "net_B_minus_forced": -1266553,
+  "structured_files": 23
+ },
+ "confirmation_forced_I": {
+  "files_with_structured_stream": 362,
+  "gross_gain": 431299,
+  "gross_loss": 1507523,
+  "net_B_minus_forced": -1076224,
+  "structured_files": 30
+ },
+ "confirmation_forced_U": {
+  "files_with_structured_stream": 362,
+  "gross_gain": 539146,
+  "gross_loss": 1281600,
+  "net_B_minus_forced": -742454,
+  "structured_files": 39
+ },
+ "confirmation_forced_G": {
+  "files_with_structured_stream": 362,
+  "gross_gain": 543876,
+  "gross_loss": 1259778,
+  "net_B_minus_forced": -715902,
+  "structured_files": 39
+ },
+ "confirmation_files": 1076,
+ "confirmation_eligible_files": 362,
+ "confirmation_ineligible_reasons": {
+  "no_eligible_blocks": 660,
+  "no_svg_paths": 49,
+  "ambiguous_dtd": 4,
+  "ambiguous_namespace": 1
+ },
+ "confirmation_restored_all_arms_both_decoders": 1076,
+ "confirmation_B_equals_independent_brotli": 1076,
+ "report_vs_recomputed_differences": [],
+ "problems": [],
+ "problem_count": 0
+}

@@ -1,0 +1,16 @@
+# build output and local environments
+codec/target/
+.tools/
+.venv/
+__pycache__/
+*.pyc
+# large or regenerable experiment artifacts
+results/*/03_raw/streams/
+results/*/04_verification/work/
+results/*/06_performance/work/
+results/*/run.lock
+*.sqlite-wal
+*.sqlite-shm
+# third-party corpus files are not redistributed
+data/originals/
+data/cache/

@@ -1,0 +1,83 @@
+{
+  "blockers": [],
+  "complete": true,
+  "estimate": {
+    "assumptions": [
+      "throughput measured on synthetic fixtures during self-test (cold processes)",
+      "process start-up: ~0.06 s per native invocation, ~0.2 s per Python reference decode",
+      "14 parallel workers for size/verification jobs; timing stage sequential (69 sampled files × 8 runs × 13 methods)",
+      "real SVGs may be slower or faster than synthetic ones; large maps and diagrams dominate",
+      "rough estimate: a factor of two either way is plausible"
+    ],
+    "corpus_bytes": 166233010,
+    "files": 1324,
+    "reliable": true,
+    "size_and_verification_hours": 0.13027100972869643,
+    "timing_hours": 0.5804083805780387,
+    "total_hours": 0.7106793903067351,
+    "workers": 14
+  },
+  "freeze_build_id": "build-fb5b391323df",
+  "started_utc": "2026-11-13T17:36:19Z",
+  "steps": {
+    "codec": {
+      "binary_sha256": "07a6841cb83d8a038f143bf40c2abbd8f43d575202746a64de40d90c0a63c2e1",
+      "build": "ok",
+      "cargo_test_returncode": 0,
+      "cargo_test_tail": "",
+      "cargo_tests_passed": 20
+    },
+    "data": {
+      "confirmation": {
+        "files": 1076,
+        "timing_sample": 39
+      },
+      "pilot": {
+        "files": 248,
+        "timing_sample": 30
+      }
+    },
+    "toolchain": {
+      "7za": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\7zip\\x64\\7za.exe",
+        "status": "ok"
+      },
+      "7zr": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\7zr\\7zr.exe",
+        "status": "ok"
+      },
+      "brotli_cli": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\bin\\brotli.exe",
+        "status": "ok"
+      },
+      "brotli_source": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\codec\\third_party\\brotli",
+        "status": "ok"
+      },
+      "gzip": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\msys\\usr\\bin\\gzip.exe",
+        "status": "ok"
+      },
+      "rust": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\cargo\\bin\\cargo.exe",
+        "status": "ok"
+      },
+      "winlibs_gcc": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\winlibs\\mingw64\\bin\\gcc.exe",
+        "status": "ok"
+      },
+      "xwrt": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\bin\\xwrt.exe",
+        "status": "ok"
+      },
+      "xz": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\xz\\bin_x86-64\\xz.exe",
+        "status": "ok"
+      },
+      "zstd": {
+        "path": "D:\\13.11.2026\\SVG_EXPERIMENT\\.tools\\zstd\\zstd-v1.5.7-win64\\zstd.exe",
+        "status": "ok"
+      }
+    }
+  }
+}

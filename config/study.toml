@@ -1,0 +1,72 @@
+# Frozen study configuration (design SVGX-2026-11-A). Changing any value after the freeze changes
+# the configuration hash and blocks real dispatch until a new approval is recorded.
+
+[design]
+id = "SVGX-2026-11-A"
+title = "Value-conditioned, output-grouped spelling for byte-exact SVG"
+format = "svgx-1"
+created = "2026-11-13"
+primary_profile = "G"
+profiles = ["D", "P", "I", "U", "G"]
+# Prespecified confirmatory comparisons (FORMAT/PROTOCOL): G vs C* (D or P by pilot aggregate,
+# ties -> P), G vs U, G vs raw Brotli-11. Mechanistic ablation G vs I, plus G vs D and G vs P.
+confirmatory = ["G_vs_Cstar", "G_vs_U", "G_vs_brotli11"]
+secondary = ["G_vs_I", "G_vs_D", "G_vs_P"]
+cstar_candidates = ["D", "P"]
+cstar_tie_break = "P"
+
+[model]
+rule_order = ["fixed0_L", "fixed1_L", "fixed2_L", "fixed3_L", "fixed4_L", "shortest_L", "shortest_S", "fixed2_S"]
+rescale_at = 16384
+window_blocks = 4096
+top_candidates = 8
+bound_bits = 126
+coord_bits = 96
+max_mantissa_digits = 38
+max_abs_exponent = 18
+max_exponent_digits = 6
+max_grid_k = 18
+max_token_bytes = 64
+max_path_bytes = 16777216
+max_input_bytes = 1073741824
+
+[corpus]
+categories = ["maps", "illustrations", "diagrams", "icons"]
+pilot_per_category = 100
+confirmation_per_category = 400
+# a provenance family may contribute at most this fraction of one category quota in one split
+# (0.25 fixed before freeze from metadata only: independent families were scarce, see PROTOCOL D-13)
+family_cap_fraction = 0.25
+selection_seed = "SVGX-2026-11-A/selection/v1"
+# files larger than this are not admitted (documented limit; retains the observed distribution below it)
+max_file_bytes = 25000000
+# confirmation prefers works first published on or after this date (historical-overlap mitigation)
+confirmation_min_date = "2025-07-01"
+near_duplicate_jaccard = 0.5
+allowed_licenses = ["CC0", "PD", "CC-BY", "CC-BY-SA", "MIT", "Apache-2.0", "ISC", "OFL-1.1", "BSD-3-Clause",
+                    "MPL-2.0", "ODbL-1.0", "Matplotlib (PSF-based)"]
+
+[stats]
+bootstrap_resamples = 50000
+bootstrap_seed = 20261113
+bootstrap_generator = "numpy.random.PCG64"
+quantile_method = "linear"
+marginal_level = 0.995
+familywise_level = 0.995
+n_confirmatory = 3
+pilot_gain_target_percent = 1.0
+pilot_breadth_target = "2/3"
+
+[timing]
+mode = "cold-process"
+warmup = 1
+repeats = 7
+size_brackets = [0, 4096, 65536, 1048576]
+per_cell = 3
+seed = "SVGX-2026-11-A/timing/v1"
+memory_metric = "Windows job object PeakJobMemoryUsed (peak committed bytes of the process tree)"
+
+[run]
+max_workers = 14
+retries = 2
+job_timeout_seconds = 1800

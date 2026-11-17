@@ -1,0 +1,13 @@
+{
+  "coverage": {
+    "confirmation": 1076,
+    "files": 3,
+    "pilot": 248
+  },
+  "purpose": "Paired gains, intervals, family wins/ties/losses, sensitivity, targets, pilot control selection.",
+  "reason": "statistics",
+  "scope": "full",
+  "status": "complete",
+  "synthetic": false,
+  "updated_utc": "2026-11-14T06:25:14Z"
+}

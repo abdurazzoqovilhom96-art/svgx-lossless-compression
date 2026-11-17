@@ -1,0 +1,23 @@
+{
+ "recorded_utc": "2026-11-16T07:25:56+00:00",
+ "cargo_build": {
+  "returncode": 0,
+  "binary_unchanged": true,
+  "svgx_sha256": "5704f2a61f0ef18bb8b3da22247d1794ac85cf7fca9a95fbfee10420aeb36c56",
+  "tail": "warning: function `build_common` is never used\n   --> src\\encode.rs:181:8\n    |\n181 | pub fn build_common(input: &[u8], a: &Analysis) -> Common {\n    |        ^^^^^^^^^^^^\n    |\n    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default\n\nwarning: `svgx` (bin \"svgx\") generated 1 warning\n    Finished `release` profile [optimized] target(s) in 0.00s\n"
+ },
+ "cargo_test": {
+  "returncode": 0,
+  "passed": true,
+  "summary": [
+   "test result: ok. 21 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s"
+  ]
+ },
+ "pytest": {
+  "returncode": 0,
+  "passed": true,
+  "summary": [
+   "121 passed in 52.32s"
+  ]
+ }
+}

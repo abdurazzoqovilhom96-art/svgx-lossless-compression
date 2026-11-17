@@ -1,0 +1,9717 @@
+{
+  "bootstrap": {
+    "generator": "numpy.random.PCG64",
+    "intervals": {
+      "G_vs_Cstar": {
+        "available": true,
+        "bonferroni": [
+          0.08145189683369303,
+          1.1464717380886629
+        ],
+        "bonferroni_probs": [
+          0.000833333333333334,
+          0.9991666666666666
+        ],
+        "marginal": [
+          0.0929480238120386,
+          0.9923903313969462
+        ],
+        "marginal_probs": [
+          0.0025000000000000022,
+          0.9975
+        ]
+      },
+      "G_vs_D": {
+        "available": true,
+        "bonferroni": [
+          0.08480980927645568,
+          1.2415304396870335
+        ],
+        "bonferroni_probs": [
+          0.000833333333333334,
+          0.9991666666666666
+        ],
+        "marginal": [
+          0.09681695722107383,
+          1.0670790028053065
+        ],
+        "marginal_probs": [
+          0.0025000000000000022,
+          0.9975
+        ]
+      },
+      "G_vs_I": {
+        "available": true,
+        "bonferroni": [
+          0.08559892158250683,
+          1.282743453365491
+        ],
+        "bonferroni_probs": [
+          0.000833333333333334,
+          0.9991666666666666
+        ],
+        "marginal": [
+          0.10229161091882616,
+          1.116826205210002
+        ],
+        "marginal_probs": [
+          0.0025000000000000022,
+          0.9975
+        ]
+      },
+      "G_vs_P": {
+        "available": true,
+        "bonferroni": [
+          0.08145189683369303,
+          1.1464717380886629
+        ],
+        "bonferroni_probs": [
+          0.000833333333333334,
+          0.9991666666666666
+        ],
+        "marginal": [
+          0.0929480238120386,
+          0.9923903313969462
+        ],
+        "marginal_probs": [
+          0.0025000000000000022,
+          0.9975
+        ]
+      },
+      "G_vs_U": {
+        "available": true,
+        "bonferroni": [
+          0.0013119991778113,
+          0.0611688395447134
+        ],
+        "bonferroni_probs": [
+          0.000833333333333334,
+          0.9991666666666666
+        ],
+        "marginal": [
+          0.0024552117156363767,
+          0.05160475852464049
+        ],
+        "marginal_probs": [
+          0.0025000000000000022,
+          0.9975
+        ]
+      },
+      "G_vs_brotli11": {
+        "available": true,
+        "bonferroni": [
+          0.22136587963124738,
+          7.199218364143027
+        ],
+        "bonferroni_probs": [
+          0.000833333333333334,
+          0.9991666666666666
+        ],
+        "marginal": [
+          0.27275916036775605,
+          6.321287100670722
+        ],
+        "marginal_probs": [
+          0.0025000000000000022,
+          0.9975
+        ]
+      }
+    },
+    "m": 55,
+    "quantile_method": "linear",
+    "resamples": 50000,
+    "seed": 20261113,
+    "undefined_draws": {
+      "G_vs_Cstar": 0,
+      "G_vs_D": 0,
+      "G_vs_I": 0,
+      "G_vs_P": 0,
+      "G_vs_U": 0,
+      "G_vs_brotli11": 0
+    }
+  },
+  "ceiling": {
+    "ceiling_vs_brotli_percent": 1.393740199407034,
+    "sum_B": 39828585,
+    "sum_O": 39273478
+  },
+  "claims": {
+    "G_total_below_remaining_control": true,
+    "G_vs_I_positive": true,
+    "adjusted_lower_endpoints": {
+      "G_vs_Cstar": 0.08145189683369303,
+      "G_vs_U": 0.0013119991778113,
+      "G_vs_brotli11": 0.22136587963124738
+    },
+    "adjusted_lower_endpoints_positive": true,
+    "broad_success_claim": false,
+    "ceil_2m_over_3": 37,
+    "exact_paired_coverage": true,
+    "family_wins": 19,
+    "lower_bound_exceeds_1_percent": false,
+    "m": 55,
+    "raw_brotli_gain_at_least_1_percent": true,
+    "remaining_control": "D",
+    "strict_family_wins_two_thirds": false
+  },
+  "comparisons": {
+    "D_vs_brotli11": {
+      "A": "B",
+      "C": "C_D",
+      "class_totals": {
+        "diagrams": {
+          "A": 1520596,
+          "C": 1519461,
+          "gain_percent": 0.07464178519475258,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3912253,
+          "C": 3798041,
+          "gain_percent": 2.9193408504000127,
+          "n": 328
+        },
+        "maps": {
+          "A": 34281597,
+          "C": 33957679,
+          "gain_percent": 0.9448743009259458,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4165812820113996,
+        "top3_share": 0.6227043466394802
+      },
+      "equal_family_gain_percent": 1.7268946033843635,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 41,
+        "wins": 14
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1053,
+        "wins": 23
+      },
+      "gain_percent": 1.1028887920572623,
+      "leave_one_family_out": {
+        "max": 1.718347606562056,
+        "min": 0.75078499870311
+      },
+      "n_files": 1076,
+      "sum_A": 39828585,
+      "sum_C": 39389320
+    },
+    "G_vs_Cstar": {
+      "A": "C_P",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1519468,
+          "C": 1516028,
+          "gain_percent": 0.2263950277333909,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3794766,
+          "C": 3744418,
+          "gain_percent": 1.3267748261684646,
+          "n": 328
+        },
+        "maps": {
+          "A": 33954763,
+          "C": 33910124,
+          "gain_percent": 0.13146609210613544,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.42026726871115594,
+        "top3_share": 0.6285639366047436
+      },
+      "equal_family_gain_percent": 0.618420932410257,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 36,
+        "wins": 19
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 39
+      },
+      "gain_percent": 0.24992169237106968,
+      "leave_one_family_out": {
+        "max": 0.3621588639966384,
+        "min": 0.20797356313661075
+      },
+      "n_files": 1076,
+      "sum_A": 39383136,
+      "sum_C": 39284709
+    },
+    "G_vs_D": {
+      "A": "C_D",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1519461,
+          "C": 1516028,
+          "gain_percent": 0.22593538103314267,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3798041,
+          "C": 3744418,
+          "gain_percent": 1.4118594296375422,
+          "n": 328
+        },
+        "maps": {
+          "A": 33957679,
+          "C": 33910124,
+          "gain_percent": 0.14004196223187104,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4202120270164603,
+        "top3_share": 0.6284826699216945
+      },
+      "equal_family_gain_percent": 0.6471213067574227,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 36,
+        "wins": 19
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 39
+      },
+      "gain_percent": 0.26558214257062573,
+      "leave_one_family_out": {
+        "max": 0.38729360987437567,
+        "min": 0.21669911169119377
+      },
+      "n_files": 1076,
+      "sum_A": 39389320,
+      "sum_C": 39284709
+    },
+    "G_vs_I": {
+      "A": "C_I",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1519650,
+          "C": 1516028,
+          "gain_percent": 0.23834435560819925,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3792494,
+          "C": 3744418,
+          "gain_percent": 1.267661860506569,
+          "n": 328
+        },
+        "maps": {
+          "A": 33971003,
+          "C": 33910124,
+          "gain_percent": 0.1792087210377627,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.42024953190938075,
+        "top3_share": 0.6284709814782673
+      },
+      "equal_family_gain_percent": 0.6734018268155996,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 36,
+        "wins": 19
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 39
+      },
+      "gain_percent": 0.2857481096540508,
+      "leave_one_family_out": {
+        "max": 0.4009921808078993,
+        "min": 0.2465242422570753
+      },
+      "n_files": 1076,
+      "sum_A": 39397286,
+      "sum_C": 39284709
+    },
+    "G_vs_P": {
+      "A": "C_P",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1519468,
+          "C": 1516028,
+          "gain_percent": 0.2263950277333909,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3794766,
+          "C": 3744418,
+          "gain_percent": 1.3267748261684646,
+          "n": 328
+        },
+        "maps": {
+          "A": 33954763,
+          "C": 33910124,
+          "gain_percent": 0.13146609210613544,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.42026726871115594,
+        "top3_share": 0.6285639366047436
+      },
+      "equal_family_gain_percent": 0.618420932410257,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 36,
+        "wins": 19
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 39
+      },
+      "gain_percent": 0.24992169237106968,
+      "leave_one_family_out": {
+        "max": 0.3621588639966384,
+        "min": 0.20797356313661075
+      },
+      "n_files": 1076,
+      "sum_A": 39383136,
+      "sum_C": 39284709
+    },
+    "G_vs_U": {
+      "A": "C_U",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1516254,
+          "C": 1516028,
+          "gain_percent": 0.014905154413442603,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3746927,
+          "C": 3744418,
+          "gain_percent": 0.06696153941616691,
+          "n": 328
+        },
+        "maps": {
+          "A": 33912119,
+          "C": 33910124,
+          "gain_percent": 0.0058828526757646726,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.42089381831081885,
+        "top3_share": 0.6296255082695378
+      },
+      "equal_family_gain_percent": 0.027271055124557034,
+      "families": {
+        "losses": 1,
+        "m": 55,
+        "ties": 36,
+        "wins": 18
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 2,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 37
+      },
+      "gain_percent": 0.012038858584873151,
+      "leave_one_family_out": {
+        "max": 0.016485914212506204,
+        "min": 0.00932037634082179
+      },
+      "n_files": 1076,
+      "sum_A": 39289439,
+      "sum_C": 39284709
+    },
+    "G_vs_brotli11": {
+      "A": "B",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1520596,
+          "C": 1516028,
+          "gain_percent": 0.3004085240261056,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3912253,
+          "C": 3744418,
+          "gain_percent": 4.289983290957921,
+          "n": 328
+        },
+        "maps": {
+          "A": 34281597,
+          "C": 33910124,
+          "gain_percent": 1.0835930426461755,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4165812820113996,
+        "top3_share": 0.6227043466394802
+      },
+      "equal_family_gain_percent": 2.327034222410054,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 36,
+        "wins": 19
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 39
+      },
+      "gain_percent": 1.3655418589437711,
+      "leave_one_family_out": {
+        "max": 2.0989861659607874,
+        "min": 0.9866495354010146
+      },
+      "n_files": 1076,
+      "sum_A": 39828585,
+      "sum_C": 39284709
+    },
+    "G_vs_gzip9": {
+      "A": "E_gzip9",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 2258419,
+          "C": 1516028,
+          "gain_percent": 32.872155255512816,
+          "n": 208
+        },
+        "icons": {
+          "A": 127186,
+          "C": 114139,
+          "gain_percent": 10.25820451936534,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 4614408,
+          "C": 3744418,
+          "gain_percent": 18.85377279165605,
+          "n": 328
+        },
+        "maps": {
+          "A": 39627790,
+          "C": 33910124,
+          "gain_percent": 14.428425102686775,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.3721272477710348,
+        "top3_share": 0.5815253615959559
+      },
+      "equal_family_gain_percent": 18.936099391664943,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 0,
+        "wins": 55
+      },
+      "file_median_relative_gain_percent": 13.022021014978762,
+      "file_strict": {
+        "losses": 1,
+        "n": 1076,
+        "ties": 0,
+        "wins": 1075
+      },
+      "gain_percent": 15.748316514076377,
+      "leave_one_family_out": {
+        "max": 22.29555982210473,
+        "min": 13.838262301487687
+      },
+      "n_files": 1076,
+      "sum_A": 46627803,
+      "sum_C": 39284709
+    },
+    "G_vs_ppmd7z": {
+      "A": "E_ppmd7z",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1699198,
+          "C": 1516028,
+          "gain_percent": 10.779791407475763,
+          "n": 208
+        },
+        "icons": {
+          "A": 153350,
+          "C": 114139,
+          "gain_percent": 25.569611998695795,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 4087422,
+          "C": 3744418,
+          "gain_percent": 8.391695303298754,
+          "n": 328
+        },
+        "maps": {
+          "A": 35231480,
+          "C": 33910124,
+          "gain_percent": 3.7504981340551122,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.41335231088533436,
+        "top3_share": 0.6213461998545108
+      },
+      "equal_family_gain_percent": 10.792893684375358,
+      "families": {
+        "losses": 11,
+        "m": 55,
+        "ties": 0,
+        "wins": 44
+      },
+      "file_median_relative_gain_percent": 22.399795584153125,
+      "file_strict": {
+        "losses": 65,
+        "n": 1076,
+        "ties": 0,
+        "wins": 1011
+      },
+      "gain_percent": 4.582644040955565,
+      "leave_one_family_out": {
+        "max": 5.81344799284035,
+        "min": 3.6692080740534108
+      },
+      "n_files": 1076,
+      "sum_A": 41171450,
+      "sum_C": 39284709
+    },
+    "G_vs_xwrt_l6": {
+      "A": "E_xwrt_l6",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1648737,
+          "C": 1516028,
+          "gain_percent": 8.049130940835319,
+          "n": 208
+        },
+        "icons": {
+          "A": 167880,
+          "C": 114139,
+          "gain_percent": 32.01155587324279,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3908533,
+          "C": 3744418,
+          "gain_percent": 4.198889967156475,
+          "n": 328
+        },
+        "maps": {
+          "A": 34018953,
+          "C": 33910124,
+          "gain_percent": 0.3199069648028262,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.42362588985842753,
+        "top3_share": 0.6358920718376762
+      },
+      "equal_family_gain_percent": 8.414844331617067,
+      "families": {
+        "losses": 14,
+        "m": 55,
+        "ties": 0,
+        "wins": 41
+      },
+      "file_median_relative_gain_percent": 26.044849639846248,
+      "file_strict": {
+        "losses": 66,
+        "n": 1076,
+        "ties": 0,
+        "wins": 1010
+      },
+      "gain_percent": 1.1558796533915987,
+      "leave_one_family_out": {
+        "max": 2.203564465857378,
+        "min": 0.6917655514323012
+      },
+      "n_files": 1076,
+      "sum_A": 39744103,
+      "sum_C": 39284709
+    },
+    "G_vs_xz9e": {
+      "A": "E_xz9e",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1560340,
+          "C": 1516028,
+          "gain_percent": 2.8398938692848996,
+          "n": 208
+        },
+        "icons": {
+          "A": 151236,
+          "C": 114139,
+          "gain_percent": 24.529212621333546,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3999216,
+          "C": 3744418,
+          "gain_percent": 6.371198754955971,
+          "n": 328
+        },
+        "maps": {
+          "A": 34130844,
+          "C": 33910124,
+          "gain_percent": 0.6466877877382698,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4200058451414997,
+        "top3_share": 0.6242149293266973
+      },
+      "equal_family_gain_percent": 8.780532932964483,
+      "families": {
+        "losses": 5,
+        "m": 55,
+        "ties": 0,
+        "wins": 50
+      },
+      "file_median_relative_gain_percent": 18.294936058093953,
+      "file_strict": {
+        "losses": 19,
+        "n": 1076,
+        "ties": 0,
+        "wins": 1057
+      },
+      "gain_percent": 1.3978517348032595,
+      "leave_one_family_out": {
+        "max": 2.1672390744957966,
+        "min": 1.0748353483431217
+      },
+      "n_files": 1076,
+      "sum_A": 39841636,
+      "sum_C": 39284709
+    },
+    "G_vs_zstd19": {
+      "A": "E_zstd19",
+      "C": "C_G",
+      "class_totals": {
+        "diagrams": {
+          "A": 1665247,
+          "C": 1516028,
+          "gain_percent": 8.960772786259335,
+          "n": 208
+        },
+        "icons": {
+          "A": 127106,
+          "C": 114139,
+          "gain_percent": 10.201721397888377,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 4125165,
+          "C": 3744418,
+          "gain_percent": 9.22986110858596,
+          "n": 328
+        },
+        "maps": {
+          "A": 34814657,
+          "C": 33910124,
+          "gain_percent": 2.598138479434107,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4116296514978638,
+        "top3_share": 0.6130626709720264
+      },
+      "equal_family_gain_percent": 8.910523126102504,
+      "families": {
+        "losses": 1,
+        "m": 55,
+        "ties": 0,
+        "wins": 54
+      },
+      "file_median_relative_gain_percent": 10.764362220058423,
+      "file_strict": {
+        "losses": 6,
+        "n": 1076,
+        "ties": 0,
+        "wins": 1070
+      },
+      "gain_percent": 3.553618239143871,
+      "leave_one_family_out": {
+        "max": 5.0764337089104865,
+        "min": 3.1059741973865047
+      },
+      "n_files": 1076,
+      "sum_A": 40732175,
+      "sum_C": 39284709
+    },
+    "I_vs_brotli11": {
+      "A": "B",
+      "C": "C_I",
+      "class_totals": {
+        "diagrams": {
+          "A": 1520596,
+          "C": 1519650,
+          "gain_percent": 0.062212448276859865,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3912253,
+          "C": 3792494,
+          "gain_percent": 3.061126159274464,
+          "n": 328
+        },
+        "maps": {
+          "A": 34281597,
+          "C": 33971003,
+          "gain_percent": 0.9060079668983916,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4165812820113996,
+        "top3_share": 0.6227043466394802
+      },
+      "equal_family_gain_percent": 1.7083856067653727,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 39,
+        "wins": 16
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1046,
+        "wins": 30
+      },
+      "gain_percent": 1.0828880815123108,
+      "leave_one_family_out": {
+        "max": 1.7048302210352897,
+        "min": 0.739092062655355
+      },
+      "n_files": 1076,
+      "sum_A": 39828585,
+      "sum_C": 39397286
+    },
+    "P_vs_brotli11": {
+      "A": "B",
+      "C": "C_P",
+      "class_totals": {
+        "diagrams": {
+          "A": 1520596,
+          "C": 1519468,
+          "gain_percent": 0.07418143938297878,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3912253,
+          "C": 3794766,
+          "gain_percent": 3.003052205468307,
+          "n": 328
+        },
+        "maps": {
+          "A": 34281597,
+          "C": 33954763,
+          "gain_percent": 0.9533803223927987,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4165812820113996,
+        "top3_share": 0.6227043466394802
+      },
+      "equal_family_gain_percent": 1.7528183691140036,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 41,
+        "wins": 14
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1053,
+        "wins": 23
+      },
+      "gain_percent": 1.118415329090903,
+      "leave_one_family_out": {
+        "max": 1.7431402388510404,
+        "min": 0.764652177769784
+      },
+      "n_files": 1076,
+      "sum_A": 39828585,
+      "sum_C": 39383136
+    },
+    "U_vs_brotli11": {
+      "A": "B",
+      "C": "C_U",
+      "class_totals": {
+        "diagrams": {
+          "A": 1520596,
+          "C": 1516254,
+          "gain_percent": 0.2855459306745513,
+          "n": 208
+        },
+        "icons": {
+          "A": 114139,
+          "C": 114139,
+          "gain_percent": 0.0,
+          "n": 400
+        },
+        "illustrations": {
+          "A": 3912253,
+          "C": 3746927,
+          "gain_percent": 4.2258514467239205,
+          "n": 328
+        },
+        "maps": {
+          "A": 34281597,
+          "C": 33912119,
+          "gain_percent": 1.0777735938031126,
+          "n": 140
+        }
+      },
+      "dominance": {
+        "largest_family": "grp-33e7a2b0ca86",
+        "largest_share": 0.4165812820113996,
+        "top3_share": 0.6227043466394802
+      },
+      "equal_family_gain_percent": 2.3017130876839844,
+      "families": {
+        "losses": 0,
+        "m": 55,
+        "ties": 36,
+        "wins": 19
+      },
+      "file_median_relative_gain_percent": 0.0,
+      "file_strict": {
+        "losses": 0,
+        "n": 1076,
+        "ties": 1037,
+        "wins": 39
+      },
+      "gain_percent": 1.3536659662902912,
+      "leave_one_family_out": {
+        "max": 2.0828436275619016,
+        "min": 0.9751224747009472
+      },
+      "n_files": 1076,
+      "sum_A": 39828585,
+      "sum_C": 39289439
+    }
+  },
+  "fallback": {
+    "D": {
+      "raw_files": 1053,
+      "strict_improvements_vs_brotli": 23,
+      "structured_files": 23
+    },
+    "G": {
+      "raw_files": 1037,
+      "strict_improvements_vs_brotli": 39,
+      "structured_files": 39
+    },
+    "I": {
+      "raw_files": 1046,
+      "strict_improvements_vs_brotli": 30,
+      "structured_files": 30
+    },
+    "P": {
+      "raw_files": 1053,
+      "strict_improvements_vs_brotli": 23,
+      "structured_files": 23
+    },
+    "U": {
+      "raw_files": 1037,
+      "strict_improvements_vs_brotli": 39,
+      "structured_files": 39
+    }
+  },
+  "forced": {
+    "D": {
+      "eligible_files": 362,
+      "gross_gain_bytes": 439265,
+      "gross_loss_bytes": 1697135
+    },
+    "G": {
+      "eligible_files": 362,
+      "gross_gain_bytes": 543876,
+      "gross_loss_bytes": 1259778
+    },
+    "I": {
+      "eligible_files": 362,
+      "gross_gain_bytes": 431299,
+      "gross_loss_bytes": 1507523
+    },
+    "P": {
+      "eligible_files": 362,
+      "gross_gain_bytes": 445449,
+      "gross_loss_bytes": 1712002
+    },
+    "U": {
+      "eligible_files": 362,
+      "gross_gain_bytes": 539146,
+      "gross_loss_bytes": 1281600
+    }
+  },
+  "missing": [
+    {
+      "file_id": "C-dia-587be127e35d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-587be127e35d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-81a8a1ef3ce0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-81a8a1ef3ce0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5534ecf8d2a3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5534ecf8d2a3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-df89eee43b72",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-df89eee43b72",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-039ac86a4501",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-039ac86a4501",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-85380164c4b1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-85380164c4b1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2f5ddc848a1f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2f5ddc848a1f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-0256b2d0b42b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-0256b2d0b42b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-135a874f4a82",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-135a874f4a82",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-18600d6890c1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-18600d6890c1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-187f6cd979fa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-187f6cd979fa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1c8a5ec6f461",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1c8a5ec6f461",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1ca3f9d7b945",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1ca3f9d7b945",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1d0c6828ec2d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1d0c6828ec2d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1e21522087dc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1e21522087dc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1e3da8d8f2bc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1e3da8d8f2bc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1e5407aceca9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1e5407aceca9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-21225b7ed821",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-21225b7ed821",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2339cab22664",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2339cab22664",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-246ffc1acfd1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-246ffc1acfd1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-24c25712cd83",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-24c25712cd83",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-26290bf0d70a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-26290bf0d70a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-279aeae8c3b4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-279aeae8c3b4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-29c45cef2dca",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-29c45cef2dca",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2af070f9ff61",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2af070f9ff61",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2b4e6615d4ca",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2b4e6615d4ca",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2bf57ff103f8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2bf57ff103f8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2d040a09e899",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2d040a09e899",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2d879cd2fc20",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2d879cd2fc20",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2f4bcafc5b21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2f4bcafc5b21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2f78a6179197",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2f78a6179197",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-3377d918777c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-3377d918777c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-35c51d9854b2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-35c51d9854b2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-3633bf2519db",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-3633bf2519db",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-36b92b4bfd78",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-36b92b4bfd78",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-3e16131b6850",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-3e16131b6850",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-3ee346840878",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-3ee346840878",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-3f4f121e8a75",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-3f4f121e8a75",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-40070a27d781",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-40070a27d781",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-48a2d5fa628f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-48a2d5fa628f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-4ce686b4edee",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-4ce686b4edee",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-4d389f30864e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-4d389f30864e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-4eb479e905d0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-4eb479e905d0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5230b6c0d3f3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5230b6c0d3f3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-59a562a821a8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-59a562a821a8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5b0ebb90c34a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5b0ebb90c34a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5c8b88ac8243",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5c8b88ac8243",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5f16f0e9c566",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5f16f0e9c566",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-69aa9dde71df",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-69aa9dde71df",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-6f2afdabbfe2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-6f2afdabbfe2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-6f6cb781ab53",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-6f6cb781ab53",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-7066b5e91a38",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-7066b5e91a38",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-71098cbc3263",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-71098cbc3263",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-72ae18d7fb26",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-72ae18d7fb26",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-7313aa765934",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-7313aa765934",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-738c003dc645",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-738c003dc645",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-74476ce22fb3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-74476ce22fb3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-767d28c23bd3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-767d28c23bd3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-77b7f94ecfb1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-77b7f94ecfb1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-79d927645edf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-79d927645edf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-79e8b008efbb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-79e8b008efbb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-7e92b604f8d7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-7e92b604f8d7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-80c70f63f62c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-80c70f63f62c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-82b39f4bcc48",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-82b39f4bcc48",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-88b11dcd8d20",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-88b11dcd8d20",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-891537e9eb21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-891537e9eb21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8924731828d3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8924731828d3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8f50f3a17aeb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8f50f3a17aeb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8f65769fa9f8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8f65769fa9f8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-956102d5b3e7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-956102d5b3e7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-95aff6bd5a80",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-95aff6bd5a80",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9849a8be104a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9849a8be104a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-98898f3f53cf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-98898f3f53cf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9c8f6ef9c816",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9c8f6ef9c816",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-a59d35e62cd3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-a59d35e62cd3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-a7cbcba89884",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-a7cbcba89884",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ab08c24d1c78",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ab08c24d1c78",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ad75069bf2dc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ad75069bf2dc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-b2690e4d20a7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-b2690e4d20a7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-b3e5b4894aa4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-b3e5b4894aa4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-b7288eefd6da",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-b7288eefd6da",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-b8a6cbb40cb7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-b8a6cbb40cb7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-bb9dfabbf1f2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-bb9dfabbf1f2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c13a0a7193b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c13a0a7193b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c4a76b912119",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c4a76b912119",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c723231e303d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c723231e303d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c966abe15387",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c966abe15387",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-cafe2f47e763",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-cafe2f47e763",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ccc760415da1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ccc760415da1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-cd757476a36a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-cd757476a36a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d1045f23285d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d1045f23285d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d4883fa65c2f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d4883fa65c2f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d56f14205349",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d56f14205349",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-dbaed5fae3dc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-dbaed5fae3dc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-e41767672673",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-e41767672673",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-e931ff454b9f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-e931ff454b9f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-eb84e47ca77d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-eb84e47ca77d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ee6c6b4cc868",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ee6c6b4cc868",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ef2a9b021f88",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ef2a9b021f88",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f0f771ceac74",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f0f771ceac74",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f1c2a5aefb38",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f1c2a5aefb38",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f47b6aa0667e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f47b6aa0667e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f7a10422e434",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f7a10422e434",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f7a552fbea4b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f7a552fbea4b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-fb28ea2e156c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-fb28ea2e156c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-fef9c248b079",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-fef9c248b079",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ff44b980c9b2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ff44b980c9b2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-68a4a92289d8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-68a4a92289d8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-005685a9ddfe",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-005685a9ddfe",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-016c12f8c62c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-016c12f8c62c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-0b2596e09e6b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-0b2596e09e6b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-0c5e82de2018",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-0c5e82de2018",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-0ccdce3f885f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-0ccdce3f885f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-0e14ff523623",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-0e14ff523623",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1340efdfb7a9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1340efdfb7a9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-144aae199850",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-144aae199850",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-178a15f5d8f3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-178a15f5d8f3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-197575e439c0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-197575e439c0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-19e055440d7e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-19e055440d7e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-1e9082197ee5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-1e9082197ee5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-216f0b2a0abd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-216f0b2a0abd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-21f5b45d906a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-21f5b45d906a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-29034dccb80e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-29034dccb80e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-2bfcc884c814",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-2bfcc884c814",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-32a33ef08ced",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-32a33ef08ced",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-32cfa8db0bc9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-32cfa8db0bc9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-33abc0030cd1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-33abc0030cd1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-34cc29f3644b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-34cc29f3644b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-35932d6e39c0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-35932d6e39c0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-36b21776533c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-36b21776533c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-370ed51c6bba",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-370ed51c6bba",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-393b792ddf70",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-393b792ddf70",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-3ad173ba3fd2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-3ad173ba3fd2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-406bc23511f6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-406bc23511f6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-44223b53725c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-44223b53725c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-46632b05af8c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-46632b05af8c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-46b80bccc489",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-46b80bccc489",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-47699e0f919d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-47699e0f919d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-56b3f5e3fc7b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-56b3f5e3fc7b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-59dc9fac5f23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-59dc9fac5f23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5af058bdbb27",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5af058bdbb27",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5d1ce7717adf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5d1ce7717adf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-5e7f56437061",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-5e7f56437061",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-6110b8f98af2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-6110b8f98af2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-64dec668996f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-64dec668996f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-679b7fcba040",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-679b7fcba040",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-67d8009b166b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-67d8009b166b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-67df3ab1d0e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-67df3ab1d0e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-6d685ca215ad",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-6d685ca215ad",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-707630c9ab20",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-707630c9ab20",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-7a831fed418a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-7a831fed418a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-7d22c74abe73",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-7d22c74abe73",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-820d3b3cd01e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-820d3b3cd01e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-83782261cc95",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-83782261cc95",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-83e9503b7e2d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-83e9503b7e2d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8681aed28ee6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8681aed28ee6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-87322d9addfe",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-87322d9addfe",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8a3ef4826d88",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8a3ef4826d88",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8b02bd5f2936",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8b02bd5f2936",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8c25674f0a0e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8c25674f0a0e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8c4143e246b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8c4143e246b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8c8fb6c2fade",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8c8fb6c2fade",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-8e48ad224f59",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-8e48ad224f59",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9204a9cc2d0a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9204a9cc2d0a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9abebd99b583",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9abebd99b583",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9d4d2fc05d12",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9d4d2fc05d12",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9ef099ca0ce8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9ef099ca0ce8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9f6ae2ad795c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9f6ae2ad795c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-9fd883263730",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-9fd883263730",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-a02c1c125e8e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-a02c1c125e8e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-a3ed307b21df",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-a3ed307b21df",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-a5b67a987626",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-a5b67a987626",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-aa2fa1a99802",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-aa2fa1a99802",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-afb327dffae9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-afb327dffae9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-b4b25b65e13e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-b4b25b65e13e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-bb4fbb701b5d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-bb4fbb701b5d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-bdc6895c2f0e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-bdc6895c2f0e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-bf19320167a2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-bf19320167a2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-bf25cd0f0c97",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-bf25cd0f0c97",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c4559c0f7e42",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c4559c0f7e42",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c4ad8981cae4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c4ad8981cae4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c5a6f8e4e8ce",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c5a6f8e4e8ce",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-c8a86118e3ee",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-c8a86118e3ee",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ca2116237ff2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ca2116237ff2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-cb070ef8006c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-cb070ef8006c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-cc1c7c4d8c37",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-cc1c7c4d8c37",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-cc606c432531",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-cc606c432531",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d035fed78b56",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d035fed78b56",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d1358a667a11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d1358a667a11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d6b0e59eba26",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d6b0e59eba26",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-d9100c01cfd7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-d9100c01cfd7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-e1f840ca9e7f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-e1f840ca9e7f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-e2316f527da6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-e2316f527da6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-e3cd896fbab8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-e3cd896fbab8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-e72141b2fe71",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-e72141b2fe71",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-eb3adf7e78ef",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-eb3adf7e78ef",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-eda1a33d6494",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-eda1a33d6494",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-ee18ed15bfb0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-ee18ed15bfb0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f313d0f146ce",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f313d0f146ce",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f3888ac9ce34",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f3888ac9ce34",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f6004257f895",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f6004257f895",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f9178d078cc8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f9178d078cc8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f91f78c7ddb9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f91f78c7ddb9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-f9ae5d0bad56",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-f9ae5d0bad56",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-fbc5e1d678db",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-fbc5e1d678db",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-fbd3ef97edb4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-fbd3ef97edb4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-fc57b0883d19",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-fc57b0883d19",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-dia-fc8c8e67a5c1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-dia-fc8c8e67a5c1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0617b8cdb809",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0617b8cdb809",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0bc6a2a015a3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0bc6a2a015a3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0e503ce659c8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0e503ce659c8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0e7eeade4960",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0e7eeade4960",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-10319635fefa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-10319635fefa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1270a462e3ec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1270a462e3ec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-17544e0ead59",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-17544e0ead59",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1b38540c3dc6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1b38540c3dc6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3a58b899539e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3a58b899539e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3dd21b6bc98a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3dd21b6bc98a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3e4ed5069ab2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3e4ed5069ab2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3f7f8bc02f68",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3f7f8bc02f68",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-402f3b01d041",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-402f3b01d041",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4a07d7431093",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4a07d7431093",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5221d339c0b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5221d339c0b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-594d775b0b23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-594d775b0b23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6e12ca24c657",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6e12ca24c657",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6fb72aab6dd8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6fb72aab6dd8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7b40f0ddad0a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7b40f0ddad0a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7cb5e306831d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7cb5e306831d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8a91a095663e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8a91a095663e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8c51cdfac45c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8c51cdfac45c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-93eda2074214",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-93eda2074214",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-99f5e9041e25",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-99f5e9041e25",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a32212d86386",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a32212d86386",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a3967bfd4ba3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a3967bfd4ba3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a62676b991f5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a62676b991f5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ab300d52df2d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ab300d52df2d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b6c6d75e8a50",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b6c6d75e8a50",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ba7fbbb559b4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ba7fbbb559b4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-be9d234f5022",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-be9d234f5022",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c23745163f5d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c23745163f5d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d27a889ab463",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d27a889ab463",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d5ad18dc597b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d5ad18dc597b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e5fdded16094",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e5fdded16094",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f34ff041fe0b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f34ff041fe0b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f4c7377874da",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f4c7377874da",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-075000af3adc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-075000af3adc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0a39c7ce0a43",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0a39c7ce0a43",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-15119915e8d5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-15119915e8d5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-165b856b45ab",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-165b856b45ab",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1a4318a71845",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1a4318a71845",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-20759a2712bf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-20759a2712bf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-24c482f12473",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-24c482f12473",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2727d34fde9a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2727d34fde9a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2d640141dc35",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2d640141dc35",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2dd3f8a33af4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2dd3f8a33af4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-303a41fb458c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-303a41fb458c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-30b3e965c2ca",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-30b3e965c2ca",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-369774d7c842",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-369774d7c842",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3fb27820c10c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3fb27820c10c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4ca67a3487db",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4ca67a3487db",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5f95cb15093a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5f95cb15093a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-635ee7ba3766",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-635ee7ba3766",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-68703cb4a59e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-68703cb4a59e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6973c8edcd4c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6973c8edcd4c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6b573d937a63",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6b573d937a63",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-72f3d8596cfc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-72f3d8596cfc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-76136179e4f4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-76136179e4f4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-78d90f13bfd1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-78d90f13bfd1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-804c1bdf20e7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-804c1bdf20e7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8c320d1cb28a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8c320d1cb28a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8daeacc70ccb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8daeacc70ccb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-96fe36e5a257",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-96fe36e5a257",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9e645e3b2cb0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9e645e3b2cb0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a5947072b556",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a5947072b556",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b01050949184",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b01050949184",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b8564c5c56bc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b8564c5c56bc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c4a1685d3db6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c4a1685d3db6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c847a8f71131",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c847a8f71131",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e771668db235",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e771668db235",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ed56a13e5fe5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ed56a13e5fe5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fdcbc12edf79",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fdcbc12edf79",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fedf0ee075d2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fedf0ee075d2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-012378aa7402",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-012378aa7402",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-02a7ff5f6afb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-02a7ff5f6afb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0b4580a0d088",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0b4580a0d088",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0d08b2e62ce1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0d08b2e62ce1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0dfdc7035f17",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0dfdc7035f17",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-109bb34fb154",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-109bb34fb154",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-23136dd42ea7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-23136dd42ea7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-26b0f6afdf6e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-26b0f6afdf6e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2915e4efbbef",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2915e4efbbef",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2932ff6441b6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2932ff6441b6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-380fc20620e7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-380fc20620e7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3c7997f7b40c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3c7997f7b40c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4da6eec61430",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4da6eec61430",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5044523d9de1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5044523d9de1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-660a6bf6dd37",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-660a6bf6dd37",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6b44e12c6ff6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6b44e12c6ff6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7bfa4c5da217",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7bfa4c5da217",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-82f4a4a0a94b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-82f4a4a0a94b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-82ff62363b76",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-82ff62363b76",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-96c1032fbd9a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-96c1032fbd9a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a33c59a9fb83",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a33c59a9fb83",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ad2086e394fa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ad2086e394fa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ad56a8192bd5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ad56a8192bd5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c0a5b3665a32",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c0a5b3665a32",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c84a4e59abb3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c84a4e59abb3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d3c92422ead9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d3c92422ead9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d4628b50fd7a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d4628b50fd7a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d86caad55e87",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d86caad55e87",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d90923b57f21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d90923b57f21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e72d6b191ec9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e72d6b191ec9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ed77e33ed821",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ed77e33ed821",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-eebad7dec1c7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-eebad7dec1c7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ef6c42e31ed0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ef6c42e31ed0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f1f8c5152621",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f1f8c5152621",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fb341e100250",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fb341e100250",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fe7ac562584d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fe7ac562584d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-04d5a873e75c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-04d5a873e75c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-07fb2b9a825d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-07fb2b9a825d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1058d95e9055",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1058d95e9055",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-176c0f09dfc9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-176c0f09dfc9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1dd2e430619e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1dd2e430619e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1fed9b0cf01e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1fed9b0cf01e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-23e5a2df9bfa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-23e5a2df9bfa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-299f2f3046be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-299f2f3046be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2bb21142dcf5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2bb21142dcf5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3476c293e15a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3476c293e15a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3b673a4e3ad9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3b673a4e3ad9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3f332eb88824",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3f332eb88824",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4ae50aab90e8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4ae50aab90e8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4b8790aeeba0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4b8790aeeba0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5f3f2d1eac4c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5f3f2d1eac4c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-637ec74eef93",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-637ec74eef93",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6b33aa13fd54",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6b33aa13fd54",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6ffe5fee4624",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6ffe5fee4624",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7e9a3219e7cf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7e9a3219e7cf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7fdcd2dc09d9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7fdcd2dc09d9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-987386493a24",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-987386493a24",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a78ba8d578c6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a78ba8d578c6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-af93f0d1408b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-af93f0d1408b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b16d16962241",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b16d16962241",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b98da1269a10",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b98da1269a10",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bae813d423dd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bae813d423dd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-be910dd34462",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-be910dd34462",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c28c63105f55",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c28c63105f55",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c78cbe35f129",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c78cbe35f129",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d5828ed7c207",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d5828ed7c207",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-da339cb1af63",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-da339cb1af63",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-db33c2eef4a6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-db33c2eef4a6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-dd2ed8bfcf51",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-dd2ed8bfcf51",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-deae02f77cdc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-deae02f77cdc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e90b9df9c43a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e90b9df9c43a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fc074861176d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fc074861176d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-15b9821bfa64",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-15b9821bfa64",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-203d0684b688",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-203d0684b688",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2bf24fddad72",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2bf24fddad72",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3482710617bf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3482710617bf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-45fa043f2e29",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-45fa043f2e29",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-469edc18d2c9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-469edc18d2c9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4af69e22affa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4af69e22affa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4faa8ad12867",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4faa8ad12867",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5049c33d94be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5049c33d94be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-53eb9e9e0874",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-53eb9e9e0874",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-569b69f85766",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-569b69f85766",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-69900494186e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-69900494186e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7b8cabba8962",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7b8cabba8962",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7fb8dc8dcd1f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7fb8dc8dcd1f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-856e58296754",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-856e58296754",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8e16953bf676",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8e16953bf676",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8e477fa79a11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8e477fa79a11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-910f3ba41ec9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-910f3ba41ec9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-98c719e4d628",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-98c719e4d628",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a700e0a3512b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a700e0a3512b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ae8284b17f11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ae8284b17f11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-af89bbcefd68",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-af89bbcefd68",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b18b8fb74a57",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b18b8fb74a57",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b600f846b6bf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b600f846b6bf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b685b80e1a9f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b685b80e1a9f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bccd211be018",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bccd211be018",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bd1e1a544a04",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bd1e1a544a04",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-cd807a13d3b7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-cd807a13d3b7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d489f02799ec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d489f02799ec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d9c767d6e61b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d9c767d6e61b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-dbf1c3188795",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-dbf1c3188795",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ddb19d22356f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ddb19d22356f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e41f0746c7a5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e41f0746c7a5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f0058e45b5e5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f0058e45b5e5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f6c9f10e5be7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f6c9f10e5be7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f76c15835f4b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f76c15835f4b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-065132867f7f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-065132867f7f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-066a4cac24c3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-066a4cac24c3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-12a81b855bb7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-12a81b855bb7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-13633143ae56",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-13633143ae56",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2015c78ac855",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2015c78ac855",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-209ea10c5c64",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-209ea10c5c64",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-274625799d76",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-274625799d76",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-29d2342431bc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-29d2342431bc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2bcbdf0162cb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2bcbdf0162cb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3838e1017d09",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3838e1017d09",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-423f74aab1d0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-423f74aab1d0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-440e9e36f583",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-440e9e36f583",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4f6015bb1edd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4f6015bb1edd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-55c447e6df11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-55c447e6df11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-563d8dfee27e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-563d8dfee27e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5ac920e6e7f1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5ac920e6e7f1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6431c4edd8f9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6431c4edd8f9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6b5d8ec07ab8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6b5d8ec07ab8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-82cd3695f82f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-82cd3695f82f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-84ae1a58865c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-84ae1a58865c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8bc58c21926b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8bc58c21926b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-97750d732cb6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-97750d732cb6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9a7cd50763de",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9a7cd50763de",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9b7279be47d6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9b7279be47d6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9e941bf98d50",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9e941bf98d50",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-abb6f8ecb561",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-abb6f8ecb561",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c344489e71de",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c344489e71de",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c7216c787bb9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c7216c787bb9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c8b6f8b9816d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c8b6f8b9816d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-cede03cd005e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-cede03cd005e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d40f1f2a0dd3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d40f1f2a0dd3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-da68f8c2984b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-da68f8c2984b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e2507d7285a4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e2507d7285a4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e3ffd3eedca1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e3ffd3eedca1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e770c17958a8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e770c17958a8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e78d15b88ece",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e78d15b88ece",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fa7e606b41fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fa7e606b41fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-01e543645671",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-01e543645671",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-09049a12ff21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-09049a12ff21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-09b99a8c4f15",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-09b99a8c4f15",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-137e7e6415cf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-137e7e6415cf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1947dbf0f0dc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1947dbf0f0dc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1d44fc21ce5f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1d44fc21ce5f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2528ad5091af",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2528ad5091af",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-303421d5dd31",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-303421d5dd31",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-382a5c993bf3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-382a5c993bf3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3de207269ea5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3de207269ea5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3e0702aa0b1e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3e0702aa0b1e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-49bd2783a8ff",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-49bd2783a8ff",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-49e7eb26cf31",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-49e7eb26cf31",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4b816e5c6941",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4b816e5c6941",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4d263e3bac5c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4d263e3bac5c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4f79169b7cfc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4f79169b7cfc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6f32f8e55faa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6f32f8e55faa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6fb926e644c2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6fb926e644c2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7799d65a00a9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7799d65a00a9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-94c1aaf43043",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-94c1aaf43043",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9c993f5c7282",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9c993f5c7282",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-aa7ee5155f3f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-aa7ee5155f3f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-acd0a3c7d829",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-acd0a3c7d829",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b2cd41ae7dda",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b2cd41ae7dda",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b75c8eab49b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b75c8eab49b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bf01c08b4d2a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bf01c08b4d2a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c0158b81988e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c0158b81988e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c221d4e0aa8d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c221d4e0aa8d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c65cda0c76f4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c65cda0c76f4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c7fcb58142b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c7fcb58142b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d73fce3c7470",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d73fce3c7470",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-dc7502025295",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-dc7502025295",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ebb95140f015",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ebb95140f015",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f01752e57488",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f01752e57488",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-faca7aa17407",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-faca7aa17407",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fd99b3156340",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fd99b3156340",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0ad081b9fd9e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0ad081b9fd9e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0b589d658b23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0b589d658b23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0cd460e87e94",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0cd460e87e94",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0e10aa438495",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0e10aa438495",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1398746d7e58",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1398746d7e58",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-148e7e75623b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-148e7e75623b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1577c714946d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1577c714946d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-185351297330",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-185351297330",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1b305d3c9a2f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1b305d3c9a2f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-24c1ffcb9274",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-24c1ffcb9274",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2a985f9c4322",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2a985f9c4322",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2cc412d1e2aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2cc412d1e2aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2e77a53c4b9d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2e77a53c4b9d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-32726ce27a7a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-32726ce27a7a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3ce5fb56cfc5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3ce5fb56cfc5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4bf09abfc00e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4bf09abfc00e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4d18b01b8aac",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4d18b01b8aac",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4f31ccc672a1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4f31ccc672a1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5759863a8c47",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5759863a8c47",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5c42b2664def",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5c42b2664def",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5f6b027700e8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5f6b027700e8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-64e4c41b56aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-64e4c41b56aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7e249175bce1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7e249175bce1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-89d00093bdd0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-89d00093bdd0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-92e2bc5ff155",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-92e2bc5ff155",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9c92b1b62d83",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9c92b1b62d83",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b2bb5f392c21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b2bb5f392c21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bb553017bc17",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bb553017bc17",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-cf07a03a2439",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-cf07a03a2439",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-cf8d871dbef4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-cf8d871dbef4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d5b9df907d86",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d5b9df907d86",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d9e83516eaa0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d9e83516eaa0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e289ddafddc1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e289ddafddc1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e97c564d0b86",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e97c564d0b86",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f9ace16ea037",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f9ace16ea037",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fc941dcd5e1f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fc941dcd5e1f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-026078f1fa15",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-026078f1fa15",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0bb7e2da61b3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0bb7e2da61b3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0f3ba181b265",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0f3ba181b265",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1c1bee0dfe6c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1c1bee0dfe6c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-213a1b8dcd80",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-213a1b8dcd80",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-31779cb6ccce",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-31779cb6ccce",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-379ce544e3f9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-379ce544e3f9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4163abc897f8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4163abc897f8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4cba3e3edd7c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4cba3e3edd7c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-55a6d70d5d72",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-55a6d70d5d72",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6b86c3c8f976",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6b86c3c8f976",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7140ec33c11b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7140ec33c11b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-75c68dfa0cb2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-75c68dfa0cb2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7e0e3b9ce88a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7e0e3b9ce88a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-813c36bb3bf7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-813c36bb3bf7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8d0de9294804",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8d0de9294804",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9b655da0ae35",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9b655da0ae35",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a3d2f93f7325",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a3d2f93f7325",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ac80d5ac7c9e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ac80d5ac7c9e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bb57d8dbbadd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bb57d8dbbadd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-be4a703e614c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-be4a703e614c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c7102c3b4368",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c7102c3b4368",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-cfd5cde5c9ae",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-cfd5cde5c9ae",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d55dc879fca5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d55dc879fca5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d7b36ea96e12",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d7b36ea96e12",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-dee1f2747f9e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-dee1f2747f9e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-df887a5e2dea",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-df887a5e2dea",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-df972e3b882f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-df972e3b882f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e332451baf04",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e332451baf04",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e3485ffcfdb2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e3485ffcfdb2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-eded8b57e2b5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-eded8b57e2b5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f33775908c04",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f33775908c04",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f44661a66631",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f44661a66631",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f67652971956",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f67652971956",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f87c16d0a340",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f87c16d0a340",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fb13225b9d1c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fb13225b9d1c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fcae8016d02e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fcae8016d02e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-088becf96a5f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-088becf96a5f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0ace0abb8f9f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0ace0abb8f9f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-10315a6d28be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-10315a6d28be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-12b62c048861",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-12b62c048861",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-16e2acad78c2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-16e2acad78c2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-23a83625c7ec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-23a83625c7ec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-242b240cfd1e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-242b240cfd1e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-29248def4528",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-29248def4528",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-29918c6ceffb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-29918c6ceffb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4ab1a9af91e5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4ab1a9af91e5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4b4ff3ef1cb4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4b4ff3ef1cb4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4fd172a7d39e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4fd172a7d39e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-52f456fca61c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-52f456fca61c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-541370d3fb7f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-541370d3fb7f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-57789cd6ef5b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-57789cd6ef5b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-5f2986b20fc0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-5f2986b20fc0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6e33e9e3575d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6e33e9e3575d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-78f137445c43",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-78f137445c43",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-89172d878e9b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-89172d878e9b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-9aebc9ccc8ae",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-9aebc9ccc8ae",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a89d707ffb96",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a89d707ffb96",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-ab28a0a19501",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-ab28a0a19501",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-adf40255d6de",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-adf40255d6de",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-af45fd271923",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-af45fd271923",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b00ecfd337b9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b00ecfd337b9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b0c108979fd1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b0c108979fd1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c211b076baad",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c211b076baad",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d24ecf31664a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d24ecf31664a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d617ee09322c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d617ee09322c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-df1ebb3911ee",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-df1ebb3911ee",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e4b5fea29545",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e4b5fea29545",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e7e8547e794d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e7e8547e794d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-eac4b6c2d2e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-eac4b6c2d2e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f2022fc97ab7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f2022fc97ab7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f4da15411dbc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f4da15411dbc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-fc509900b366",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-fc509900b366",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0626da0de3bd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0626da0de3bd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-06325e0491a5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-06325e0491a5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0ce884b3cbcd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0ce884b3cbcd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0ed0a3f7811c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0ed0a3f7811c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-0f083e972c42",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-0f083e972c42",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-1c46e2a08151",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-1c46e2a08151",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-277e895c253e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-277e895c253e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-2a68e134d1ff",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-2a68e134d1ff",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-321c133cbfc9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-321c133cbfc9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-323a9c1f89d0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-323a9c1f89d0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-39e327ebda93",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-39e327ebda93",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-3dd6dc7cdd43",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-3dd6dc7cdd43",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-4ed5c5ed0440",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-4ed5c5ed0440",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-597a702b4015",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-597a702b4015",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-658323ec17ad",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-658323ec17ad",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-6bee96655bd4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-6bee96655bd4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-70c6bd591ce8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-70c6bd591ce8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-750e5e1011c0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-750e5e1011c0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-7a9256493b8a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-7a9256493b8a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-8ed5b8bb067e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-8ed5b8bb067e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-922b0b6577be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-922b0b6577be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-95f160365286",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-95f160365286",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-95fd7ae10d09",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-95fd7ae10d09",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-a515e2d5ce23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-a515e2d5ce23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-abb85855947f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-abb85855947f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-b6425a96c236",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-b6425a96c236",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bb02ee4b8e7e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bb02ee4b8e7e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-bcb76e538baa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-bcb76e538baa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c8574b6520f1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c8574b6520f1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-c91749c6f8e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-c91749c6f8e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d3ee6d9bc739",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d3ee6d9bc739",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-d4a01ac50b11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-d4a01ac50b11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-dda1ba4fea72",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-dda1ba4fea72",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-dfc20c16ae5e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-dfc20c16ae5e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-e61c8ae4aa11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-e61c8ae4aa11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ico-f01dd0146c3f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ico-f01dd0146c3f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-eea627191df3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-eea627191df3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ce7f28280596",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ce7f28280596",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-442bf3d12463",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-442bf3d12463",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-45b8a6287fa7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-45b8a6287fa7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f5430804fd10",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f5430804fd10",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5fbcf2a468c7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5fbcf2a468c7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-02fd3d77b7e1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-02fd3d77b7e1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-05e835eb9930",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-05e835eb9930",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-07b37cc126cd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-07b37cc126cd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-08962bb61498",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-08962bb61498",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0941427152bf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0941427152bf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0b2c13cff7e7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0b2c13cff7e7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0b42b989a5fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0b42b989a5fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0e124c226dc6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0e124c226dc6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0edba29be553",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0edba29be553",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-103afa1a2e06",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-103afa1a2e06",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-114c171ff473",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-114c171ff473",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-14cf1c8df5a4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-14cf1c8df5a4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-14de54df5a63",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-14de54df5a63",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1574dd90f06e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1574dd90f06e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-160cc098bbd7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-160cc098bbd7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-18102e9f54de",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-18102e9f54de",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-19ccdfef1113",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-19ccdfef1113",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1d48bc02179d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1d48bc02179d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1d6c01f4eb75",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1d6c01f4eb75",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1f4852e16a64",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1f4852e16a64",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-21d4d3c41a41",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-21d4d3c41a41",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3e3eda27505a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3e3eda27505a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3ee1546b9f42",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3ee1546b9f42",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4033eb45bed9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4033eb45bed9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-428c718d0c6a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-428c718d0c6a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4383cab4d622",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4383cab4d622",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-43b749d39079",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-43b749d39079",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-43baf623d0fa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-43baf623d0fa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-475f1a4f5bc5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-475f1a4f5bc5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-48fa65f933fd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-48fa65f933fd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4a3b16d0e695",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4a3b16d0e695",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4b9dec1593d3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4b9dec1593d3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4d3d20f9d69e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4d3d20f9d69e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4f0527a51b44",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4f0527a51b44",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5093bf226c5f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5093bf226c5f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-51832e9630d3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-51832e9630d3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-538fcb02fda0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-538fcb02fda0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5426c98251e3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5426c98251e3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-595bcad718c5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-595bcad718c5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5c55fbf1ac45",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5c55fbf1ac45",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5cfd7dc5971c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5cfd7dc5971c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5e0f915663ab",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5e0f915663ab",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-620357f7ee00",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-620357f7ee00",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6274f429b5af",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6274f429b5af",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-63783451fe9f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-63783451fe9f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-64dc7a2827cb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-64dc7a2827cb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-66bf438b3bfc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-66bf438b3bfc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-692efe61cd25",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-692efe61cd25",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-69a9310ab396",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-69a9310ab396",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6c2f91391b07",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6c2f91391b07",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-7210c1c2fdf4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-7210c1c2fdf4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-77d36bef91a6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-77d36bef91a6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-781c61005b78",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-781c61005b78",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-802b0b84e0ec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-802b0b84e0ec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-82a79122577b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-82a79122577b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-85595b662ae5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-85595b662ae5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8c46515f5a62",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8c46515f5a62",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8c66f49bb0c3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8c66f49bb0c3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8cf81f7019af",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8cf81f7019af",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8e6a8cabca25",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8e6a8cabca25",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9206baa7c8c5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9206baa7c8c5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9769743237c5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9769743237c5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-99a997fc2f21",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-99a997fc2f21",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9a61ddb1104b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9a61ddb1104b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9d5d52fb1e27",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9d5d52fb1e27",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9e0ab5c907de",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9e0ab5c907de",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a11676dc6a76",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a11676dc6a76",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a467e59b241b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a467e59b241b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a48d8fd3d85b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a48d8fd3d85b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a4fad644d70a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a4fad644d70a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a5d5ca72c782",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a5d5ca72c782",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a85f86fc893a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a85f86fc893a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a8c9bc472249",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a8c9bc472249",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ad84652f30ba",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ad84652f30ba",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b098cbd860b9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b098cbd860b9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b2814967e046",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b2814967e046",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b8ddd13b0910",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b8ddd13b0910",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-bef3adcd6947",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-bef3adcd6947",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c277a9c311c8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c277a9c311c8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c43badd3a44a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c43badd3a44a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c584a4337982",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c584a4337982",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c75cec790b11",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c75cec790b11",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c974e4d15c0b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c974e4d15c0b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-cb935434b89d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-cb935434b89d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ceabe84b2056",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ceabe84b2056",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d2b131c52639",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d2b131c52639",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d375526c5e5a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d375526c5e5a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d76fbe395a5c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d76fbe395a5c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-df409096d27c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-df409096d27c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e0e0e7a13aa0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e0e0e7a13aa0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e324ea2be7e2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e324ea2be7e2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e3e00dc08259",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e3e00dc08259",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e40df1509f28",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e40df1509f28",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e6402bac8119",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e6402bac8119",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ebd0809cdb1f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ebd0809cdb1f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ed4deae7fe47",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ed4deae7fe47",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f143bc2d46ce",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f143bc2d46ce",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f4de3e3fae88",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f4de3e3fae88",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f578431c340d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f578431c340d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f8067a108c60",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f8067a108c60",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-660ac937f10f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-660ac937f10f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-7426bc3634db",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-7426bc3634db",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-96dccc5f15c9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-96dccc5f15c9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6589d6bcc652",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6589d6bcc652",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4c7ab0b2a192",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4c7ab0b2a192",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2544b2013ada",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2544b2013ada",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-adb2b7695e08",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-adb2b7695e08",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-42d2aee86293",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-42d2aee86293",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0e02c5a5b742",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0e02c5a5b742",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c776272143de",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c776272143de",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0aa7fd893545",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0aa7fd893545",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a8296b76a431",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a8296b76a431",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-15ee194cc3a7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-15ee194cc3a7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1ae9b1e9860e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1ae9b1e9860e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9fb9954ed4be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9fb9954ed4be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5ebb6ace596f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5ebb6ace596f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-350f10fd279a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-350f10fd279a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f4be8c107c1e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f4be8c107c1e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2dae362f65dd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2dae362f65dd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-501752c94533",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-501752c94533",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a8d722849589",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a8d722849589",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0255e0c64331",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0255e0c64331",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-04f272195224",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-04f272195224",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0818b074612f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0818b074612f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-089a1527f476",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-089a1527f476",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1309d0b7dcf5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1309d0b7dcf5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-16078a87ebed",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-16078a87ebed",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-179ae9fbc309",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-179ae9fbc309",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1acd085910b3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1acd085910b3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1be6de3c1469",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1be6de3c1469",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-201b96ea6da6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-201b96ea6da6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-21184ae5a557",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-21184ae5a557",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-23c26c1326cc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-23c26c1326cc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-27f68e295036",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-27f68e295036",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2c7127a0cfe1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2c7127a0cfe1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2e243095e088",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2e243095e088",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2eab50a133a0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2eab50a133a0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3131ca96d29e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3131ca96d29e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3200b5feead9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3200b5feead9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-34265e9431a7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-34265e9431a7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-352026cc0953",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-352026cc0953",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3b14899455ec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3b14899455ec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3b461a8e96ea",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3b461a8e96ea",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3cb31f97b44e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3cb31f97b44e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4440fd5fd71d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4440fd5fd71d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-465ed0fc9f87",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-465ed0fc9f87",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4818058c3448",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4818058c3448",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-52ae3606659a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-52ae3606659a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-54e54641c3a8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-54e54641c3a8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-57921f5601fb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-57921f5601fb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-57f049d59508",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-57f049d59508",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-59d574aaf5c0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-59d574aaf5c0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-603f272a59f8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-603f272a59f8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-614eedeb49cc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-614eedeb49cc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-61911eb09f46",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-61911eb09f46",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-625b9e6b57d9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-625b9e6b57d9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-62ac03454302",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-62ac03454302",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-631a3512ddf0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-631a3512ddf0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6419837d3764",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6419837d3764",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-65519dff3915",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-65519dff3915",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-655a7d163b23",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-655a7d163b23",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-669df8feb85e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-669df8feb85e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6ba093a478dc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6ba093a478dc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-70676b2009a8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-70676b2009a8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-7a5e4fd1ef8f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-7a5e4fd1ef8f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-7bf92bf4fb10",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-7bf92bf4fb10",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-867e37d1048e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-867e37d1048e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-875355359a41",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-875355359a41",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-89414326a10d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-89414326a10d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-89c73fd06ad8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-89c73fd06ad8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8b4bb4cfbff1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8b4bb4cfbff1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8c930cabc920",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8c930cabc920",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-91e6d5a13cfd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-91e6d5a13cfd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9358d55b514b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9358d55b514b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-94bf4171b014",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-94bf4171b014",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-95c4efb92aac",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-95c4efb92aac",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-970288a2db8c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-970288a2db8c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-972f70495287",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-972f70495287",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9ce890699171",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9ce890699171",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9d32d95c3c1b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9d32d95c3c1b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9daf0fe20fe3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9daf0fe20fe3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9dd6e65d930c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9dd6e65d930c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9fd6549a549a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9fd6549a549a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a17aa29dc4e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a17aa29dc4e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a412118d8fb5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a412118d8fb5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a6e2ba86f58b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a6e2ba86f58b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a9188ce5d628",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a9188ce5d628",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a9d25dca4f02",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a9d25dca4f02",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-aafa4538aedb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-aafa4538aedb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-acfa25a808f1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-acfa25a808f1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b31a459b6116",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b31a459b6116",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b66852602644",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b66852602644",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-bacc423939aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-bacc423939aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-bd02280feb90",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-bd02280feb90",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-bd164b843233",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-bd164b843233",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c1e68d422723",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c1e68d422723",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c1f8e79a9862",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c1f8e79a9862",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c2d7dfc8ad71",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c2d7dfc8ad71",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c6a3eb21b286",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c6a3eb21b286",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c6a7f7ac6f37",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c6a7f7ac6f37",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c839c64f81cb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c839c64f81cb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ccf11648b1be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ccf11648b1be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-cfb3bc69d0ae",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-cfb3bc69d0ae",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d03042a36f55",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d03042a36f55",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d3934f23e44d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d3934f23e44d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-dc6c4800c5c6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-dc6c4800c5c6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e1fd72360704",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e1fd72360704",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e33432703674",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e33432703674",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e33c0d1ff4a9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e33c0d1ff4a9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e4707f27c943",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e4707f27c943",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e76f9d090c3b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e76f9d090c3b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e92ef53195d2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e92ef53195d2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ecbad3a82503",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ecbad3a82503",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-eda3950ae335",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-eda3950ae335",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-efc308e3b20d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-efc308e3b20d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f7990cf262fb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f7990cf262fb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f8236b60e66f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f8236b60e66f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f919508af80e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f919508af80e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f9f8760d1b7f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f9f8760d1b7f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-fb19d8afc300",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-fb19d8afc300",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ff0fbfdbe74c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ff0fbfdbe74c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-17e94eb386a1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-17e94eb386a1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-03e43d0a29cb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-03e43d0a29cb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-05d25d34ebac",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-05d25d34ebac",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-05d3c0ad515c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-05d3c0ad515c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-06d4b76365d5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-06d4b76365d5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0a667757f093",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0a667757f093",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0c233adcf517",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0c233adcf517",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-0d18c535d8d3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-0d18c535d8d3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-10002a489a0a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-10002a489a0a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-11b728b041ab",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-11b728b041ab",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-161b79dfac8c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-161b79dfac8c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-1b94df13ba00",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-1b94df13ba00",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-287e0d305f61",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-287e0d305f61",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2a475b77f486",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2a475b77f486",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-2aa8defb1594",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-2aa8defb1594",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-34b4a595b44c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-34b4a595b44c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-3fb0c305ef00",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-3fb0c305ef00",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-45d367d60ca5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-45d367d60ca5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4686a09d4ca3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4686a09d4ca3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-46b8220b2498",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-46b8220b2498",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4ed8919082b1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4ed8919082b1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4fa9c756c53d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4fa9c756c53d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-4fb7895d051f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-4fb7895d051f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-503d8accb68f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-503d8accb68f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-505dd9ee72c2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-505dd9ee72c2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-545051b239ce",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-545051b239ce",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-56033338d7da",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-56033338d7da",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-566da0e17852",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-566da0e17852",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-581f99f40869",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-581f99f40869",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5a3fdaecd744",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5a3fdaecd744",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5aa225cc932d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5aa225cc932d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5af3f09c5e65",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5af3f09c5e65",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-5ba90171bb85",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-5ba90171bb85",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-645fe1d34ef9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-645fe1d34ef9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6b013a59d825",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6b013a59d825",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6bd666ca43e1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6bd666ca43e1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-6fe09acafb9c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-6fe09acafb9c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-702c952d45af",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-702c952d45af",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-73993a21de94",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-73993a21de94",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-75d23d158dda",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-75d23d158dda",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-7736be487126",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-7736be487126",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-774092c122fe",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-774092c122fe",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-79846246e309",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-79846246e309",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-79a3683e2aa1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-79a3683e2aa1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-7e2868375db2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-7e2868375db2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-801881303b4b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-801881303b4b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8397b33dd442",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8397b33dd442",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-847f5bb53f2a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-847f5bb53f2a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-85185621cd80",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-85185621cd80",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-886c5f90090a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-886c5f90090a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-89a93d91808c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-89a93d91808c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8ac41fa5b76b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8ac41fa5b76b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8cc1ef3952c6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8cc1ef3952c6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-8d63899e6d14",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-8d63899e6d14",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-9092ee08b5d6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-9092ee08b5d6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-94a4f91142a5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-94a4f91142a5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-955b65789ecf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-955b65789ecf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-98a657e1dd01",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-98a657e1dd01",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-98e683b3c739",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-98e683b3c739",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a0adf2e42ed1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a0adf2e42ed1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a55819d29b40",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a55819d29b40",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a5aac425308f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a5aac425308f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-a89d1a1ebbc1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-a89d1a1ebbc1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-aa1e5df95ca3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-aa1e5df95ca3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ab02e650d5fe",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ab02e650d5fe",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b19504e42ee3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b19504e42ee3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b625dc6c046e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b625dc6c046e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b72d67dd58fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b72d67dd58fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b7f9a601820a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b7f9a601820a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-b89106533783",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-b89106533783",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-be3d73212ed2",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-be3d73212ed2",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-be69573e5bec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-be69573e5bec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c284a60baebf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c284a60baebf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c468990ca8a6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c468990ca8a6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c5b07a32b911",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c5b07a32b911",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c6a7a5636e50",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c6a7a5636e50",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c6ae5445aef3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c6ae5445aef3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c79b0fc3cc85",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c79b0fc3cc85",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c832074bc470",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c832074bc470",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-c93abefb853a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-c93abefb853a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-cbfed47f4825",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-cbfed47f4825",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-cce02e50a709",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-cce02e50a709",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d1b7e2062919",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d1b7e2062919",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d5219c0168a3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d5219c0168a3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-d86fd5af4952",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-d86fd5af4952",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-db4eb1753ff6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-db4eb1753ff6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-dc07313279dc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-dc07313279dc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-dd5e832052da",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-dd5e832052da",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-dfb1f2a83c8a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-dfb1f2a83c8a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e0aa03deaece",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e0aa03deaece",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e0bb1b693202",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e0bb1b693202",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e654fea5f376",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e654fea5f376",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e68e8876ae74",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e68e8876ae74",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e85e4f8c8d04",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e85e4f8c8d04",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-e8f0d1e9dabe",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-e8f0d1e9dabe",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-ed59afd4df3b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-ed59afd4df3b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f45271950baa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f45271950baa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f46fbf7b6e1b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f46fbf7b6e1b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f66af8e2342a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f66af8e2342a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-f7ecd95e0581",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-f7ecd95e0581",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-ill-fbb4c694e429",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-ill-fbb4c694e429",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-821223867c8f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-821223867c8f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-f50f92ce8de5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-f50f92ce8de5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-1be74394b227",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-1be74394b227",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-234c2b8ff511",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-234c2b8ff511",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-505f3fadf972",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-505f3fadf972",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-659b99187fd7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-659b99187fd7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7ea30cb572ed",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7ea30cb572ed",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-d719a3909d7f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-d719a3909d7f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-eaadfe87b2fc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-eaadfe87b2fc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-177913f4c305",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-177913f4c305",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-4344848ab968",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-4344848ab968",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-f4a3b2b1f7e8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-f4a3b2b1f7e8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-00d7848e2227",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-00d7848e2227",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-021528286cd7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-021528286cd7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-022584eac01f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-022584eac01f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-05bf8bf4284b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-05bf8bf4284b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-062ffeedb0f1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-062ffeedb0f1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-067f3d4a9c9a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-067f3d4a9c9a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-0d3f48359295",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-0d3f48359295",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-105f860a02d7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-105f860a02d7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-10f126cccb63",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-10f126cccb63",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-19807f47056d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-19807f47056d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-1a5e5867b50e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-1a5e5867b50e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-26da118cfde1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-26da118cfde1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-28a25b99d30b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-28a25b99d30b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-290e7d5d1f64",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-290e7d5d1f64",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-29d111493164",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-29d111493164",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-2bca06d1b185",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-2bca06d1b185",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-2c250539e04a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-2c250539e04a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-2d455cd79e90",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-2d455cd79e90",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-305286e6d8ea",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-305286e6d8ea",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-30dc1516a8be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-30dc1516a8be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-32ac1bf128b0",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-32ac1bf128b0",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-35cd712eaaed",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-35cd712eaaed",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-3959f1407f09",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-3959f1407f09",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-3c905e721f1b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-3c905e721f1b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-42cab717d65f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-42cab717d65f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-44dc4d5bcfec",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-44dc4d5bcfec",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-45dc4e0ab145",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-45dc4e0ab145",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-4705b6a52a40",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-4705b6a52a40",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-4d75044a89e3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-4d75044a89e3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-4e98723fc35e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-4e98723fc35e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-4fc8bef03fe3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-4fc8bef03fe3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-50153aa2b425",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-50153aa2b425",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-50e2c7a7975e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-50e2c7a7975e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-52046de37a57",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-52046de37a57",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-5390956ccece",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-5390956ccece",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-54f97951fca4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-54f97951fca4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-58a7875b9e1d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-58a7875b9e1d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-5caed10d9b5e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-5caed10d9b5e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-5fd02ddf3b78",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-5fd02ddf3b78",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-61c249f14d1f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-61c249f14d1f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6630bbeda9e5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6630bbeda9e5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6a989ca6adff",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6a989ca6adff",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6bee191c7412",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6bee191c7412",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6c207d2c29ca",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6c207d2c29ca",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6d09f2569d83",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6d09f2569d83",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6d54f8efba82",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6d54f8efba82",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-743e92013c04",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-743e92013c04",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-746d272b4821",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-746d272b4821",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-78c636308196",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-78c636308196",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7979fb385766",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7979fb385766",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7b132d5dae5b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7b132d5dae5b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7bd4a28293b4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7bd4a28293b4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7cdb96023e7d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7cdb96023e7d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7e517e59e222",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7e517e59e222",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-7ea6c02ad119",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-7ea6c02ad119",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-85cd44e4c9a3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-85cd44e4c9a3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-863bd6c3ddff",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-863bd6c3ddff",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-8af97ae438e3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-8af97ae438e3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-8d497c6d7953",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-8d497c6d7953",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-8fce8b8085e9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-8fce8b8085e9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-9280f69ba9be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-9280f69ba9be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-937722cc6560",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-937722cc6560",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-94bd7c5005f3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-94bd7c5005f3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-99378f3f43f1",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-99378f3f43f1",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-9a2c64e85c53",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-9a2c64e85c53",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-9a79acab61aa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-9a79acab61aa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-9b52006c0fa5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-9b52006c0fa5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-9f301eb67965",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-9f301eb67965",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a0133c62e6d7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a0133c62e6d7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a07617b8f0c9",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a07617b8f0c9",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a2bcd5f0579f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a2bcd5f0579f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a304b768c8dd",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a304b768c8dd",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a475e2fec90e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a475e2fec90e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a4ed541311a7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a4ed541311a7",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a9ed934904a5",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a9ed934904a5",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-aa36c0c17ab3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-aa36c0c17ab3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-ac1799decc6c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-ac1799decc6c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-ac87deb56759",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-ac87deb56759",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-acdfc1d9f97d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-acdfc1d9f97d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-af31f69d534d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-af31f69d534d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-b55c22bb6065",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-b55c22bb6065",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-b7570db6f283",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-b7570db6f283",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-be513630b99b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-be513630b99b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-c14e431a242c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-c14e431a242c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-c21d8df4c456",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-c21d8df4c456",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-c78f07ce54bf",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-c78f07ce54bf",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-cccacf873511",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-cccacf873511",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-d201ded0e4c3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-d201ded0e4c3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-d4bec3c0cbd4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-d4bec3c0cbd4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-d510319aa366",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-d510319aa366",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-d651c4d526e8",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-d651c4d526e8",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-d738d99ec677",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-d738d99ec677",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-def3e5ccef3e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-def3e5ccef3e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-e10e786ef194",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-e10e786ef194",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-e6e041323176",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-e6e041323176",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-ea4c753be1ca",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-ea4c753be1ca",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-ec68234212ae",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-ec68234212ae",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-edb74efa7f68",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-edb74efa7f68",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-f786421563ad",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-f786421563ad",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-fee319f1d79b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-fee319f1d79b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-88e4912e70f4",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-88e4912e70f4",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-da71cff44da3",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-da71cff44da3",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-019cd6842c50",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-019cd6842c50",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-cce5949d2b7d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-cce5949d2b7d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-284f90bffa71",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-284f90bffa71",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-34f7574b6463",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-34f7574b6463",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6a80fd5f0ebc",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6a80fd5f0ebc",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-def312cc56ef",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-def312cc56ef",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-54739c33b49e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-54739c33b49e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6f7ee11d480a",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6f7ee11d480a",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-23e25d232f10",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-23e25d232f10",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-27c293245834",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-27c293245834",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-29b1badae2cb",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-29b1badae2cb",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-2cde2a928025",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-2cde2a928025",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-3249710b6ea6",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-3249710b6ea6",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-59bd2930f409",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-59bd2930f409",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-614d8e36599c",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-614d8e36599c",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-753ce6bbf934",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-753ce6bbf934",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-935c5dd5717b",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-935c5dd5717b",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-a291d438e34e",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-a291d438e34e",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-b12c0099bc1f",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-b12c0099bc1f",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-b2cbe7ad39be",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-b2cbe7ad39be",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-e760f790c79d",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-e760f790c79d",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-99666b0dea38",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-99666b0dea38",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-52ad1a45d485",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-52ad1a45d485",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6e99fcb1eefa",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6e99fcb1eefa",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-6ed1a3cfb9ee",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-6ed1a3cfb9ee",
+      "method": "gzip1"
+    },
+    {
+      "file_id": "C-map-f39b9e89a9e7",
+      "method": "zstd1"
+    },
+    {
+      "file_id": "C-map-f39b9e89a9e7",
+      "method": "gzip1"
+    }
+  ],
+  "n": 1076,
+  "pilot_targets": {
+    "breadth_target_met": false,
+    "family_wins": 19,
+    "gain_vs_brotli_percent": 1.3655418589437711,
+    "m": 55,
+    "size_target_met": true
+  },
+  "styles": {
+    "D": {
+      "escapes": 2706496
+    },
+    "G": {
+      "escapes": 2378
+    },
+    "I": {
+      "escapes": 2378
+    },
+    "P": {
+      "escapes": 1246841
+    },
+    "U": {
+      "escapes": 2378
+    },
+    "mean_distinct_outputs_per_token": 2.0825657972522404,
+    "multi_match_tokens": 2610128,
+    "rule_hits": [
+      112471,
+      104822,
+      231631,
+      621623,
+      1037420,
+      2509129,
+      2241395,
+      362606
+    ],
+    "tokens": 2706496
+  },
+  "verified_files": 1076
+}

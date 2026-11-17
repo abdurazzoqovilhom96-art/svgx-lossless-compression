@@ -1,0 +1,5 @@
+# SVGX is byte-exact: never let Git rewrite line endings of any file (fixtures, manifests, results).
+* -text
+*.sqlite binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,13 @@
+{
+  "coverage": {
+    "confirmation": 1076,
+    "files": 2,
+    "pilot": 248
+  },
+  "purpose": "Byte-compare results, decoded hashes and independent-decoder coverage.",
+  "reason": "verification tables",
+  "scope": "full",
+  "status": "complete",
+  "synthetic": false,
+  "updated_utc": "2026-11-14T06:25:14Z"
+}

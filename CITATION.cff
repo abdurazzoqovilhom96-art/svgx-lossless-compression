@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use the SVGX code, its format or its results, please cite it using the metadata below."
+type: software
+title: "SVGX: Byte-Exact SVG Compression"
+abstract: >-
+  SVGX is a byte-exact compressor for SVG files. It predicts the control points
+  of cubic Bézier curves from already decoded geometry with bounded exact integer
+  arithmetic, restores the original decimal spelling of each coordinate with a
+  value-conditioned model, and falls back to a whole-file Brotli stream with a
+  zero-byte branch signal, so the output is never larger than that Brotli stream.
+  The repository contains the encoder and decoder, an independent reference
+  decoder, the frozen protocol, corpus manifests, all per-file measurements of
+  the completed study and the scripts that regenerate its tables and figures,
+  and a pre-specified follow-up (ablation of the prediction modes, comparison
+  with paq8px, in-process timing) with its frozen protocol and results.
+authors:
+  - given-names: Ilkhom
+    family-names: Abdurazzokov
+    orcid: "https://orcid.org/0009-0004-0745-3915"
+  - given-names: Sobirjon
+    family-names: Radjabov
+    orcid: "https://orcid.org/0000-0002-8297-4428"
+  - given-names: Hakimbek
+    family-names: Norkobilov
+    orcid: "https://orcid.org/0009-0004-7623-2278"
+  - given-names: Chori
+    family-names: Bobokulov
+    orcid: "https://orcid.org/0009-0001-1191-9202"
+  - given-names: Rufatbek
+    family-names: Mamatmurotov
+    orcid: "https://orcid.org/0009-0003-7878-9574"
+version: "1.0.0"
+repository-code: "https://github.com/abdurazzoqovilhom96-art/svgx-lossless-compression"
+url: "https://github.com/abdurazzoqovilhom96-art/svgx-lossless-compression"
+keywords:
+  - lossless compression
+  - byte-exact reconstruction
+  - SVG
+  - Bézier curves
+  - geometric prediction
+  - arithmetic coding

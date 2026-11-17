@@ -1,0 +1,9 @@
+{
+ "split": "confirmation",
+ "files": 1076,
+ "defect_files": 0,
+ "complete": true,
+ "paq_level": 10,
+ "workers": 3,
+ "max_paq_peak_bytes": 8570433536
+}

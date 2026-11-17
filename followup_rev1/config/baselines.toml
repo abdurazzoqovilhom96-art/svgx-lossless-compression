@@ -1,0 +1,108 @@
+# External comparators and project methods. Placeholders: {in}, {out}, {name} (fixed member name).
+# Every method writes a single-input stream and is round-tripped with its own decoder.
+# "stdout = true" means the compressed/decompressed bytes are taken from standard output.
+
+[method.brotli11]
+label = "Brotli 1.2.1 q11 lgwin22 (brotli.exe, primary)"
+tool = "brotli"
+primary = true
+compress = ["-q", "11", "-w", "22", "-f", "-o", "{out}", "{in}"]
+decompress = ["-d", "-f", "-o", "{out}", "{in}"]
+settings = "quality 11, lgwin 22, generic mode, size hint = input length (CLI)"
+
+[method.xwrt_l6]
+label = "XWRT 3.4 -l6 (LZMA 8 MB)"
+tool = "xwrt"
+container = "workdir"
+compress = ["-l6", "-o", "{name}"]
+decompress = ["-o", "{name}"]
+settings = "level 6 = LZMA with 8 MB dictionary; default containers and dynamic dictionary"
+limitations = "crashes on a zero-length input (access violation 0xC0000005, verified 2026-11-13); such files record the comparator as failed/missing for that file"
+
+[method.xz9e]
+label = "xz 5.8.4 -9e (single thread)"
+tool = "xz"
+stdout = true
+compress = ["-9e", "-T1", "-k", "-c", "{in}"]
+decompress = ["-d", "-c", "{in}"]
+settings = "preset 9 extreme, LZMA2, CRC64 check, 1 thread"
+
+[method.ppmd7z]
+label = "7-Zip 26.05 PPMd (-mx=9, 7z container)"
+tool = "7za"
+container = "7z"
+compress = ["a", "-t7z", "-m0=PPMd", "-mx=9", "-mmt=1", "-mtm=off", "-mtc=off", "-mta=off", "-mtr=off", "-bso0", "-bsp0", "{out}", "{name}"]
+decompress = ["e", "-so", "{in}"]
+settings = "PPMd order/memory from -mx=9, header compression default, no timestamps, fixed member name input.svg"
+
+[method.zstd19]
+label = "zstd 1.5.7 -19 (single thread)"
+tool = "zstd"
+compress = ["-19", "--single-thread", "-q", "-f", "-o", "{out}", "{in}"]
+decompress = ["-d", "-q", "-f", "-o", "{out}", "{in}"]
+settings = "level 19, content checksum (CLI default), single thread"
+
+[method.zstd1]
+label = "zstd 1.5.7 -1 (speed reference)"
+tool = "zstd"
+speed_only = true
+compress = ["-1", "--single-thread", "-q", "-f", "-o", "{out}", "{in}"]
+decompress = ["-d", "-q", "-f", "-o", "{out}", "{in}"]
+settings = "level 1, single thread"
+
+[method.gzip9]
+label = "GNU gzip 1.15 -9 -n (MSYS2 build)"
+tool = "gzip"
+stdout = true
+compress = ["-9", "-n", "-c", "{in}"]
+decompress = ["-d", "-c", "{in}"]
+settings = "level 9, no name/timestamp"
+
+[method.gzip1]
+label = "GNU gzip 1.15 -1 -n (speed reference)"
+tool = "gzip"
+stdout = true
+speed_only = true
+compress = ["-1", "-n", "-c", "{in}"]
+decompress = ["-d", "-c", "{in}"]
+settings = "level 1, no name/timestamp"
+
+[method.svgx_D]
+label = "SVGX D (explicit descriptors)"
+tool = "svgx"
+project = true
+profile = "D"
+compress = ["encode", "--profile", "D", "{in}", "{out}"]
+decompress = ["decode", "{in}", "{out}"]
+
+[method.svgx_P]
+label = "SVGX P (previous descriptor)"
+tool = "svgx"
+project = true
+profile = "P"
+compress = ["encode", "--profile", "P", "{in}", "{out}"]
+decompress = ["decode", "{in}", "{out}"]
+
+[method.svgx_I]
+label = "SVGX I (rule identifiers)"
+tool = "svgx"
+project = true
+profile = "I"
+compress = ["encode", "--profile", "I", "{in}", "{out}"]
+decompress = ["decode", "{in}", "{out}"]
+
+[method.svgx_U]
+label = "SVGX U (grouped, max weight)"
+tool = "svgx"
+project = true
+profile = "U"
+compress = ["encode", "--profile", "U", "{in}", "{out}"]
+decompress = ["decode", "{in}", "{out}"]
+
+[method.svgx_G]
+label = "SVGX G (grouped, summed weight; candidate)"
+tool = "svgx"
+project = true
+profile = "G"
+compress = ["encode", "--profile", "G", "{in}", "{out}"]
+decompress = ["decode", "{in}", "{out}"]
