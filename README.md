@@ -70,7 +70,11 @@ Byte-exactness is checked by comparing the SHA-256 digest of the restored file w
 
    - Symbols are arithmetic-coded with adaptive weights.
 
-![Geometric model (schematic, synthetic coordinates)](analysis/output/figures/Fig2.png)
+![Geometric model on two blocks of a corpus map](analysis/output/figures/Fig2.png)
+
+Figure 6 shows the model on one structured file of the confirmation split, chosen by a fixed rule (among the public-domain, CC0 or CC BY files, the one with the most blocks: Wikimedia Commons *File:Sibiu County 1937.svg*). Mode 11 covers the repeated lettering and settlement symbols, modes 01 and 10 the rivers and borders, and 41.0 % of the 105,280 control coordinates are predicted exactly. Figs. 1 and 2 use the same file; see [`analysis/example_file/`](analysis/example_file/README.md).
+
+![Geometric model on one corpus file](analysis/output/figures/Fig6.png)
 
 The normative specification is [`docs/FORMAT.md`](docs/FORMAT.md). The reconstruction and size-bound proofs are in [`docs/PROOF.md`](docs/PROOF.md), and the frozen study protocol is in [`docs/PROTOCOL.md`](docs/PROTOCOL.md).
 
@@ -317,7 +321,7 @@ python -I analysis/make_figures.py analysis/output
 
 It also compares the regenerated tables field by field with the run's own `10_tables/*.csv`; all 30 rows match.
 
-**`make_figures.py`** draws Figs. 1–5 in `analysis/output/figures/`. Figs. 3–5 come only from that figure data.
+**`make_figures.py`** draws Figs. 1–6 in `analysis/output/figures/`. Figs. 3–5 come only from that figure data. Figs. 2 and 6 and the path strip of Fig. 1 come from `figure_data/example_file_handles.csv`, which `analysis/example_file/export_handles.py` exports from one corpus file.
 
 The run's own report builder also works offline: `python study.py report --run-id 20261114_050438_SVGX-2026-11-A`. It rewrites the derived files in `results/…/03_raw` through `12_reproducibility` (per-file tables, statistics including the bootstrap intervals, plot data, figures, tables and reports); with the saved ledger, the confirmation comparison table it produces is byte-identical to the committed one.
 
