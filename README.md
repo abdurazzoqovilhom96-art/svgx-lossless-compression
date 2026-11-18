@@ -72,7 +72,7 @@ Byte-exactness is checked by comparing the SHA-256 digest of the restored file w
 
 ![Geometric model on two blocks of a corpus map](analysis/output/figures/Fig2.png)
 
-Figure 6 shows the model on one structured file of the confirmation split, chosen by a fixed rule (among the public-domain, CC0 or CC BY files, the one with the most blocks: Wikimedia Commons *File:Sibiu County 1937.svg*). Mode 11 covers the repeated lettering and settlement symbols, modes 01 and 10 the rivers and borders, and 41.0 % of the 105,280 control coordinates are predicted exactly. Figs. 1 and 2 use the same file; see [`analysis/example_file/`](analysis/example_file/README.md).
+Figure 6 shows the model on one structured file of the confirmation split, chosen by a fixed rule (among the public-domain, CC0 or CC BY files, the one with the most blocks: Wikimedia Commons *File:Sibiu County 1937.svg*). Mode 11 is used mostly for the black-filled shapes, that is, the lettering and the settlement symbols, which the file stores as repeated outlines; modes 01 and 10 are used mostly for the outlines of the districts, the rivers and the roads. 41.0 % of the 105,280 control coordinates are predicted exactly. Figs. 1 and 2 use the same file; see [`analysis/example_file/`](analysis/example_file/README.md). The figures of the submitted manuscript (Figs. 1–5, redrawn with the real rendering of this file) and the scripts that produce them are in [`analysis/manuscript_figures/`](analysis/manuscript_figures/README.md).
 
 ![Geometric model on one corpus file](analysis/output/figures/Fig6.png)
 
